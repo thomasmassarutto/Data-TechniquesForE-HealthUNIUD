@@ -75,7 +75,7 @@
 
 - NAP: Nomenclatura di Anatomia Patologica
 - NHS: SSN
-- NISIS: Nuovo Sisema Informativo Italiano
+- NISIS: Nuovo Sistema Informativo Italiano
 
 ## O
 
@@ -102,7 +102,7 @@
 ## S
 
 - SISR: Sistema Informativo Socio-sanitario Regionale
-- SNOMED: Systematised NOMenclature of MEDicine
+- SNOMED: Systematized NOMenclature of MEDicine
 - SOA: Service Oriented Architecture
 - SOAP: Subjective Objective Assessment Plan
 - SPC: ??
@@ -120,7 +120,7 @@
 
 ## X
 
-- XCA: cross Comunity Access
+- XCA: cross Community Access
 - XDS: cross-enterprise Document Sharing
 
 ## Y
