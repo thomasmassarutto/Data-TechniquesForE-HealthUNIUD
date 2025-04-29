@@ -103,6 +103,7 @@
 
 - SISR: Sistema Informativo Socio-sanitario Regionale
 - SNOMED: Systematized NOMenclature of MEDicine
+- SNOMED CT: Systematized NOMenclature of MEDicine Clinical Terms
 - SOA: Service Oriented Architecture
 - SOAP: Subjective Objective Assessment Plan
 - SPC: ??
