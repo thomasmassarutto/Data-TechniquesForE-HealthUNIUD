@@ -1,5 +1,5 @@
 ---
-title: "Sistemi operativi"
+title: "Data & Techniques for E-Health"
 author: "Thomas"
 toc: true
 numbersections: true
@@ -7,6 +7,10 @@ geometry: a4paper,landscape,top=2cm,bottom=2cm,left=0.5cm,right=0.5cm,heightroun
 version: "PcVersion"
 fontsize: 14pt
 documentclass: extreport
+before-toc: |
+  \clearpage
 header-includes:
-- \usepackage{charter}
+  - \usepackage{charter}
+  - \usepackage{titlesec}
+  - \titleformat{\chapter}[hang]{\normalfont\huge\bfseries}{}{0pt}{}
 ---
