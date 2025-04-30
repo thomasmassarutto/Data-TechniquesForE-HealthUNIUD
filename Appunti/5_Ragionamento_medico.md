@@ -24,9 +24,9 @@ Le stime oggettive vengono basate su studi pregressi che prendono in considerazi
 
 Per confermare o confutare le ipotesi formulate nello step precedente vengono eseguiti uno o più test diagnostici. Questi sono spesso semplici da eseguire poco costosi e il loro risultato può essere espresso in forma binaria come negativo o positivo.
 
-Anche questo tipo di test non è esente da errori ed ha una certa precisione: può ritornare falsi positivi o falsi negativi con una certa probabilità, quindi bisogna conoscere la sensibilita del test, ovvero la capacità di rilevare la corretta positività di pazienti malati espressa tramite la formula $\frac(TP)(TP+FN)$, e bisogna conoscere la specificità del test, ovvero la capacità di rilevare la corretta negatività in pazienti sani espressa tramite la formula $\frac(TN)(TN+FP)$.
+Anche questo tipo di test non è esente da errori ed ha una certa precisione: può ritornare falsi positivi o falsi negativi con una certa probabilità, quindi bisogna conoscere la sensibilita del test, ovvero la capacità di rilevare la corretta positività di pazienti malati espressa tramite la formula $\frac{TP}{TP+FN}$, e bisogna conoscere la specificità del test, ovvero la capacità di rilevare la corretta negatività in pazienti sani espressa tramite la formula $\frac{TN}{TN+FP}$.
 
-Oltre a questi indici è necessario conoscere la prevalenza della malattia all'interno di una popolazione per poter tarare meglio i risultati del test. L'indice di accuratezza è infatti espresso in relazione al totale dei casi tramite la formula: $\frac(TP+TN)(TOT_CASI)$.
+Oltre a questi indici è necessario conoscere la prevalenza della malattia all'interno di una popolazione per poter tarare meglio i risultati del test. L'indice di accuratezza è infatti espresso in relazione al totale dei casi tramite la formula: $\frac{TP+TN}{\text{TOT CASI}}$.
 
 ### Osservazioni approfondite
 
