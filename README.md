@@ -1,4 +1,4 @@
-# Appunti e esercizi di sistemi operativi
+# Appunti di Data & Techniques for e-health
 
 Appunti del corso data techniques for e-health A.A. 2023/2024
 
