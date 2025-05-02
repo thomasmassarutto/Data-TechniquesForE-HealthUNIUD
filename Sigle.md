@@ -38,6 +38,7 @@
 - FSE: Fascicolo Sanitario Elettronico
 
 ## G
+- GEM: Guideline Elements Model
 
 ## H
 
