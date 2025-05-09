@@ -36,3 +36,33 @@ Il microscopio confocale a fluorescenza è in grado di illuminare un punto alla 
 
 Un contro di questo metodo consiste nel fatto che i fluorocromi usati nella colorazione decadono i campioni devono essere esaminati velocemente oppure ricolorati.
 
+## Acquisizione 
+
+I problemi dell'acquisizione di un immagine sono la vignettatura, il centraggio della luce, come acquisire immagini tridimensionali e il fatto di acquisire solo porzioni di un immagine completa.
+
+L'acquisizione può avvenire tramite microscopio meccanico tradizionale o tramite microscopio con scanner. Nel primo caso, il microscopio si sposta sul campione acquisendo immagini a tiles, mentre nel secondo, lo scanner effettua una scansione lineare del campione.
+
+Fochettare, ovvero mettere a fuoco attraverso piccoli movimenti, può essere utile per acquisire immagini con messe a fuoco differenti per rendere meglio la tridimensionalità, ma questa tecnica è dispendiosa in termini di tempo.
+
+Una volta acquisita l'immagine può essere usata per studi morfologici, ovvero sulla forma delle cellule, per fare valutazioni istochimiche o per altro.
+
+Il campo visivo è un area circolare che al centro è più definita. I vetrini digitali sono in grado di acquisire quasi tutto il vetrino e generano immagini molto grand, di solito si usa un obiettivo 40x e queste immagini possono essere salvate a risoluzioni differenti per facilitare la visualizzazione.
+
+## Messa a fuoco
+
+La messa a fuoco di un campione può risultare problematica in quanto nei campioni è presente della variabilità come il coperchio inclinato o il campione non perfettamente piatto. Per aiutare nel compito i microscopi dispongono di sistemi di autofocus che può essere attivo, misura la distanza con infrarossi, o passivo, cattura più immagini e sceglie quella più a focus. Quest'ultima tecnica utilizza la deviazione standard per capire quale dei tentativi mostra più dettaglia, tuttavia, l'acquisire più foto è dispendioso e sono nate tecniche per fare meno tentativi possibile.
+
+## Riconoscimento tessuti
+
+Il riconoscimento dei tessuti può avvenire via software e permette di capire automaticamente dove si trova del tessuto da scannerizzare. Il software traccia delle bounding box dentro cui viene acquisita l'immagine d'interesse e la messa a fuoco viene fatta in base al contenuto che si trova dentro di queste.
+
+## Memorizzazione
+
+Le immagini vengono memorizzate in vari formati:
+
+- jpeg: è possibile usarlo con molti compromessi in quanto è lossy
+- tiff: si tratta di un formato multi immagine
+- jpeg2000: è lo standard per grandi immagini e permette il caricamento e la lettura di solo parti dell'immagine
+- DICOM e supplementi: non viene ancora adottato
+
+DICOM ha identificatori che permettono di identificare in modo univoco il percorso che porta ad un immagine ed è possibile utilizzarli per identificare il campione. Questo formato permette risoluzioni diverse.
