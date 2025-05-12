@@ -23,6 +23,12 @@ Creazione di un file unico tramite script Python:
 
 - `python3 convert.py  --nome Appunti  --export opzione_per_esportare`
 
+Le opzioni di esportazione sono:
+
+- `standard`
+- `pc`
+- `stampa`
+
 Sono presenti più file per i metadati, ognuno è ottimizzato per un uso specifico:
 
 - `config.yaml`: file di configurazione basico
