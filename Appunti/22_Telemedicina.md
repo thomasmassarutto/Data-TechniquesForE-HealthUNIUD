@@ -1,0 +1,57 @@
+# Telemedicina
+
+Il criterio principale per capire se adottare o meno la telemedicina consiste nel fatto che il dato trasferito telematicamente deve essere non inferiore al dato trasferito tradizionalmente. Questo vale sia per i dati analogici che per i dati digitali.
+
+Un grande balzo in avanti è stato fatto grazie al COVID-19.
+
+Un caposaldo resta il fatto che la telemedicina non può sostituire la visita medica nella stragrande maggioranza dei casi.
+
+## Teleradiologia
+
+La teleradiologia si occupa della lettura a distanza delle immagini radiologiche. Si divide in teledistribuzione, ovvero l'invio dell'immagine e del referto al medico e al paziente, e in telegestione, ovvero la gestione di un esame radiologico a distanza. Quest'ultima prevede un radiologo a distanza che fa da consulente, mentre sul posto sono presenti il medico richiedente e il tecnico di radiologia: queste figure devono comunicare in tempo reale. La telegestione viene adoperata solo se non viene utilizzato un mezzo di contrasto ed è obbligatorio utilizzare sistemi RIS-PACS per la telegestione.
+
+La responsabilità ricade sul radiologo a distanza.
+
+Anche i tecnici di laboratorio possono svolgere attività radiologica di base previa prescrizione medica.
+
+Le immagini possono essere visionate da un radiologo differente solo occasionalmente se manca il radiologo di struttura, questo vieta l'outsourcing a liberi professionisti.
+
+## Linee guida di indirizzo nazionali per la telemedicina
+
+Le linee di indirizzo nazionali per la telemedicina sono state emanate congiuntamente dal ministero della salute, dall'ISS, e dalla conferenza stato regione. 
+
+L’ambito di riferimento include diverse iniziative nazionali, con l’obiettivo di promuovere:
+
+- equità nell’accesso all’assistenza sanitaria
+- maggiore qualità delle cure
+- efficacia, efficienza e appropriatezza dei servizi
+- contenimento della spesa pubblica
+- sviluppo economico del settore
+
+La definizione prevede l'erogazione di servizi di assistenza sanitaria tramite utilizzo di tecnologia dell'informazione in situazioni in cui gli interlocutori non sono nello stesso luogo. Si tratta quindi di un atto sanitario con gli stessi diritti e obblighi.
+
+Tutto ciò vuole offrire mezzi pratici in ambito di prevenzione secondaria, diagnosi, cure, riabilitazione e monitoraggio.
+
+## Classificazione dei servizi
+
+La telemedicina si occupa di televisive, teleconsulti, telecooperazioni sanitaria e dei servizi erogati da MMG e PLS
+
+La telesalute è l'applicazione della telemedicina all'assistenza primaria. Fornisce i servizi che collegano pazienti, tipicamente malati cronici, con il personale sanitario. Vengono eseguite attività di diagnosi, monitoraggio, gestione paziente, ... Il telemonitoraggio permette l'acquisizione di dati in maniera automatica e volontaria.
+
+La teleassistenza è l'assistenza sociale a persone fragili e avviene tramite telemonitoraggio e allarmi.
+
+## Caratteristiche della telemedicina
+
+Ogni servizio deve dichiarare le funzioni, la copertura territoriale e l'ambito a cui si rivolge (inteso come popolazione di riferimento). Deve inoltre essere definito il processo specificando: luogo di fruizione e di erogazione, modalità temporale e durata temporale, rischio clinico a cui si rivolge, patologie a cui è rivolto, parametri misurati e tariffazione.
+
+Deve essere nota l'organizzazione del servizio, inclusi gli attori coinvolti, come utenti, centro erogatore e centro servizi, e le componenti tecnologiche, come infrastrutture, interfacce e informazioni sanitarie.
+
+### Integrazione e utilizzo con il SSN
+
+Devono essere garantite l’informazione e la formazione del personale, definite le modalità di integrazione attraverso accordi con il SSN e l’accreditamento dei centri, e considerati gli aspetti etici.
+
+### Costi
+
+L'analisi dei costi è complessa per quanto riguarda la telemedicina e l'aspetto economico deve essere valutato caso per caso. 
+
+L'analisi dei costi prende in considerazione i costi diretti, indiretti e di produttività, mentre, la valutazione economica prevede analisi riguardanti i costi-benefici, costi-utilità e costi-efficacia. Quest'ultima viene misurata in termini monetari.
