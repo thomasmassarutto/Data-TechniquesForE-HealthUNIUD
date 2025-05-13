@@ -55,3 +55,28 @@ Devono essere garantite l’informazione e la formazione del personale, definite
 L'analisi dei costi è complessa per quanto riguarda la telemedicina e l'aspetto economico deve essere valutato caso per caso. 
 
 L'analisi dei costi prende in considerazione i costi diretti, indiretti e di produttività, mentre, la valutazione economica prevede analisi riguardanti i costi-benefici, costi-utilità e costi-efficacia. Quest'ultima viene misurata in termini monetari.
+
+Con l'obiettivo di mantenere la qualità delle cure si fa riferimento alla seguente tabella
+
+| Costi        | Efficacia    | Scelta                              |
+| ------------ | ------------ | ----------------------------------- |
+|              | $Et \leq Es$ | trattamento standard                |
+| $Ct \leq Cs$ | $Et \geq Es$ | trattamento con telemedicina        |
+| $Ct > Cs$    | $Et > Es$    | calcolo RICE: $\frac{Ct-Cs}{Et-Es}$ |
+
+In cui:
+
+- $Et$: efficacia del trattamento in telemedicina
+- $Es$: efficacia del trattamento standard
+- $Ct$: costi telemedicina
+- $Cs$: costi standard
+
+### Indicatori di performance e aspetti etici
+
+Il servizio viene monitorato per capire se sono necessarie modifiche. Metodi di statistica descrittiva sono usati per monitorare le performance sotto l'aspetto dell'efficienza e dell'efficacia.
+
+Per quanto riguarda l'aspetto etico viene monitorato il rapporto paziente-operatore, il trattamento di dati sensibili e i metodi con cui viene applicata la medicina transfrontaliera.
+
+## Indicazioni nazionali 2020
+
+Le indicazioni nazionali 2020 sono più concrete rispetto alle linee di indirizzo e classificano le tipologie di prestazioni in telemedicina in quattro gruppi: quelle assimilabili a prestazioni diagnostiche o terapeutiche, quelle a supporto alla prestazione tradizionale, quelle che integrano la prestazione tradizionale e quelle che sostituiscono le prestazioni tradizionali.
