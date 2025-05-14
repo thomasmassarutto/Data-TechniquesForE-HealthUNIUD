@@ -85,6 +85,8 @@ Le finalità sanitarie sono quelle di gestione emergenze, controllo delle patolo
 
 Queste indicazioni specificano come il triage telefonico non sia telemedicina.
 
+Da queste indicazioni non devono derivare nuovi ulteriori oneri a carico della finanza pubblica.
+
 ### Responsabilità
 
 Il personale medico ha il compito di scegliere la soluzione più adeguata fra le varie soluzioni di telemedicina e la visita in presenza. Al termine della visita telematica il personale sanitario deve valutare se gli obiettivi sono stati raggiunti e in caso negativo riprogrammare una visita in presenza.
@@ -106,3 +108,21 @@ Questo centro permette la disambiguazione della figura del responsabile di repar
 ### Limiti di applicazione
 
 Per alcuni aspetti non c'è ancora evidenza sufficiente all'utilizzo della telemedicina. Alcuni casi specifici sono i pazienti con patologie acute o che è meglio lasciare a casa.
+
+## Requisiti funzionali di servizio
+
+I requisiti funzionali di servizio sono nati come requisiti tecnologici e definiscono un architettura a microservizi che permette l'interoperabilità.
+
+### Dispositivi medici
+
+Nel servizio di televisita sia il software che l'hardware integrati nella piattaforma devono essere certificati.
+
+### Competenze
+
+Gli operatori sanitari devono possedere competenze tecniche e capacità decisionali per valutare l’eleggibilità del paziente rispetto allo specifico servizio di telemedicina. L’eleggibilità è un giudizio medico che determina l’idoneità all’uso della telemedicina in base alla storia clinica, alla tecnologia disponibile, al livello culturale e di autonomia del paziente, o alla presenza di un assistente.
+
+## Piattaforma nazionale di medicina
+
+La piattaforma nazionale di medicina ha l'obiettivo di fornire l'implementazione omogenea di percorsi di telemedicina sul territorio nazionale. Il suo scopo è colmare il divario fra territori, migliorare la qualità clinica e dotare i professionisti di nuovi strumenti.
+
+Una gara d'appalto ha deciso i requisiti e la progettazione, ma la piattaforma deve ancora partire.
