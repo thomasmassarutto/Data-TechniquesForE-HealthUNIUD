@@ -80,3 +80,29 @@ Per quanto riguarda l'aspetto etico viene monitorato il rapporto paziente-operat
 ## Indicazioni nazionali 2020
 
 Le indicazioni nazionali 2020 sono più concrete rispetto alle linee di indirizzo e classificano le tipologie di prestazioni in telemedicina in quattro gruppi: quelle assimilabili a prestazioni diagnostiche o terapeutiche, quelle a supporto alla prestazione tradizionale, quelle che integrano la prestazione tradizionale e quelle che sostituiscono le prestazioni tradizionali.
+
+Le finalità sanitarie sono quelle di gestione emergenze, controllo delle patologie, continuità assistenziale, monitoraggio a distanza e certificazione medica via telemedicina. Per fare ciò le indicazioni nazionali danno modo di ricondurre le prestazioni di telemedicina ai LEA.
+
+Queste indicazioni specificano come il triage telefonico non sia telemedicina.
+
+### Responsabilità
+
+Il personale medico ha il compito di scegliere la soluzione più adeguata fra le varie soluzioni di telemedicina e la visita in presenza. Al termine della visita telematica il personale sanitario deve valutare se gli obiettivi sono stati raggiunti e in caso negativo riprogrammare una visita in presenza.
+
+### Elementi necessari alla telemedicina
+
+La telemedicina può essere applicata solo se vi è una rete di collegamento fra medici e pazienti. Questo si traduce con la presenza di un portale web che permette la gestione medica degli assistiti. Il portale deve avere un metodo di login semplice, ma sicuro e deve essere compatibile con il GDPR.
+
+Un'altro elemento fondamentale sono le certificazioni mediche hardware e software che devono essere presenti.
+
+### Centro di coordinamento tecnico
+
+Il centro di coordinamento tecnico è una struttura obbligatoria che si evolve dal "centro servizi". Il suo scopo è quello di fornire un servizio continuo di helpdesk con personale di supporto a quello sanitario.
+
+Questo servizio ha degli standard di servizio che impongono la presentazione delle prestazioni.
+
+Questo centro permette la disambiguazione della figura del responsabile di reparto dal responsabile informatico.
+
+### Limiti di applicazione
+
+Per alcuni aspetti non c'è ancora evidenza sufficiente all'utilizzo della telemedicina. Alcuni casi specifici sono i pazienti con patologie acute o che è meglio lasciare a casa.
