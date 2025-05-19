@@ -4,15 +4,15 @@ In Italia esiste il Sistema Informativo Socio Sanitario Regionale che mette a di
 
 ## FSE: Fascicolo Sanitario Elettronico
 
-Il FSE esiste in Italia ed è implementato come un sistema di copie ridondanti in ogni ospedale. Risulta essere molto ingombrante e necessita di tecniche di complessione lossy, inoltre la ricerca delle informazioni è difficile.
+Il FSE esiste in Italia ed è implementato come un sistema di copie ridondanti in ogni ospedale. Risulta essere molto ingombrante e necessita di tecniche di compressione lossy. La ricerca delle informazioni al suo interno è difficile.
 
-Secondo il DDL sulla sperimentazione clinica del 2012 prevede che il FSE non gravi sulla spesa pubblica.
+Il DDL sulla sperimentazione clinica del 2012 prevede che il FSE non gravi sulla spesa pubblica.
 
 ### Privacy
 
-In Italia vi è una distinzione fra dossier sanitario e FSE. Il primo riguarda i dati collezionati da una sola istituzione clinica, mentre il secondo è una raccolta di  dati provenienti da più istituzioni. Entrambi devono rispettare le norme di privacy e sottostare al consenso informato, questo può essere ignorato solo in situazioni di emergenza, quando informazioni cruciali alla vita del paziente sono disponibili nella banca dati.
+In Italia vi è una distinzione fra dossier sanitario e FSE. Il primo riguarda i dati collezionati da una sola istituzione clinica, mentre il secondo è una raccolta di  dati provenienti da più istituzioni. Entrambi devono rispettare le norme di privacy e sottostare al consenso informato. Questo può essere ignorato solo in situazioni di emergenza, quando informazioni cruciali alla vita del paziente sono disponibili nella banca dati.
 
-Al cittadino è data la possibilità di non creare record e/o di oscurare alcuni dati. In questo secondo caso deve essere possibile anche oscurare l'oscuramento del dati rendendo noto a priori che alcuni dati potrebbero non essere disponibili.
+Al cittadino è data la possibilità di non creare record e/o di oscurare alcuni dati. In questo secondo caso deve essere possibile anche oscurare l'oscuramento rendendo noto a priori che alcuni dati potrebbero non essere disponibili.
 
 ### Report online
 
@@ -36,7 +36,7 @@ Le note del cittadino sono informazioni generali auto inserite dal cittadino, no
 
 ## Guidelines technologies
 
-Sono guidelines che si occupano di descrivere come immagazzinare, trovare, trasmettere, leggere e capire i dati evitando quindi di trasformare tutto in PDF.
+Esistono delle guidelines che si occupano di descrivere come immagazzinare, trovare, trasmettere, leggere e capire i dati evitando quindi di trasformare tutto in PDF.
 
 ## Modello
 
@@ -58,7 +58,7 @@ Questo livello è sempre presente in tutti i nodi e al suo interno sono presenti
 
 ### Indexing
 
-I dati sono immagazzinati con il formato HL7-CDA, poi vengono indicizzati tramite metadati. Più metadati sono disponibili, più una ricerca può essere precisa, ma a discapito di query pesanti. Meno metadati permettono query più lineari ma risultati meno precisi in fase di ricerca.
+I dati sono immagazzinati con il formato HL7-CDA, poi vengono indicizzati tramite metadati. Più metadati sono disponibili, più una ricerca può essere precisa, grazie a query pesanti. Meno metadati permettono query più lineari ma risultati meno precisi in fase di ricerca.
 
 ## FSE e il cittadino
 
@@ -68,6 +68,6 @@ Si sta attualmente lavorando per aumentarne la percentuale di utilizzo in quanto
 
 ### FSE 2.0
 
-Il FSE 2.0 prevede di acquisire i dati in HL7 FHIR direttamente dai sistemi. Con questo sistema i dati potranno essere inviati in metadati presenti in PDF firmati così da rendere leggibile sia alla macchina che all'umano i dati presenti.
+Il FSE 2.0 prevede di acquisire i dati in HL7 FHIR direttamente dai sistemi. Con questo sistema i dati potranno essere inviati tramite metadati presenti in PDF firmati così da rendere leggibile sia alla macchina che all'umano i dati presenti in un documento.
 
 Si cerca di usare sistemi open source.
