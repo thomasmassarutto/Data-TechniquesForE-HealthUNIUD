@@ -1,16 +1,16 @@
 # Standard
 
-I due principali standard in ambito clinico sono CDA (Clinical Document Architecture) e HL/7 (Health Level 7). Quest'ultimo è diviso in DICOM (Digital Imaging and COmmunications in Medicine) e CDA (Clinical Document Architecture/ Clinical Data Architecture)
+I due principali standard in ambito clinico sono CDA (Clinical Document Architecture) e HL7 (Health Level 7). Quest'ultimo è diviso in DICOM (Digital Imaging and COmmunications in Medicine) e CDA (Clinical Document Architecture/Clinical Data Architecture)
 
 ## HL7
 
 HL7 è uno standard a livello applicativo che permette di standardizzare messaggi scambiati in ambito medico, non interi documenti.
 
-La situazione tradizionale prevede che due reparti si passino i dati a mano, HL7 si pone da intermediario fra i due reparti al posto del passaggio manuale. HL7 funge da interfaccia per sistemi informativi che così possono scambiarsi messaggi dopo eventi predefiniti anche in maniera automatica.
+La situazione tradizionale prevede che due reparti si passino i dati a mano, HL7 si pone da intermediario facendo le veci del passaggio manuale. Funge da interfaccia per sistemi informativi che così possono scambiarsi messaggi dopo eventi predefiniti anche in maniera automatica.
 
-Ogni messaggio ha un tipo definito da un codice a tre lettere ed è diviso in segmenti che a loro volta possono essere divisi in parti. Ogni messaggio è inviato dopo un trigger che puo essere anche automatico.
+Ogni messaggio ha un tipo definito da un codice a tre lettere ed è diviso in segmenti che, a loro volta. possono essere divisi in parti. Ogni messaggio è inviato dopo un trigger che puo essere anche automatico.
 
-Al giorno d'oggi vi sono due versioni di HL7: V2 e V3 che però non sono compatibili
+Al giorno d'oggi vi sono due versioni di HL7: V2 e V3, non sono però compatibili
 
 ### HL7 V2
 
@@ -20,7 +20,7 @@ HL7 V2 si occupa di standardizzare la struttura, le regole di codifica/decodific
 
 I messaggi possono essere di due tipi: non sollecitati o query. Quelli di tipo non sollecitato sono spediti automaticamente dopo un evento e vengono elaborati dal destinatario con un ACK o con altre azioni, mentre le query sono una richiesta di informazioni ad un destinatario.
 
-Ogni messaggio ha un codice che può essere standardizzato o libero, questo risulta sempre leggibile ad un essere umano in quanto si tratta di testo ASCII. Ogni messaggio è composto da segmenti che possono essere di 120 tipi diversi, ognuno con la sua semantica. MSH rappresenta i metadati, PID le informazioni relative al paziente, mentre PVI le informazioni relative all'episodio. 
+Ogni messaggio ha un codice che può essere standardizzato o libero, questo risulta sempre leggibile ad un essere umano in quanto si tratta di testo ASCII. Ogni messaggio è composto da segmenti che possono essere di 120 tipi diversi, ognuno con la sua semantica. Il tipo MSH rappresenta i metadati, PID le informazioni relative al paziente e PVI le informazioni relative all'episodio. 
 
 Ogni segmento è composto da campi separati dal carattere '|', ogni campo può essere ulteriormente suddiviso in maniera gerarchica tramite '^' o '&'.
 
@@ -31,7 +31,7 @@ Lo scambio di messaggi avviene tramite un architettura modellata in modo non str
 - placer: applicazione che produce ordini
 - filler: applicazione che produce osservazioni
 
-Ogni tipo di scambio di messaggi ha poi i suoi segmenti tipici. Un segmento molto usato è OBX che permette lo scambio di dati clinici, questo non è però il documento completo, ma solo dati intermedi.
+Ogni tipo di scambio di messaggi ha poi i suoi segmenti tipici. Un segmento molto usato è OBX che permette lo scambio di dati clinici, questo non è il documento completo, ma solo i dati intermedi.
 
 ### HL7 V3
 
@@ -49,7 +49,7 @@ Un modello di messaggio astratto è il risultato dell'unione fra il modello di r
 
 Il diagramma che specifica come si muovono i messaggi vene standardizzato sotto forma di un copione. Questo può non essere lineare e presentare diramazioni.
 
-RIM (Reference Information Model) definisce uno schema per tutti i possibili scambi di messaggi ed è basato si un modello object oriented che collega entità ai loro ruoli, ogni ruolo è collegato ad una partecipazione per svolgere un atto, inoltre ha link con altri ruoli. Ad esempio l'entità aspirina ha il ruolo di agente terapeutico e partecipa come consumabile insieme al paziente all'atto della somministrazione.
+RIM (Reference Information Model) definisce uno schema per tutti i possibili scambi di messaggi ed è basato su un modello object oriented che collega le entità ai loro ruoli. Ogni ruolo è collegato ad una partecipazione per svolgere un atto e ha link con altri ruoli. Ad esempio, l'entità aspirina ha il ruolo di agente terapeutico e partecipa come consumabile, insieme al paziente, all'atto della somministrazione.
 
 Ogni specialità medica ha un dominio specifico gestito da comitati che generano specifiche per i messaggi.
 
@@ -69,7 +69,7 @@ L'informazione può essere strutturata secondo tre livelli con precisioni differ
 
 Il primo livello rappresenta l'informazione in modo generico senza semantica nei termini usati: rappresenta solo la struttura e il contenuto del documento. La semantica è presente solo nell'intestazione, il corpo non ha vincoli ed è fatto per la lettura umana.
 
-Il secondo livello risulta più strutturato e per alcuni domini specifici vengono definite le forme che il documento deve avere e l'ordine e la gerarchia delle varie sezioni.
+Il secondo livello risulta più strutturato e per alcuni domini specifici vengono definite le forme che il documento deve avere, l'ordine e la gerarchia delle varie sezioni.
 
 Il terzo livello prevede la semantica completa del documento, questo permette l'etichettatura per i sistemi informatici grazie al fatto che ogni sezione esprime il suo contenuto in modo formale.
 
@@ -85,9 +85,7 @@ I documenti principali che un'implementazione deve avere sono l'introduzione, la
 
 ### Comunicazione e modelli 
 
-Lo standard prevede che entità specifiche interagiscano fra loro tramite metodi tipici.
-
-I dati di un immagine sono descritti tramite un modello object data e lo standard prevede un dizionario dei dati e delle classi di servizio.
+Lo standard prevede che entità specifiche interagiscano fra loro tramite metodi tipici: i dati di un immagine sono descritti tramite un modello object data e lo standard prevede un dizionario dei dati e delle classi di servizio.
 
 ### File DICOM
 

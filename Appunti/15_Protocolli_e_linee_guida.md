@@ -2,9 +2,9 @@
 
 I protocolli e le linee guida danno indicazioni comportamentali su cosa fare in determinate situazioni.
 
-In particolare i protocolli sono un insieme di istruzioni che descrivono la maniera ideale di svolgere un compito. Nella pratica il modo migliore non esiste e queste istruzioni sono utilizzate per diagnosticare e curare una certa categoria di malattie in modo. Aiutano a fare le cose in maniera uniforme e tendenzialmente corretta.
+In particolare i protocolli sono un insieme di istruzioni che descrivono la maniera ideale di svolgere un compito. Nella pratica il modo migliore non esiste e queste istruzioni sono utilizzate per diagnosticare e curare una certa categoria di malattie in modo standard. Aiutano a fare le cose in maniera uniforme e tendenzialmente corretta.
 
-Le linee guida sono meno formali rispetto ai protocolli. Questi ultimi necessitano di criteri di ingresso per determinare se è possibile usarlo. Di un protocollo possono nascere diverse varianti che hanno lo scopo di adattarsi a casi particolari come altre malattie, condizioni particolari, indisponibilità di procedure mediche o fattori esterni in generale.
+Le linee guida sono meno formali rispetto ai protocolli. Questi ultimi necessitano di criteri di ingresso per determinare se è possibile applicarli. Di un protocollo possono nascere diverse varianti che hanno lo scopo di adattarsi a casi particolari come: altre malattie, condizioni particolari, indisponibilità di procedure mediche o fattori esterni in generale.
 
 Un protocollo deve quindi avere dei criteri di ingresso in grado di descrivere il contesto in cui può essere utilizzato e delle azioni da intraprendere che possono essere espresse tramite flowchart o regole logiche. Quando un protocollo è particolarmente complesso può essere spezzato in sotto-protocolli.
 
@@ -32,7 +32,7 @@ I protocolli sono basati sulla evidence based medicine e sull'analisi scientific
 
 L'integrazione con la cartella clinica è fondamentale e permette ad un monitor di eventi di osservare le operazioni eseguite sulle workstation cliniche. In questo modo, quando i dati vengono inseriti in qualche repository, è possibile controllare se questi rappresentano un punto di ingresso di un protocollo. Quando questo accade, il dato viene passato ad un motore di interpretazione di protocolli che fa partire un trigger per il fetch dei dati utili.
 
-Questo iter viene notificato alla workstation, tramite una notifica che fa da supporto alla decisione, e a chiunque sia interessato, ma solo se il protocollo è attivo.
+Questo iter viene notificato alla workstation, tramite una notifica che fa da supporto alla decisione, e a chiunque sia interessato. Questo accade solo se il protocollo è attivo.
 
 La principale differenza fra un protocollo passivo e uno attivo sta nel fatto che il primo è leggibile, mentre il secondo è anche computabile e necessita quindi di terminazioni, classificazioni e ontologie per essere implementato.
 
@@ -60,7 +60,7 @@ La menzione dei dati del paziente deve essere indipendente dal singolo caso. Per
 
 ### Sintassi Arden
 
-Arden arden è un linguaggio per protocolli eseguibili dal calcolatore. La conoscenza medica è organizzata in moduli logici che servono per prendere una decisione clinica. 
+Arden è un linguaggio per protocolli eseguibili dal calcolatore. La conoscenza medica è organizzata in moduli logici che servono per prendere una decisione clinica. 
 
 Ogni modulo logico è composto da:
 
@@ -69,7 +69,7 @@ Ogni modulo logico è composto da:
 - azione: in base al risultato del modulo logico, eseguono un azione
 - data slot: fornisce integrazione fra il sistema di gestione protocolli e la cartella clinica
 
-Il problema risiede nel fatto che descrive solo le azioni e i passi logici senza fornire né un modello dati del paziente, né una terminologia standard.
+Questa sintassi è limitata dal fatto che descrive solo le azioni e i passi logici senza fornire né un modello dati del paziente, né una terminologia standard.
 
 ### GEM
 
@@ -86,4 +86,3 @@ La descrizione di un processo medico aiuta a risolvere questi problemi tramite p
 Il business process modelling rappresenta e descrive i processi di un azienda con l'obiettivo di ottimizzarli. Il process modelling è utile in quanto produce documentazione che facilita il lavoro al personale e funge da base per la descrizione dei processi in fase di certificazione. Altri aspetti importanti sono che permette di avere una sicurezza maggiore, aiuta in fase di automatizzazione e migliore la comunicazione fra stakeholders.
 
 L'output di questo processo sono i diagrammi (flowchart, state transition, communication, ...). Questi hanno il compito di descrivere i processi interni ad un organizzazione sanitario nel modo più preciso possibile: ogni organizzazione ha dei requisiti che utilizza per fornire servizi concreti.
-

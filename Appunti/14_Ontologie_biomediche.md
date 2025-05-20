@@ -8,7 +8,7 @@ OWL (Ontology Web Language) è lo standard per rappresentare le ontologie.
 
 ## Ontologie e semantica
 
-Una semantica è implicita in quanto si basa sul consenso generale e informale in quanto è una descrizione testuale. Bisogna tener conto che la formalità per umani è diversa rispetto a quello delle macchine, per queste ultime c'è bisogno che sia eseguibile. Per usare una semantica c'è bisogno di un ontologia di base.
+Una semantica è implicita in quanto si basa sul consenso generale e informale in quanto è una descrizione testuale. Bisogna tener conto che la formalità intesa per gli umani è diversa rispetto a quella intesa per le macchine: per queste ultime c'è bisogno che sia eseguibile. Per usare una semantica c'è bisogno di un ontologia di base.
 
 Le ontologie sono una rappresentazione esplicita di una concettualizzazione. Le basi di conoscenza sono le regole non incluse nelle ontologie e gli agenti sono il software in grado di usare ontologie e basi di conoscenza.
 
@@ -31,12 +31,11 @@ Ogni espressione appartiene a uno dei quattro tipi di statements/asserzioni:
 
 Un'espressione, il più delle volte, è scomponibile in triple composte da soggetto, verbo e oggetto, ma non sempre la singola espressione basta per capire di che si parla.
 
-
 ## Logica descrittiva
 
 La logica descrittiva descrive logicamente le asserzioni riguardo alla conoscenza in modo che poi queste possano essere utilizzate da motori di inferenza logica.
 
-In ambito medico alcune asserzioni sono complesse da tradurre: rischi, piani, disposizioni, ... possono risultare ostici dasl punto di vista logico.
+In ambito medico alcune asserzioni sono complesse da tradurre: rischi, piani, disposizioni, ... possono risultare ostici dal punto di vista logico.
 
 ### Regole logica descrittiva
 
@@ -54,15 +53,15 @@ $$
 
 ## Terminologie vs ontologia
 
-Le ontologie non possono essere ambigue: il nome delle classi deve essere comprensibile e rappresentare entità in modo non ambiguo. Questo comporta che le etichette delle classi non sempre sono molto naturali in quanto c'è bisogno di molta precisione.
+Le ontologie non possono essere ambigue: il nome delle classi deve essere comprensibile e rappresentare entità in modo non ambiguo. Questo comporta che le etichette a loro assegnate non sempre sono molto naturali in quanto si predilige la precisione.
 
 Nel linguaggio naturale sono presenti sinonimi e preferred terms.
 
 ## Descrizione delle istanze di una classe
 
-Descrivere le istanze non è il caso d'uso per cui sono nate le ontologie, ma è comunque possibile esprimere un istanza in modo ontologicamente coerente. Questo risulta utile nelle ontologie biomediche in cui in istanza può essere un'osservazione su di un paziente.
+Descrivere le istanze non è il caso d'uso per cui sono nate le ontologie, ma è comunque possibile esprimere un istanza in modo ontologicamente coerente. Questo risulta utile nelle ontologie biomediche in cui un istanza può essere un'osservazione su di un paziente.
 
-Spesso, però, la conoscenza interessante e utile è poco ontologica e deve essere espressa con altri metodi formali o meno: in concetto di probabilità è un aspetto utile su cui avere informazioni, ma non è facilmente esprimibile con le ontologie. Ci sono anche alcuni casi speciali in cui la conoscenza riguardo ad un aspetto non è universalmente ontologica.
+Spesso, però, la conoscenza interessante e utile è poco ontologica e deve essere espressa con altri metodi formali o meno: il concetto di probabilità è un aspetto utile su cui avere informazioni, ma non è facilmente esprimibile con le ontologie. Ci sono anche alcuni casi speciali in cui la conoscenza riguardo ad un aspetto non è universalmente ontologica.
 
 ## Ontologie superiori
 

@@ -1,6 +1,6 @@
 # Classificazioni OMS
 
-L'OMS ha delle classificazioni ufficiali che vengono usate a fini statistici. ICD viene usata per tenere traccia delle malattie, ICFDH per le disabilità, ICHI per gli interventi. Da queste spesso derivano specializzazioni come ICDO per l'uso clinico.
+L'OMS ha delle classificazioni ufficiali che vengono usate a fini statistici: ICD viene usata per tenere traccia delle malattie, ICFDH per le disabilità, ICHI per gli interventi. Da queste spesso derivano specializzazioni come ICDO per l'uso clinico.
 
 ## ICD
 
@@ -54,7 +54,7 @@ Di questa versione esistono varianti nazionali, in Italia esiste un ICD10-IT, ma
 
 ICD11 è presente dal 2019, con adozione dal 2022, ma non viene ancora usato. Similmente a SNOMED cerca di ampliare l'uso delle classificazioni mediche per l'uso all'interno di sistemi informativi e viene mantenuto tramite crowdsourcing di esperti.
 
-La sua architettura è pesata per il digital first e prevede una struttura a due livelli: foundation e linearization. Si tratta anche di una ontologia che rappresenta formalmente il dominio della malattia. Ha una struttura ad albero che permette la genitorialità multipla. Quando non c'è bisogno di dettaglio viene creata una shoreline che divide la classificazione dai narrower terms.
+La sua architettura è pensata per il digital first e prevede una struttura a due livelli: foundation e linearization. Si tratta anche di una ontologia che rappresenta formalmente il dominio della malattia. Ha una struttura ad albero che permette la genitorialità multipla. Quando non c'è bisogno di dettaglio viene creata una shoreline che divide la classificazione dai narrower terms.
 
 Nella foundation non sono presenti categorie residuali, mentre nelle linearization queste vengono generate automaticamente così da garantire l’esaustività della classificazione.
 
@@ -92,6 +92,6 @@ Ha una struttura a tre assi in cui vengono specificati il target (l'entità su c
 
 ICFDH (International Classification of Functioning, Disability and Health) si occupa della classificazione delle disabilità.
 
-Una condizione di salute può causare dei problemi al corpo umano, una disabilità, che in base a fattori contestuali o ambientali può a sua volta causare delle limitazioni alle attività della persona. Vengono quindi presi in considerazione i fattori ambientali quali famiglia, scale, farmaci, ... per classificare barriere e facilitatori. Il suo focus è quindi la capacità di produrre una performance da parte di una persona in determinate condizioni ambientali.
+Una condizione di salute può causare dei problemi al corpo umano, una disabilità, che. in base a fattori contestuali o ambientali, può a sua volta causare delle limitazioni alle attività della persona. Vengono quindi presi in considerazione i fattori ambientali quali famiglia, scale, farmaci, ... per classificare barriere e facilitatori. Il suo focus è quindi la capacità di produrre una performance da parte di una persona in determinate condizioni ambientali.
 
 Non viene utilizzata spesso, include ICHI e vi sono tentativi di armonizzazione.

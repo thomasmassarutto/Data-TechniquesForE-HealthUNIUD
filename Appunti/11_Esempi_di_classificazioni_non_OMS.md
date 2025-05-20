@@ -4,9 +4,9 @@
 
 DRG (Diagnostic Related group) o ROD (Raggruppamenti Omogenei di Diagnosi) in italiano è una classificazione che permette di calcolare il rimborso forfettario per un ricovero fornendo una stima del costo.
 
-Parte dalle diagnosi e dalle procedure presenti nella scheda di dimissione ed è diviso in 25 categorie a loro volta divise in 500 classi. Le categorie dette MCD (Major Diagnostic Categories) sono simili a quelle di ICD, quindi organizzato in base agli organi. Le classi servono per il rimborso alle aziende ospedaliere e ognuna ha un costo medio aggiornato periodicamente.
+Parte dalle diagnosi e dalle procedure presenti nella scheda di dimissione ed è diviso in 25 categorie che sono a loro volta divise in 500 classi. Le categorie dette MCD (Major Diagnostic Categories) sono simili a quelle di ICD, quindi organizzato in base agli organi. Le classi servono per il rimborso alle aziende ospedaliere e ognuna ha un costo medio aggiornato periodicamente.
 
-In Italia, prima del 1993, i rimborsi alle aziende ospedaliere venivano calcolati in base allo storico, ai giorni passati in ospedale o con vari altri metodi, dopo quella data si è passati ad un calcolo automatico in base alla scheda di dimissione basato sui DRG.
+In Italia, prima del 1993, i rimborsi alle aziende ospedaliere venivano calcolati in base allo storico, ai giorni passati in ospedale o con vari altri metodi, solo poi si è passati ad un calcolo automatico in base alla scheda di dimissione basato sui DRG.
 
 ## SNOMED
 
@@ -20,7 +20,7 @@ Ogni voce della nomenclatura SNOMED è caratterizzata dal suo fully specified na
 
 ### SNOMED in Italia
 
-In Italia viene usata la versione SNOMED3 risalente agli anni 90. Essendo ormai obsoleta sono nati vari dialetti locali per sopperire alle mancanze rispetto alle ultime versioni. Non sempre questi dialetti sono compatibili, per questo si sta cercando di usare altri metodi come NAP (Nomenclatura di Anatomia Patologica), che però non sono largamente diffusi.
+In Italia viene usata la versione SNOMED3 risalente agli anni 90. Essendo ormai obsoleta sono nati vari dialetti locali per sopperire alle mancanze rispetto alle ultime versioni. Non sempre questi dialetti sono compatibili, per questo si sta cercando di usare altri metodi, come NAP (Nomenclatura di Anatomia Patologica), che però non sono largamente diffusi.
 
 ## LOINC
 
