@@ -2,45 +2,37 @@
 
 I biosegnali sono segnali che vengono emessi da un essere vivente e possono essere elettrici, meccanici o chimici. Spesso sono espressi in funzione del tempo.
 
-Una sottocategoria dei biosegnali sono le bioimmagini. In questo tipo di dato il segnale è organizzato in più dimensioni (2,3,4, ...) ed è ottenuto modulando raggi o onde che entrano in contatto con il corpo umano.
+Una sottocategoria dei biosegnali sono le bioimmagini. In questo tipo di dato il segnale è organizzato in più dimensioni (2,3,4, ...) ed è ottenuto modulando raggi oppure onde che entrano in contatto con il corpo umano.
 
-Biosegnali e bioimmagini possono esaminare aspetti difficilmente misurabili in altri modi come organi interni o aspetti microscopici o cellulari.
+Biosegnali e bioimmagini possono esaminare aspetti difficilmente misurabili in altri modi, come organi interni o aspetti microscopici o cellulari.
 
-Vengono normalmente prodotti molti biosegnali che se non filtrati correttamente possono risultare come rumore al bisegnale di interesse. Solitamente vengono usati pochi segnali alla volta per determinare un caso clinico.
+Vengono normalmente prodotti molti biosegnali che se non filtrati correttamente possono risultare, come rumore al bisegnale di interesse. Solitamente vengono usati pochi segnali alla volta per determinare un caso clinico.
 
 Lo scopo è monitorare oggettivamente il funzionamento del corpo umano.
 
 ## Terminologia 
 
-- Elaborazione: un biosegnale viene elaborato quando su di esso vengono eseguite delle trasformazioni che lo trasformano in un altro biosegnale dello stesso tipo, ma con miglioramenti ed evidenziature.
+- Elaborazione: un biosegnale viene elaborato quando su di esso vengono eseguite delle trasformazioni che lo modificano aggiungendo con miglioramenti ed evidenziature. Il biosegnale rimane dello stesso tipo di quello originale.
 - Analisi, le operazioni eseguite su di un biosegnale ritornano qualcosa di più semplice dal punto di vista dei dati.
 - Interpretazione: le operazioni eseguite su di un biosegnale estraggono informazioni di tipo qualitativo.
 
-## Step 
+## Fasi di elaborazione
 
-Prima di poter essere utilizzato un biosegnale passa attraverso varie fasi.
+Prima di poter essere utilizzato, un biosegnale passa attraverso varie fasi.
 
 ### Acquisizione
 
-Durante l'acquisizione il biosegnale viene misurato attraverso dei sensori e poi viene digitalizzato. Il segnale è però soggetto a rumore che entra a far parte della misurazione.
+Durante l'acquisizione il biosegnale viene misurato attraverso dei sensori e poi viene digitalizzato. Questo è però soggetto a rumore che entra a far parte della misurazione.
 
-La digitalizzazione prevede che un segnale analogico venga trasformato in un segnale digitale con un valore discreto di valori. Prima di questa fase bisogna decidere quanto spesso campionare il dato e con che quantizzazione per deciderne l'accuratezza. Bisogna quindo capire quale precisione serve.
+La digitalizzazione prevede che un segnale analogico venga trasformato in un segnale digitale con un valore discreto di valori. Prima di questa fase bisogna decidere quanto spesso campionare il dato e con che quantizzazione per deciderne l'accuratezza. Queste due metriche devono essere scelte accuratamente in quanto influenzano le capacità di discriminare i segnali: troppo dettaglio rileva troppo rumore, o rallenta il sistema nelle applicazioni real time, troppo poco dettaglio implica perdita di informazioni. Bisogna quindi capire qual'è il livello di precisione adeguato per discriminare il livello giusto di dettaglio. 
 
-Una volta digitalizzato il biosegnale diventa un array lungo quanti sono i campionamenti eseguiti: $\text{frequenza campionamento} \times \text{durata segnale}$.
-
-La frequenza di campionamento e la precisione di quantizzazione devono essere scelti accuratamente in quanto influenzano le capacità di discriminare i segnali: troppo dettaglio permette troppo rumore, troppo poco dettaglio implica perdita di informazioni. Nei sistemi real time, troppo dettaglio rallenta il sistema.
-
-Bisogna discriminare il livello giusto di dettaglio. 
+Il biosegnale digitalizzato diventa un array lungo tanto quanti sono i campionamenti eseguiti: $\text{frequenza campionamento} \times \text{durata segnale}$.
 
 ### Trasformazione
 
-Durante la fase di trasformazione vengono eseguite varie operazioni atte a migliorare l'immagine.
+Durante la fase di trasformazione vengono eseguite varie operazioni atte a migliorare l'immagine. Le tecniche di restoration permettono di ristrutturare l'immagine per farla sembrare più simile possibile all'originale, mentre le tecniche di enhancement ne migliorano alcuni aspetti per evidenziare situazioni di interesse.
 
-Tecniche di restoration permettono di ristrutturare l'immagine per farla sembrare più simile possibile all'originale.
-
-Tecniche di enhancement migliorano alcuni aspetti dell'immagine per mettere in evidenza alcuni aspetti.
-
-Bisogna tenere conto che ogni operazione di elaborazione fa perdere informazioni originali dell'acquisizione, anche la restoration: questa crea dati sintetici.
+Bisogna tenere conto che ogni operazione di elaborazione fa perdere informazioni originali dell'acquisizione, anche la restoration che crea dati sintetici.
 
 ### Riduzione
 
@@ -50,7 +42,7 @@ La riduzione permette di mantenere solo le parti che interessano del biosegnale.
 
 La fase di classificazione funge da aiuto alla diagnosi cercando di classificare automaticamente le parti più importanti del biosegnale.
 
-## Biosegnali
+## Analisi e utilizzo dei biosegnali
 
 I biosegnali sono principalmente espressi in funzione del tempo e nei casi più fortunati corrispondono a funzioni matematiche esprimibili conoscendo frequenza e ampiezza delle varie componenti. Ciò non accade sempre a causa del rumore o dei parametri che variano nel tempo.
 
@@ -60,20 +52,20 @@ Il rumore dipende da varie fasi e quelli principali sono: rumore termico, elettr
 
 Una tecnica per ridurre il rumore, che però non sempre è possibile, consiste nell'eseguire più misurazioni e utilizzare poi la media come dato ufficiale.
 
-### Applicazione
+### Applicazioni
 
-I biosegnali possono essere usati per eseguire diverse analisi. L'analisi funzionale permette di identificare il funzionamento degli organi che li emettono. L'analisi in tempo reale permette di monitorare l'andamento di un paziente per guidare le apparecchiature su cui fa affidamento come ad esempio le protesi o sistemi di supporto vitale. L'analisi può essere utilizzata per lo studio di argomenti poco noti.
+I biosegnali possono essere usati per eseguire diverse analisi. L'analisi funzionale permette di identificare il funzionamento degli organi che li emettono. L'analisi in tempo reale permette di monitorare l'andamento di un paziente per guidare le apparecchiature su cui fa affidamento, come ad esempio le protesi o sistemi di supporto vitale. L'analisi può essere utilizzata per lo studio di argomenti poco noti.
 
 ### Tipi di segnale
 
 Vi sono varie tipologie di biosegnali:
 
 - puro output: il segnale viene registrato, ma non si ha conoscenza del processo che lo genera.
-- evocati: si usano degli input noti che danno inizio al processo su di cui si vuole registrare un biosegnale. Un esempio è quello del martelletto per testare i riflessi.
-- provocatici: il processo che determina un biosegnale è conosciuto e ci si aspetta un dato output come ad esempio nei test sotto sforzo.
+- evocati: si usano degli input noti che danno inizio al processo su cui si vuole registrare un biosegnale. Un esempio è quello del martelletto per testare i riflessi.
+- provocativi: il processo che determina un biosegnale è conosciuto e ci si aspetta un dato output come ad esempio nei test sotto sforzo.
 - modello: un processo conosciuto e stabile può essere simulato dando gli stessi input al paziente e alla simulazione per valutarne poi le differenze.
 
-## Operazioni sui biosegnali
+## Tecniche di elaborazione e analisi
 
 Un istogramma è in grado di rappresentare l'immagine sotto forma di una distribuzione di densità, utile per capire la distribuzione dei valori.
 
