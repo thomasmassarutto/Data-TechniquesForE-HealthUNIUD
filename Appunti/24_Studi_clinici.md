@@ -4,13 +4,9 @@ Gli studi clinici sono test ed esperimenti condotti in ambito biomedico che coin
 
 ## Studi di trattamento
 
-Gli studi di trattamento possono essere dei trial randomizzati, adattivi o randomizzati.
+Gli studi di trattamento possono essere dei trial randomizzati, adattivi o open label. Sono studi condotti per rispondere a domande specifiche in ambito di efficacia e sicurezza o per testare trattamenti e procedure. Per essere validi devono fornire risultati scientifici validi e riproducibili, inoltre devono essere approvati da un autorità che decide se possano essere condotti.
 
-### Trial clinici
-
-I trial clinici sono studi condotti per rispondere a domande specifiche in ambito di efficacia, sicurezza, trattamenti, procedure, ... Per essere validi devono fornire risultati scientifici validi e riproducibili, inoltre devono essere approvati da un autorità che decide se possano essere condotti.
-
-Questi trial sono fortemente legati al metodo scientifico e necessitano di test sulle ipotesi e metodi per valutare i risultati. Tutto ciò deve essere fatto utilizzando metodi statistici solidi ed applicati ad un gran numero di pazienti.
+Questi trial sono fortemente legati al metodo scientifico: necessitano di test sulle ipotesi e metodi per valutare i risultati. TIl tutto deve essere svolto utilizzando metodi statistici solidi ed applicati ad un gran numero di pazienti.
 
 ### Randomized control trials
 
@@ -24,22 +20,22 @@ Gli open label trials non nascondono l'informazione riguardo al trattamento, ma 
 
 ### Adaptive clinical trials
 
-Gli adaptive clinical trials sono studi che permettono la modifica di alcuni parametri in corso d'opera pervia analisi preliminare e se permessi dal protocollo originale. Hanno meno valenza scientifica rispetto agli open labels trial.
+Gli adaptive clinical trials sono studi che permettono la modifica di alcuni parametri in corso d'opera previa analisi preliminare e solo se permessi dal protocollo originale. Hanno meno valenza scientifica rispetto agli open labels trial.
 
 ## Studi osservazionali
 
-Gli studi osservazionali monitorano una sotto popolazione senza avere un controllo stretto sul singolo individuo. Questo tipo di studi hanno meno valenza scientifica rispetto ai RCT.
+Gli studi osservazionali monitorano una sotto popolazione senza avere un controllo stretto sul singolo individuo. Questo tipo di studi hanno meno valenza scientifica rispetto ai RCT, ma permettono di analizzare l'intera popolazione nel suo contesto naturale.
 
 ### Studi di coorte
 
 Un tipo particolare di studi osservazionali sono gli studi di coorte. Questi vengono effettuati su un gruppo di persone con caratteristiche simili e possono essere retrospettivi o prospettivi.
 
-## Case-control studies
+### Case-control studies
 
 I case-control studies sono un altro tipo di studi osservazionali, questi identificano due gruppi di persone caratterizzati in base alla variabile di interesse che è generalmente già presente. Anche questi hanno meno valenza rispetto ai RCT.
 
 ## Studi clinici e informatizzazione
 
-L'anonimato dei risultati è possibile, ma non sempre fattibile, come nel caso dei RCT. Una delle preoccupazioni etiche verge sul fatto di informare o meno il paziente quando viene trovata una situazione di interesse. Questi studi devono comunque sottostare al GDPR.
+L'anonimato dei risultati è possibile, ma non sempre fattibile, come nel caso dei RCT. Una delle preoccupazioni etiche riguarda se informare o meno il paziente in caso di riscontri rilevanti. Questi studi devono comunque sottostare al GDPR.
 
 Alle volte è possibile utilizzare dei digital twin, ovvero copie digitali di un oggetto o paziente reale che vengono usate per descrivere un dataset o per generare dati sintetici.
