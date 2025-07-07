@@ -6,14 +6,14 @@ Una sottocategoria dei biosegnali sono le bioimmagini. In questo tipo di dato il
 
 Biosegnali e bioimmagini possono esaminare aspetti difficilmente misurabili in altri modi, come organi interni o aspetti microscopici o cellulari.
 
-Vengono normalmente prodotti molti biosegnali che se non filtrati correttamente possono risultare, come rumore al bisegnale di interesse. Solitamente vengono usati pochi segnali alla volta per determinare un caso clinico.
+Vengono normalmente prodotti molti biosegnali che se non filtrati correttamente possono risultare come rumore al segnale di interesse. Solitamente vengono presi in considerazione pochi segnali alla volta per determinare un caso clinico.
 
 Lo scopo è monitorare oggettivamente il funzionamento del corpo umano.
 
 ## Terminologia 
 
 - Elaborazione: un biosegnale viene elaborato quando su di esso vengono eseguite delle trasformazioni che lo modificano aggiungendo con miglioramenti ed evidenziature. Il biosegnale rimane dello stesso tipo di quello originale.
-- Analisi, le operazioni eseguite su di un biosegnale ritornano qualcosa di più semplice dal punto di vista dei dati.
+- Analisi: le operazioni eseguite su di un biosegnale ritornano qualcosa di più semplice dal punto di vista dei dati.
 - Interpretazione: le operazioni eseguite su di un biosegnale estraggono informazioni di tipo qualitativo.
 
 ## Fasi di elaborazione
@@ -22,17 +22,17 @@ Prima di poter essere utilizzato, un biosegnale passa attraverso varie fasi.
 
 ### Acquisizione
 
-Durante l'acquisizione il biosegnale viene misurato attraverso dei sensori e poi viene digitalizzato. Questo è però soggetto a rumore che entra a far parte della misurazione.
+Durante l'acquisizione il biosegnale viene misurato attraverso dei sensori e poi viene digitalizzato. Questo processo è però soggetto a rumore che diventa parte integrante della misurazione.
 
-La digitalizzazione prevede che un segnale analogico venga trasformato in un segnale digitale con un valore discreto di valori. Prima di questa fase bisogna decidere quanto spesso campionare il dato e con che quantizzazione per deciderne l'accuratezza. Queste due metriche devono essere scelte accuratamente in quanto influenzano le capacità di discriminare i segnali: troppo dettaglio rileva troppo rumore, o rallenta il sistema nelle applicazioni real time, troppo poco dettaglio implica perdita di informazioni. Bisogna quindi capire qual'è il livello di precisione adeguato per discriminare il livello giusto di dettaglio. 
+La digitalizzazione prevede che un segnale analogico venga trasformato in un segnale digitale rappresentato da valori discreti. Prima di questa fase bisogna decidere quanto spesso campionare il dato e con che quantizzazione in base all'accuratezza necessaria. Queste due metriche devono essere scelte accuratamente in quanto influenzano le capacità di discriminare i segnali: troppo dettaglio rileva troppo rumore, o rallenta il sistema nelle applicazioni real time, troppo poco dettaglio implica perdita di informazioni. Bisogna quindi capire qual'è il livello di precisione adeguato per discriminare il livello giusto di dettaglio. 
 
 Il biosegnale digitalizzato diventa un array lungo tanto quanti sono i campionamenti eseguiti: $\text{frequenza campionamento} \times \text{durata segnale}$.
 
 ### Trasformazione
 
-Durante la fase di trasformazione vengono eseguite varie operazioni atte a migliorare l'immagine. Le tecniche di restoration permettono di ristrutturare l'immagine per farla sembrare più simile possibile all'originale, mentre le tecniche di enhancement ne migliorano alcuni aspetti per evidenziare situazioni di interesse.
+Durante la fase di trasformazione vengono eseguite varie operazioni atte a migliorare l'immagine. Le tecniche di restoration permettono di ristrutturare l'immagine per farla sembrare più simile possibile all'originale senza artefatti, mentre le tecniche di enhancement ne migliorano alcuni aspetti per evidenziare situazioni di interesse.
 
-Bisogna tenere conto che ogni operazione di elaborazione fa perdere informazioni originali dell'acquisizione, anche la restoration che crea dati sintetici.
+Bisogna tenere conto che ogni operazione di elaborazione fa perdere informazioni originali dell'acquisizione, anche la restoration che, di fatto, crea dati sintetici.
 
 ### Riduzione
 
@@ -40,7 +40,7 @@ La riduzione permette di mantenere solo le parti che interessano del biosegnale.
 
 ### Interpretazione
 
-La fase di classificazione funge da aiuto alla diagnosi cercando di classificare automaticamente le parti più importanti del biosegnale.
+La fase di interpretazione prevede la computazione di parametri significativi e la loro classificazione. Questa fase funge da aiuto alla diagnosi cercando di classificare automaticamente le parti più importanti del biosegnale.
 
 ## Analisi e utilizzo dei biosegnali
 

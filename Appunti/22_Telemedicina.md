@@ -10,13 +10,9 @@ Un caposaldo resta il fatto che la telemedicina non può sostituire la visita me
 
 La teleradiologia si occupa della lettura a distanza delle immagini radiologiche. Si divide in teledistribuzione, ovvero l'invio dell'immagine e del referto al medico e al paziente, e in telegestione, ovvero la gestione di un esame radiologico a distanza. Quest'ultima prevede un radiologo a distanza che faccia da consulente, mentre sul posto sono presenti il medico richiedente e il tecnico di radiologia. Tutte queste figure devono comunicare in tempo reale. 
 
-La telegestione viene adoperata solo se non viene utilizzato un mezzo di contrasto ed è obbligatorio utilizzare sistemi RIS-PACS.
+La telegestione viene adoperata solo se non viene utilizzato un mezzo di contrasto ed è obbligatorio utilizzare sistemi RIS-PACS. La responsabilità ricade sul radiologo a distanza e anche i tecnici di laboratorio possono svolgere attività radiologica di base previa prescrizione medica.
 
-La responsabilità ricade sul radiologo a distanza.
-
-Anche i tecnici di laboratorio possono svolgere attività radiologica di base previa prescrizione medica.
-
-Le immagini possono essere visionate da un radiologo differente solo occasionalmente se manca il radiologo di struttura: è vietato l'outsourcing a liberi professionisti.
+Le immagini possono essere visionate da un radiologo differente solo occasionalmente quando manca il radiologo di struttura: è vietato l'outsourcing a liberi professionisti.
 
 ## Linee guida di indirizzo nazionali per la telemedicina
 
@@ -30,7 +26,7 @@ L’ambito di riferimento include diverse iniziative nazionali, con l’obiettiv
 - contenimento della spesa pubblica
 - sviluppo economico del settore
 
-La definizione prevede l'erogazione di servizi di assistenza sanitaria tramite utilizzo di tecnologia dell'informazione in situazioni in cui gli interlocutori non sono nello stesso luogo. Si tratta quindi di un atto sanitario con gli stessi diritti e obblighi.
+La definizione prevede l'erogazione di servizi di assistenza sanitaria tramite utilizzo di tecnologia dell'informazione in situazioni in cui gli interlocutori non sono nello stesso luogo. La telemedicina è quindi un atto sanitario con gli stessi diritti e obblighi di un atto sanitario tradizionale.
 
 Tutto ciò vuole offrire mezzi pratici in ambito di prevenzione secondaria, diagnosi, cure, riabilitazione e monitoraggio.
 
@@ -75,7 +71,7 @@ In cui:
 
 ### Indicatori di performance e aspetti etici
 
-Il servizio viene monitorato per capire se sono necessarie modifiche grazie a metodi di statistica descrittiva usati per monitorare le performance sotto l'aspetto dell'efficienza e dell'efficacia.
+Il servizio viene monitorato grazie a metodi di statistica descrittiva usati per monitorare le performance sotto l'aspetto dell'efficienza e dell'efficacia per capire se sono necessarie modifiche.
 
 Per quanto riguarda l'aspetto etico viene monitorato: il rapporto paziente-operatore, il trattamento di dati sensibili e i metodi con cui viene applicata la medicina transfrontaliera.
 
@@ -96,7 +92,7 @@ Da queste indicazioni non devono derivare nuovi ulteriori oneri a carico della f
 
 ### Responsabilità
 
-Il personale medico ha il compito di scegliere la soluzione più adeguata fra le varie soluzioni di telemedicina e la visita in presenza. Al termine della visita telematica bisogna valutare se gli obiettivi sono stati raggiunti e in caso negativo riprogrammare una visita in presenza.
+Il personale medico ha il compito di scegliere la soluzione più adeguata fra le varie soluzioni di telemedicina e la visita in presenza. Al termine della visita telematica bisogna valutare se gli obiettivi sono stati raggiunti e, in caso negativo, riprogrammare una visita in presenza.
 
 ### Elementi necessari alla telemedicina
 

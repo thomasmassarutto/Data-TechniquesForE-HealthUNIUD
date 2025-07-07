@@ -10,7 +10,7 @@ L'elaborazione permette, data un immagine, di modificarne l'aspetto per migliora
 
 Le immagini sono ottenute grazie all'interazione di onde elettromagnetiche con un corpo: tipicamente vengono attenuate, assorbite o deviate dai tessuti di esso. Le onde utilizzate in medicina sono varie e cambiano in base al tipo di esame: per le ecografie si usano gli ultrasuoni, ma per altri casi d'uso vengono usate altri tipi di onda come lo spettro elettromagnetico, un fascio elettronico o del potenziale elettrico. La scelta viene presa in base alla precisione necessaria, al costo e ad eventuali controindicazioni.
 
-A volte i fenomeni di interesse non sono direttamente visibili e bisogna trasformare il campione tramite colorazione di cellule o mezzi di contrasto per renderne visibili le caratteristiche.
+A volte i fenomeni di interesse non sono direttamente visibili e bisogna trasformare il campione tramite colorazione di cellule o con mezzi di contrasto per renderne visibili le caratteristiche.
 
 ### Modalità di acquisizione
 
@@ -34,11 +34,7 @@ Per migliorare la precisione è possibile acquisire lo stesso campo visivo con u
 
 Le immagini possono essere di vari tipi: binarie, a toni di grigio o multispettrali.
 
-Le immagini binarie sono dette maschere e dispongono di 2 livelli per rappresentare l'informazione.
-
-Le immagini a toni di grigio hanno a disposizione $2^{n}$ livelli, sono semplici dsa rappresentare.
-
-Le immagini multispettrali sono composte da pixel che contengono informazioni provenienti da più lunghezze d'onda, questi possono essere visti come degli array la cui lunghezza dipende da quanti canali sono stati registrati: le immagini a colori hanno 3 livelli, ma esistono situazioni in cui vengono registrati anche 10 livelli.
+Le immagini binarie sono dette maschere e dispongono di 2 livelli per rappresentare l'informazione, mentre le immagini a toni di grigio hanno a disposizione $2^{n}$ livelli e sono semplici da rappresentare. Le immagini multispettrali sono composte da pixel che contengono informazioni provenienti da più lunghezze d'onda, questi possono essere visti come degli array la cui lunghezza dipende da quanti canali sono stati registrati: le immagini a colori hanno 3 livelli, ma esistono situazioni in cui vengono registrati anche 10 livelli.
 
 ### Modelli del colore
 
@@ -46,7 +42,7 @@ Ogni immagine a colori usa un modello per rappresentare il colore basato sulla s
 
 Ci sono 2 principali modelli per rappresentare il colore, ma non sono gli unici. Quello additivo (RGB) rappresenta i colori primari aggiungendoli ad un ipotetico sfondo nero, mentre quello sottrattivo (CMGK) sottrae i colori da uno sfondo bianco. Questi modelli sono facilmente intercambiabili e permettono di cogliere dettagli diversi.
 
-Ogni immagine a colori può essere scomposta in varie immagini a toni di grigio in base al canale selezionato che sono facilmente lavorabili e permettono di riconoscere determinati aspetti difficili da distinguere nella controparte a colori.
+Ogni immagine a colori può essere scomposta in varie immagini a toni di grigio in base al canale selezionato. Queste immagini sono facilmente lavorabili e permettono di riconoscere determinati aspetti difficili da distinguere nella controparte a colori.
 
 ## Sensori
 
@@ -58,11 +54,11 @@ CCD e CMOS sono tipi di sensore costituiti da una griglia di elementi sensibili 
 
 Ogni elemento della griglia è sensibile alla luce, non al colore, che viene selezionato tramite micro lenti e filtri cromatici. Questi servono sia ad ottenere immagini a colori, sia a filtrare le frequenze indesiderate, come infrarossi o ultravioletti.
 
-La differenza fra CCD e CMOS sta nel trasferimento dei dati dalla griglia al processore. Le fotocamere CCD adottano una metodologia seriale in cui le informazioni di ogni sensore vengono passate una dopo l'altra al processore, mentre le fotocamere CMOS sono dotate di elementi sensibili con digitalizzatori autonomi. In questo modo l'immagine viene letta come se fosse una sorta di ram con la possibilità di leggere solo parte dell'immagine, anche se vi può essere presente una leggera variabilità fra i colori dei sensori.
+La differenza tra CCD e CMOS risiede nel modo in cui i dati vengono trasferiti dalla griglia dei sensori al processore. Le fotocamere CCD utilizzano una metodologia di trasferimento seriale, in cui le informazioni di ciascun sensore vengono inviate una dopo l'altra al processore. Al contrario, le fotocamere CMOS sono dotate di elementi sensibili con digitalizzatori integrati che permettono una lettura simultanea dei dati. Questo approccio consente di trattare l'immagine come una sorta di memoria RAM, con la possibilità di leggere solo una parte dell'immagine, tuttavia, può verificarsi una leggera variabilità nei colori tra i diversi sensori a causa delle differenze nelle loro caratteristiche di risposta.
 
 ### CCD e rumore
 
-Vi sono vari tipi di rumore presenti. Il rumore termico è generato dall'agitazione termica delle particelle, il rumore fotonico dipende dal numero dei fotoni che arrivano al sensore, il readout noise dipende dalla variabilità nella conversione dei dati e il rumore di quantizzazione viene generato digitalizzando un segnale analogico.
+Vi sono vari tipi di rumore presenti. Il rumore termico è generato dall'agitazione termica delle particelle, il rumore fotonico dipende dal numero dei fotoni che arrivano al sensore, il readout noise è il rumore introdotto durante il processo di lettura dei segnali da parte di un sensore e dipende dalla variabilità nella conversione dei dati, infine il rumore di quantizzazione viene generato digitalizzando un segnale analogico.
 
 Più grande è l'elemento sensibile, più basso è il rumore in quanto il sensore è in grado di catturare più fotoni e di discriminare più livelli di luce, tuttavia permette una risoluzione inferiore.
 
@@ -80,15 +76,15 @@ La tecnica MONOCCD si basa sul mosaico di Bayer: davanti ad ogni sensore vi è u
 
 Per fornire risultati attendibili un sensore ad uso scientifico deve fornire tutte le specifiche tecniche. I sensori devono anche essere tarati per conoscere la loro risoluzione reale e, per fare ciò, vengono ripresi oggetti di caratteristiche note per andare a controllare nell'immagine digitale il dettaglio.
 
-In ambito scientifico vengono spesso usati sensori CCD, ma ultimamente anche CMOS. 
+In ambito scientifico vengono spesso usati sensori CCD, ma ultimamente anche i sensori CMOS hanno trovato spazio. 
 
 Le immagini statiche possono essere raccolte tramite un sensore CCD posto dietro ad una ruota di filtri.
 
-Per quanto riguarda i video deve essere nota anche la velocità di trasferimento dei dati: per avere un certo framerate può essere necessario manipolare la risoluzione.
+Per quanto riguarda i video deve essere nota anche la velocità di trasferimento dei dati della fotocamera. Per ottenere un certo framerate potrebbe essere necessario manipolare la risoluzione: una risoluzione maggiore richiede un volume di dati più elevato da elaborare e trasferire, il che può influenzare la fluidità del video se la larghezza di banda non è sufficiente.
 
 ### Efficienza quantica
 
-Non sempre tutti i fotoni vengono tradotti in segnale: l'efficienza quantica misura la percentuale di fotoni tradotti in segnale. Questa misura dipende dalla lunghezza d'onda: non ci sono sensori che rispondono linearmente a tutte le frequenze sensibili e varia dal 20% al 80%. Quando è alta è possibile percepire segnali molto deboli.
+Non sempre tutti i fotoni vengono tradotti in segnale: l'efficienza quantica misura la percentuale di fotoni tradotti in segnale. Questa misura dipende dalla lunghezza d'onda: non ci sono sensori che rispondono linearmente a tutte le frequenze sensibili e  questa misura varia dal 20% al 80%. Quando è alta è possibile percepire segnali molto deboli.
 
 ### Full well capacity
 
@@ -104,14 +100,14 @@ Sono molto sensibili al rumore, in particolare a quello termico, e devono essere
 
 Un caso d'uso prevede il loro utilizzo in microscopi confocali in cui il campione viene illuminato un punto alla volta. Questo processo è lento, ma molto preciso. I fotomoltiplicatori sono usati in medicina di laboratorio o in citofluoremtria.
 
-I scintillatori sono dispositivi che emettono luce quando colpiti da particelle.
+I scintillatori sono dispositivi che emettono luce quando colpiti da particelle. Sono composti da materiali in grado di convertire l'energia delle particelle in segnali luminosi facilmente rilevabili.
 
 ## Qualità dell'immagine
 
-La qualità complessiva di un immagine dipende dal sensore e da altre fonti di errori come i vari tipi di rumore, difetti ottici o di illuminazione che si combinano assieme. 
+La qualità complessiva di un immagine dipende sia dal sensore che da fonti di errori come i vari tipi di rumore, difetti ottici o di illuminazione che si combinano assieme. 
 
 Bisogna essere in grado di distinguere variabilità biologica da errore di misurazione. Una tecnica per ridurre la possibilità di errore prevede la ripetizione delle misurazioni, ma non sempre è possibile.
 
 Nelle immagini il rumore si vede sotto forma di puntini e sono state sviluppate delle tecniche di noise reduction che modificano l'immagine per eliminarlo.
 
-Altri artefatti possono essere generati dalla luce che colpisce il centro del campione in maniera più forte rispetto ai bordi, o dall'ottica che è più precisa al centro. Una tecnica per ridurre questi artefatti prevedere do acquisire una foto del solo sfondo, così poi da poter sottrarre eventuali artefatti dalle immagini con i campioni.
+Altri artefatti possono essere generati dalla luce che colpisce il centro del campione in maniera più forte rispetto ai bordi, o dall'ottica che è più precisa al centro. Una tecnica per ridurre questi artefatti prevedere di acquisire una foto del solo sfondo, così poi da poter sottrarre eventuali artefatti dalle immagini con i campioni.

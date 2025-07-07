@@ -2,7 +2,7 @@
 
 ## Patient empowerment
 
-Il patient empowerment aumenta la consapevolezza e la partecipazione attiva dei pazienti e dei cittadini alle decisioni mediche prese a proposito della propria salute. Questo prevede anche che i dati prodotti siano della persona da cui vengono attinti e non del medico.
+Il patient empowerment aumenta la consapevolezza e la partecipazione attiva dei pazienti e dei cittadini alle decisioni mediche prese a proposito della propria salute. Questo prevede che i dati prodotti siano della persona da cui vengono attinti e non del medico.
 
 ## Invecchiamento attivo e in salute
 

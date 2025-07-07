@@ -1,18 +1,18 @@
 # Studi clinici
 
-Gli studi clinici sono test ed esperimenti condotti in ambito biomedico che coinvolgono pazienti. Possono essere di due tipi: trattamento o osservazionali.
+Gli studi clinici sono test ed esperimenti condotti in ambito biomedico che coinvolgono pazienti. Possono essere di due tipi: di trattamento o osservazionali.
 
 ## Studi di trattamento
 
 Gli studi di trattamento possono essere dei trial randomizzati, adattivi o open label. Sono studi condotti per rispondere a domande specifiche in ambito di efficacia e sicurezza o per testare trattamenti e procedure. Per essere validi devono fornire risultati scientifici validi e riproducibili, inoltre devono essere approvati da un autorità che decide se possano essere condotti.
 
-Questi trial sono fortemente legati al metodo scientifico: necessitano di test sulle ipotesi e metodi per valutare i risultati. TIl tutto deve essere svolto utilizzando metodi statistici solidi ed applicati ad un gran numero di pazienti.
+Questi trial sono fortemente legati al metodo scientifico: necessitano di test sulle ipotesi e metodi per valutare i risultati. Il tutto deve essere svolto utilizzando metodi statistici solidi ed applicati ad un gran numero di pazienti.
 
 ### Randomized control trials
 
-I randomized control trials (RCT) sono dei test utilizzati spesso per comparare un nuovo trattamento con uno standard o un placebo. I partecipanti sono distribuiti randomicamente nei vari gruppi e vengono monitorati allo stesso modo, con un protocollo standard da seguire. Spesso i medici non sanno a che gruppo appartiene un paziente per non introdurre bias.
+I randomized control trials (RCT) sono dei test utilizzati spesso per comparare un nuovo trattamento con uno standard o un placebo. I partecipanti sono distribuiti randomicamente nei vari gruppi e vengono monitorati allo stesso modo, con un protocollo standard da seguire. Spesso i medici non sanno a che gruppo appartiene un paziente, questo vien fatto per non introdurre bias nelle valutazioni.
 
-Alla fine del processo si analizzano i risultati ottenuti da tutti i gruppi.
+Alla fine del processo i risultati ottenuti da tutti i gruppi vengono analizzati e comparati.
 
 ### Open label trials
 
@@ -20,7 +20,7 @@ Gli open label trials non nascondono l'informazione riguardo al trattamento, ma 
 
 ### Adaptive clinical trials
 
-Gli adaptive clinical trials sono studi che permettono la modifica di alcuni parametri in corso d'opera previa analisi preliminare e solo se permessi dal protocollo originale. Hanno meno valenza scientifica rispetto agli open labels trial.
+Gli adaptive clinical trials sono studi che permettono la modifica di alcuni parametri in corso d'opera, ma solo previa analisi preliminare e solo se permessi dal protocollo originale. Hanno meno valenza scientifica rispetto agli open labels trial.
 
 ## Studi osservazionali
 
