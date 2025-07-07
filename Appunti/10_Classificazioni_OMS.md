@@ -1,6 +1,6 @@
 # Classificazioni OMS
 
-L'OMS ha delle classificazioni ufficiali che vengono usate a fini statistici: ICD viene usata per tenere traccia delle malattie, ICFDH per le disabilità, ICHI per gli interventi. Da queste spesso derivano specializzazioni come ICDO per l'uso clinico.
+L'OMS ha delle classificazioni ufficiali che vengono usate a fini statistici: ICD tiene traccia delle malattie, ICFDH le disabilità, ICHI gli interventi. Da queste spesso derivano specializzazioni come ICDO per l'uso clinico.
 
 ## ICD
 
@@ -16,9 +16,9 @@ La variante nazionale USA ICD9-CM-USA ha 8179 items.
 
 La versione ICD9-CM è la variante statunitense che descrive i ricoveri ospedalieri, diagnosi e procedure dal punto di vista assicurativo/finanziario. Nel 2017 è stata ritirata, ma resta ancora utilizzata.
 
-Consta di 17 capitoli, che traducono in codici diagnosi, problemi di salute, procedure mediche, ...
+Consta di 17 capitoli, che traducono in codici alfanumerici le diagnosi, i problemi di salute, le procedure mediche, ...
 
-I codici sono caratteri alfanumerici. Le diagnosi sono definite con 3/5 caratteri, hanno una gerarchia e usano il punto come delimitatore. Le procedure sono definite da 2/4 caratteri.
+Le diagnosi sono definite con 3/5 caratteri, hanno una gerarchia e usano il punto come delimitatore. Le procedure sono definite da 2/4 caratteri.
 
 La distribuzione avviene tramite manuali su carta compresi di indice alfabetico.
 
@@ -92,6 +92,6 @@ Ha una struttura a tre assi in cui vengono specificati il target (l'entità su c
 
 ICFDH (International Classification of Functioning, Disability and Health) si occupa della classificazione delle disabilità.
 
-Una condizione di salute può causare dei problemi al corpo umano, una disabilità, che. in base a fattori contestuali o ambientali, può a sua volta causare delle limitazioni alle attività della persona. Vengono quindi presi in considerazione i fattori ambientali quali famiglia, scale, farmaci, ... per classificare barriere e facilitatori. Il suo focus è quindi la capacità di produrre una performance da parte di una persona in determinate condizioni ambientali.
+Una condizione di salute può causare dei problemi al corpo umano, una disabilità, che, in base a fattori contestuali o ambientali, può a sua volta causare delle limitazioni alle attività della persona. Vengono quindi presi in considerazione i fattori ambientali (famiglia, scale, farmaci, ...) per classificare barriere e facilitatori. Il suo focus è quindi la capacità di produrre una performance da parte di una persona in determinate condizioni ambientali.
 
 Non viene utilizzata spesso, include ICHI e vi sono tentativi di armonizzazione.

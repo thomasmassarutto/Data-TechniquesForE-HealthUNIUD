@@ -40,7 +40,7 @@ Esistono delle guidelines che si occupano di descrivere come immagazzinare, trov
 
 ## Modello
 
-L'Infrastruttura tecnologica del FSE (InFSE) definisce le  specifiche tecniche per l'interscambio di documenti sanitari tra sistemi territoriali di Fascicolo Sanitario Elettronico garantendo disponibilità, affidabilità, sicurezza e privacy.
+L'Infrastruttura tecnologica del FSE (InFSE) definisce le specifiche tecniche per l'interscambio di documenti sanitari tra sistemi territoriali del Fascicolo Sanitario Elettronico garantendo disponibilità, affidabilità, sicurezza e privacy.
 
 Questo prevede un modello architetturale Service Oriented Architecture in cui i nodi possono essere locali o regionali.
 

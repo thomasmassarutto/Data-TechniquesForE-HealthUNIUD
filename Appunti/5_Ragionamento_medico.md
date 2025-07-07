@@ -14,7 +14,7 @@ Tutti i dati clinici hanno un certo livello di incertezza che deve essere espres
 
 ### Valutazione iniziale
 
-Nel processo di diagnosi, un primo set di possibili malattie viene definito nella diagnosi differenziale, ognuno con un certo grado di probabilità. Questo primo set di ipotesi viene analizzato in base a valutazioni soggettive o euristiche del medico, rapppresentatività del paziente come soggetto tipico, presenza di eventi correlati nella storia clinica del paziente ed effettiva probabilità dell'ipotesi.
+Nel processo di diagnosi, un primo set di possibili malattie viene definito nella diagnosi differenziale, ognuno con un certo grado di probabilità. Questo primo set di ipotesi viene analizzato in base a valutazioni soggettive, euristiche del medico, rappresentatività del paziente come soggetto tipico, presenza di eventi correlati nella storia clinica del paziente ed effettiva probabilità dell'ipotesi.
 
 Le stime oggettive vengono basate su studi pregressi che prendono in considerazione il soggetto in base al gruppo di appartenenza o alla sua storia clinica. Possono comunque essere affette da bias.
 
@@ -22,7 +22,9 @@ Le stime oggettive vengono basate su studi pregressi che prendono in considerazi
 
 Per confermare o confutare le ipotesi formulate nello step precedente, vengono eseguiti uno o più test diagnostici. Questi sono spesso semplici da eseguire, poco costosi e il loro risultato può essere espresso in forma binaria come negativo o positivo.
 
-Anche questo tipo di test non è esente da errori ed ha una certa precisione: è probabile che il risultato ottenuto sia un falso positivo o un falso negativo, entrambi con una certa probabilità. La capacità di rilevare la corretta positività di pazienti malati è detta sensibilità di un test e viene espressa tramite la formula $\frac{TP}{TP+FN}$, mentre la capacità di rilevare la corretta negatività in pazienti sani è detta specificità e viene espressa tramite la formula $\frac{TN}{TN+FP}$.
+I test patognomonici sono particolari tipi di test diagnostici che determinano la presenza di una determinata malattia o condizione in base alla presenza di un singolo marker come una cellula tumorale.
+
+I test diagnostici non è esente da errori ed hanno una certa precisione: è probabile che il risultato ottenuto sia un falso positivo o un falso negativo, entrambi con una certa probabilità. La capacità di rilevare la corretta positività di pazienti malati è detta sensibilità di un test e viene espressa tramite la formula $\frac{TP}{TP+FN}$, mentre la capacità di rilevare la corretta negatività in pazienti sani è detta specificità e viene espressa tramite la formula $\frac{TN}{TN+FP}$.
 
 Oltre a questi indici è necessario conoscere la prevalenza della malattia all'interno di una popolazione per poter tarare meglio i risultati del test. L'indice di accuratezza è infatti espresso in relazione al totale dei casi tramite la formula: $\frac{TP+TN}{\text{TOT CASI}}$.
 
@@ -50,4 +52,4 @@ Le informazioni devono essere comunicate in maniera efficiente sia al medico che
 
 La ricerca medica produce nuovi metodi per diagnosi, terapie e metodi per la valutazione delle prognosi. Il processo è comunque lungo e perché uno studio provochi cambiamenti a livello pratico possono volerci anni durante i quali lo studio viene letto, compreso e accettato dai medici.
 
-Il paradigma utilizzato nella ricerca è quello della Evidence Based medicine che colleziona e formalizza i risultati delle ricerche mediche secondo il ciclo ipotetico deduttivo.
+Il paradigma utilizzato nella ricerca è quello della Evidence Based Medicine che colleziona e formalizza i risultati delle ricerche mediche secondo il ciclo ipotetico deduttivo.

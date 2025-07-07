@@ -12,7 +12,7 @@ Il livello locale è composto da ASL, AO, MMG ed è finanziato in base alle perf
 
 ## Aziende ospedaliere
 
-Gli ospedali costituiscono circa il 50% della spesa sanitaria in Italia. I costi che sostengono sono coperti da un rimborso forfettario calcolato sulla base dei DRG dei pazienti che hanno avuto in cura.
+Gli ospedali costituiscono circa il 50% della spesa sanitaria in Italia. I costi che sostengono sono coperti da un rimborso forfettario calcolato sulla base dei DRG (Diagnostic Related group, in italiano ROD: Raggruppamenti Omogenei di Diagnosi) dei pazienti che hanno avuto in cura.
 
 Negli ultimi anni il paradigma riguardo ai ricoveri sta cambiando: vengono favorite le permanenze brevi e i day hospital.
 

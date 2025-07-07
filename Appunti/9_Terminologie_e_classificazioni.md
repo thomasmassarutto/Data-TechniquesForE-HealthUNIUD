@@ -6,7 +6,7 @@ Gli standard come HL7 e CDA hanno bisogno di terminologia specifica per essere u
 
 Bisogna quindi formalizzare il linguaggio naturale per avere un terreno comune su cui aggregare eventi e situazioni. A questo scopo sono nate liste di termini standard che facilitano la comparazione, l'aggregazione e la trasmissione dei dati. Queste liste di vocaboli propongono un'aggregazione gerarchica dei termini/concetti sotto un unico termine all'interno di un vocabolario. 
 
-I concetti possono essere codificati tramite astrazione, che ne mantiene solo le parti più importanti, o tramite rappresentazione, che mantiene una forma più ampia possibile. In entrambi i casi è possibile una perdita di informazioni dato che si tratta comunque di semplificazioni.
+I concetti possono essere codificati tramite astrazioni, che ne mantengono solo le parti più importanti, o tramite rappresentazioni, che mantengono una forma più ampia possibile. In entrambi i casi è possibile che si verifichi una perdita di informazioni dato che si tratta di semplificazioni.
 
 ### Problemi di codificazione
 
@@ -41,16 +41,9 @@ Vi può comunque essere una interazione fra classificazioni e terminologie e l'i
 
 ## Classificazioni biomediche
 
-Le classificazioni possono essere eseguite in base a punti di vista diversi detti assi. I più comuni in ambito medico sono i sintomi, le cause e la posizione. Le classificazioni biomediche si dividono in tre grandi famiglie:
+Le classificazioni possono essere eseguite in base a punti di vista diversi detti assi. I più comuni in ambito medico sono i sintomi, le cause e la posizione. Le classificazioni biomediche si dividono in tre grandi famiglie: tassonomie, partonomie e classificazioni causali. Le tassonomie classificano i concetti secondo relazioni di specializzazione andando dal generale verso lo specifico, mentre le partonomie vengono usate per le descrizioni anatomiche e descrivono relazioni parte-tutto partendo da un'entità complessa per arrivare alle sue componenti, infine, le classificazioni causali, rappresentano relazioni di causa-effetto descrivendo catene causali tra eventi o condizioni. 
 
-- Le tassonomie classificano i concetti secondo relazioni di specializzazione andando dal generale verso lo specifico.
-
-- Le partonomie vengono usate per le descrizioni anatomiche e descrivono relazioni parte-tutto partendo da un'entità complessa per arrivare alle sue componenti.
-
-- Le classificazioni causali rappresentano relazioni di causa-effetto descrivendo catene causali tra eventi o condizioni.
- Le classificazioni moderne prevedono parentela multipla.
-
-I codici alfanumerici delle classi possono essere generati casualmente o in maniera ordinata.
+Le classificazioni moderne prevedono parentela multipla e i codici alfanumerici delle classi possono essere generati casualmente o in maniera ordinata.
 
 ### Ciclo di vita
 
@@ -60,7 +53,7 @@ Solitamente una classificazione biomedica viene creata da un gruppo chiuso, ment
 
 La versione ICD10 ha passato 8 conferenze di revisione dal 1990 in cui sono state coinvolte dalle 17 alle 58 nazioni alla volta. 
 
-La diffusione di una nuova versione non è sempre semplice in quanto possono volerci anni da una versione all'altra, la versione ICD11 è stata ultimata nel 2019, ma non è ancora stata adottata nonostante renda più semplice la migrazione e la diffusione delle informazioni. Il collo di bottiglia resta quello dell'adozione umana.
+La diffusione di una nuova versione non è sempre semplice e possono passare anni da una versione all'altra, la versione ICD11 è stata ultimata nel 2019, ma non è ancora stata adottata nonostante renda più semplice la migrazione e la diffusione delle informazioni. Il collo di bottiglia resta quello dell'adozione umana.
 
 ICD11 nasce in versione totalmente digitale per semplificarne la manutenzione anche grazie a tool online. Una modifica può essere proposta da chiunque e può essere rifiutata, rimandata o accettata dopo un processo di revisione.
 

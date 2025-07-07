@@ -8,7 +8,7 @@ HL7 è uno standard a livello applicativo che permette di standardizzare messagg
 
 La situazione tradizionale prevede che due reparti si passino i dati a mano, HL7 si pone da intermediario facendo le veci del passaggio manuale. Funge da interfaccia per sistemi informativi che così possono scambiarsi messaggi dopo eventi predefiniti anche in maniera automatica.
 
-Ogni messaggio ha un tipo definito da un codice a tre lettere ed è diviso in segmenti che, a loro volta. possono essere divisi in parti. Ogni messaggio è inviato dopo un trigger che puo essere anche automatico.
+Ogni messaggio ha un tipo definito da un codice a tre lettere ed è diviso in segmenti che, a loro volta, possono essere divisi in parti. Ogni messaggio è inviato dopo un trigger che puo essere anche automatico.
 
 Al giorno d'oggi vi sono due versioni di HL7: V2 e V3, non sono però compatibili
 
@@ -75,11 +75,9 @@ Il terzo livello prevede la semantica completa del documento, questo permette l'
 
 ## DICOM
 
-DICOM (Digital Imaging and COmmunications in Medicine) è uno standard per la trasmissione, lo storage e la visualizzazione di immagini nato per la radiografia che poi si è espanso ad altri ambiti medici. Standardizzando anche gli schermi è stato sviluppato da radiologi e da aziende tecniche del settore.
+DICOM (Digital Imaging and COmmunications in Medicine) è uno standard per la trasmissione, lo storage e la visualizzazione di immagini nato per la radiografia che poi si è espanso ad altri ambiti medici. Standardizza anche gli schermi  ed è stato sviluppato da radiologi e da aziende tecniche del settore.
 
-Lo standard è definito in 15 parti/documenti interconnessi fra loro ed è aggiornato periodicamente da esperti suddivisi in working group che propongono correzioni o supplementi.
-
-Il processo di approvazione prevede 4 fasi che una modifica deve passare: work, draft, commenti e votazione.
+Lo standard è definito in 15 parti/documenti interconnessi fra loro ed è aggiornato periodicamente da esperti suddivisi in working group che propongono correzioni o supplementi. Il processo di approvazione prevede 4 fasi che una modifica deve passare: work, draft, commenti e votazione.
 
 I documenti principali che un'implementazione deve avere sono l'introduzione, la conformance per dimostrare l'interoperabilità, la definizione degli oggetti, i metodi degli oggetti e le strutture dati con i supplementi di cui si i working group si occupano dei dettagli specifici.  
 
@@ -91,7 +89,7 @@ Lo standard prevede che entità specifiche interagiscano fra loro tramite metodi
 
 I file DICOM sono costituiti da un header con i metadati e da delle immagini. Le informazioni contenute nell'header possono essere varie, fra cui le dimensioni dell'immagine, i bit per pixel, la gamma e la modalità di acquisizione.
 
-### IHE
+## IHE
 
 L'IHE (Integrating the Healthcare Enterprise) è un associazione che cerca di tradurre in regole pratiche i vari standard disponibili. Per fare ciò cerca di promuovere e verificare l'interoperabilità fra sistemi tramite l'utilizzo di profili di integrazione che definiscono gli standard da utilizzare in un caso d'uso fra sistemi informativi. Vengono coperti sia i casi d'uso intra-struttura che inter-struttura.
 

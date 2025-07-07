@@ -20,7 +20,7 @@ Ogni voce della nomenclatura SNOMED è caratterizzata dal suo fully specified na
 
 ### SNOMED in Italia
 
-In Italia viene usata la versione SNOMED3 risalente agli anni 90. Essendo ormai obsoleta sono nati vari dialetti locali per sopperire alle mancanze rispetto alle ultime versioni. Non sempre questi dialetti sono compatibili, per questo si sta cercando di usare altri metodi, come NAP (Nomenclatura di Anatomia Patologica), che però non sono largamente diffusi.
+In Italia viene usata la versione SNOMED3 risalente agli anni 90, ma, essendo ormai obsoleta, sono nati vari dialetti locali per sopperire alle mancanze rispetto alle ultime versioni. Non sempre questi dialetti sono compatibili, per questo si sta cercando di usare altri metodi, come NAP (Nomenclatura di Anatomia Patologica), che però non sono largamente diffusi.
 
 ## LOINC
 

@@ -2,7 +2,7 @@
 
 I protocolli e le linee guida danno indicazioni comportamentali su cosa fare in determinate situazioni.
 
-In particolare i protocolli sono un insieme di istruzioni che descrivono la maniera ideale di svolgere un compito. Nella pratica il modo migliore non esiste e queste istruzioni sono utilizzate per diagnosticare e curare una certa categoria di malattie in modo standard. Aiutano a fare le cose in maniera uniforme e tendenzialmente corretta.
+In particolare i protocolli sono un insieme di istruzioni che descrivono la maniera ideale di svolgere un compito. Nella pratica il modo migliore non esiste e queste istruzioni sono utilizzate per diagnosticare e curare una certa categoria di malattie in modo standard. Aiutano ad operare in maniera uniforme e tendenzialmente corretta.
 
 Le linee guida sono meno formali rispetto ai protocolli. Questi ultimi necessitano di criteri di ingresso per determinare se è possibile applicarli. Di un protocollo possono nascere diverse varianti che hanno lo scopo di adattarsi a casi particolari come: altre malattie, condizioni particolari, indisponibilità di procedure mediche o fattori esterni in generale.
 
@@ -16,7 +16,7 @@ Infine è necessario che un protocollo sia:
 
 ## Percorsi di cura
 
-La cura del paziente viene divisa in giorni teorici in base allo stato del paziente. Viene a crearsi quindi una macchina a stati. Ogni giorno ha un diagramma di flusso che rende la transazione di un paziente da uno stato all'altro più facile.
+I percorsi di cura prevedono ch ela cura del paziente venga divisa in giorni teorici in base allo stato del paziente. Si crea così una macchina a stati in cui ogni giorno ha un diagramma di flusso che rende la transazione di un paziente da uno stato all'altro più facile.
 
 ## Protocolli computerizzati
 
@@ -83,6 +83,6 @@ La descrizione di un processo medico aiuta a risolvere questi problemi tramite p
 
 ### Business process modelling 
 
-Il business process modelling rappresenta e descrive i processi di un azienda con l'obiettivo di ottimizzarli. Il process modelling è utile in quanto produce documentazione che facilita il lavoro al personale e funge da base per la descrizione dei processi in fase di certificazione. Altri aspetti importanti sono che permette di avere una sicurezza maggiore, aiuta in fase di automatizzazione e migliore la comunicazione fra stakeholders.
+Il business process modelling rappresenta e descrive i processi di un azienda con l'obiettivo di ottimizzarli. Il process modelling è utile in quanto produce documentazione che facilita il lavoro al personale e funge da base per la descrizione dei processi in fase di certificazione. Altri aspetti importanti sono che permette di avere una sicurezza maggiore, aiuta in fase di automatizzazione e migliora la comunicazione fra stakeholders.
 
 L'output di questo processo sono i diagrammi (flowchart, state transition, communication, ...). Questi hanno il compito di descrivere i processi interni ad un organizzazione sanitario nel modo più preciso possibile: ogni organizzazione ha dei requisiti che utilizza per fornire servizi concreti.
