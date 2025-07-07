@@ -3,10 +3,10 @@ title: "Data & Techniques for E-Health"
 author: "Thomas"
 toc: true
 numbersections: true
-geometry: a4paper,top=2cm,bottom=2cm,left=3.5cm,right=2.5cm,heightrounded
+geometry: a4paper,top=2cm,bottom=2cm,left=3.5cm,right=3cm,heightrounded,twoside
 version: "PrintVersion"
 documentclass: extreport
-before-toc: |
+before-toc:
   \clearpage
 header-includes:
   - \usepackage{charter}
