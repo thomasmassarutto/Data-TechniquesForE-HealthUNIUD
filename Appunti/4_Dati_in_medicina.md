@@ -4,7 +4,7 @@
 
 Il ciclo diagnostico-terapeutico prevede che un medico, come prima cosa, faccia delle osservazioni sullo stato di salute di un paziente. Da queste il medico deve essere in grado di ricavare informazioni per prendere una decisione riguardo alla diagnosi. Una volta che questa è sufficientemente certa può procedere a fare un piano per la terapia da somministrare al paziente.
 
-Le osservazioni derivano direttamente dai dati che devono essere raccolti che sono quindi fondamentali per diagnosi, terapie e prevenzioni.
+Le osservazioni derivano direttamente dai dati raccolti e che sono quindi fondamentali per diagnosi, terapie e prevenzioni.
 
 ## Il dato
 
@@ -18,14 +18,14 @@ Per aumentare l'affidabilità del dato è importante conoscere il contesto della
 
 I dati numerici spesso sono output di strumenti di cui è necessario conoscere l'accuratezza, anche per capire se questa è sufficiente, scarsa o eccessiva in base al caso d'uso.
 
-### Biosegnali e biommagini
+### Biosegnali e bioimmagini
 
 I biosegnali sono registrazioni nel tempo di segnali emessi dal paziente. Le bioimmagini sono immagini di organi che possono venire integrate da note scritte da medici.
 
 
 ## Tipi di dato usati in medicina
 
-In medicina vengono usati testi, numeri, biosegnali, immagini, narrative, ovvero descrizioni informali, del malessere da parte del paziente, storia medica o interpretazione esami. Per ridurre l'incertezza c'è bisogno di un linguaggio standardizzato di vocaboli e terminologia come ICD9 o SNOMED.
+In medicina vengono usati testi, numeri, biosegnali, immagini, narrative, ovvero descrizioni informali del malessere da parte del paziente, storia medica o interpretazione esami. Per ridurre l'incertezza c'è bisogno di un linguaggio standardizzato di vocaboli e terminologia come ICD9 o SNOMED.
 
 I sistemi informativi medici cercano di standardizzare l'input del dati.
 
@@ -33,7 +33,7 @@ I sistemi informativi medici cercano di standardizzare l'input del dati.
 
 L'immagazzinamento dei dati medici è affidato alla cartella clinica. Su di essa possono operare molte figure diverse: personale amministrativo, medici, infermieri, ma anche strumenti automatici.
 
-La cartella viene strutturata in base a campi che guidano l'inserimento e il recupero dei dati poiché ha molteplici funzioni: a creare uno storico per il paziente, contenere documenti legali, fare da supporto a ricerche cliniche, ...
+La cartella viene strutturata in base a campi che guidano l'inserimento e il recupero dei dati. Questo strumento assolve a molteplici funzioni tra cui: creare uno storico per il paziente, contenere documenti legali e fare da supporto a ricerche cliniche.
 
 ### Usabilità
 

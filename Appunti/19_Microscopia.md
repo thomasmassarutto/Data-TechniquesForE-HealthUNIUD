@@ -12,7 +12,7 @@ La tecnologia ottica di realizzazione di un obiettivo gioca un ruolo fondamental
 
 ### Risoluzione
 
-La risoluzione è una metrica che descrive la distanza minima che si riesce a distinguere tra due punti e indica il dettaglio minimo visibile. Formalmente è descritta come $R=\lambda \cdot NA$. $\lambda$ indica la lunghezza d'onda della luce (verde ha $\lambda = 500\,\mathrm{nm}$).
+La risoluzione è una metrica che descrive la distanza minima che si riesce a distinguere tra due punti e indica il dettaglio minimo visibile. Formalmente è descritta come $R=\lambda \cdot NA$. $\lambda$ indica la lunghezza d'onda della luce (verde ha $\lambda = 500\,\mathrm{nm}$) e $NA$ è l'apertura numerica.
 
 ### Il campione
 
@@ -32,7 +32,7 @@ La fluorescenza permette di evidenziare alcuni cromosomi specifici dentro i nucl
 
 ## Il microscopio confocale
 
-Il microscopio confocale a fluorescenza è in grado di illuminare un punto alla volta. La luce che questo riflette viene poi raccolta da uno scintillatore. Questo tipo di microscopio consente di focalizzare anche sull'asse z le immagini e permette di ricostruire immagini tridimensionali dettagliate. 
+Il microscopio confocale a fluorescenza è in grado di illuminare un punto alla volta. La luce che questo riflette viene poi raccolta da uno scintillatore. Questo tipo di microscopio consente di focalizzare anche sull'asse z le immagini e permette di ricostruire immagini tridimensionali estremamente dettagliate. 
 
 I fluorocromi usati nella colorazione per questo metodo decadono e i campioni devono essere esaminati velocemente oppure ricolorati.
 
@@ -48,9 +48,15 @@ Una volta acquisita l'immagine, questa può essere usata per studi morfologici, 
 
 Il campo visivo è un area circolare che al centro risulta più definita. I vetrini digitali sono in grado di acquisire quasi tutto il vetrino e generano immagini molto grandi, di solito si usa un obiettivo 40x e queste immagini possono essere salvate a risoluzioni differenti per facilitare la visualizzazione.
 
+### Il vetrino digitale
+
+Il vetrino digitale è una copia digitale della tradizionale preparazione istologica o patologica (cioè il vetrino con il campione colorato). Viene ottenuta acquisendo ad altissima risoluzione tutta la superficie del vetrino, oppure porzioni di area molto più grande rispetto a quanto si osserva normalmente al microscopio e l’obiettivo è catturare tutte le informazioni ottiche diagnostiche in formato digitale.
+
+Questa tecnica prende il nome di WSI: Whole Slide Imaging. 
+
 ## Messa a fuoco
 
-La messa a fuoco di un campione può risultare problematica in quanto nei campioni è presente della variabilità come il coperchio inclinato o il campione non perfettamente piatto. Per aiutare nel compito i microscopi dispongono di sistemi di autofocus che possono essere attivi, tramite la misurazione della distanza con infrarossi, o passivi, quando catturano più immagini e scelgono quella più a focus. Quest'ultima tecnica utilizza la deviazione standard per capire quale dei tentativi mostra più dettagli, tuttavia, acquisire più foto è dispendioso e sono nate tecniche che ottimizzano il numero di tentativi.
+La messa a fuoco di un campione può risultare problematica in quanto nei campioni è presente della variabilità come il coperchio inclinato o il campione non perfettamente piatto. Per aiutare nel compito i microscopi dispongono di sistemi di autofocus che possono essere attivi, grazie alla misurazione della distanza con infrarossi, o passivi, quando catturano più immagini e scelgono quella più a focus. Quest'ultima tecnica utilizza la deviazione standard per capire quale dei tentativi mostra più dettagli, tuttavia, acquisire più foto è dispendioso e sono nate tecniche che ottimizzano il numero di tentativi.
 
 ## Riconoscimento tessuti
 
@@ -63,4 +69,4 @@ Le immagini vengono memorizzate in vari formati:
 - jpeg: è possibile usarlo, ma con molti compromessi in quanto è lossy
 - tiff: si tratta di un formato multi immagine
 - jpeg2000: è lo standard per grandi immagini e permette il caricamento e la lettura di solo parti dell'immagine
-- DICOM e supplementi: non viene ancora adottato, ma dispone di identificatori che permettono di identificare in modo univoco il percorso che porta ad un immagine ed è possibile utilizzarli per identificare il campione. Questo formato supporta risoluzioni diverse.
+- DICOM e supplementi: non viene ancora adottato, ma dispone di identificatori che permettono di identificare in modo univoco il percorso che porta ad un immagine ed è possibile utilizzarli per identificare il campione. Questo formato supporta risoluzioni diverse

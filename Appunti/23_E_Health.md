@@ -2,7 +2,7 @@
 
 ## Patient empowerment
 
-Il patient empowerment aumenta la consapevolezza e la partecipazione attiva dei pazienti e dei cittadini alle decisioni mediche prese a proposito della propria salute. Questo prevede che i dati prodotti siano della persona da cui vengono attinti e non del medico.
+Il patient empowerment aumenta la consapevolezza e la partecipazione attiva dei pazienti e dei cittadini alle decisioni mediche prese a proposito della propria salute. Questo prevede che i dati prodotti siano della persona da cui vengono attinti e non del medico o della struttura che li ha raccolti.
 
 ## Invecchiamento attivo e in salute
 
@@ -28,7 +28,7 @@ Esistono siti o servizi che permettono il rating di medici e strutture ospedalie
 
 ### Discern
 
-Discern è un questionario usato per valutare l'informazione presente in un sito. Viene usato per discriminare informazioni essere errate, con bias o orientati al profitto piuttosto che alla salute.
+Discern è un questionario usato per valutare l'informazione presente in un sito. Viene usato per discriminare informazioni che possono essere errate, con bias o orientate al profitto piuttosto che alla salute.
 
 Non sempre la popolarità è sinonimo di qualità.
 

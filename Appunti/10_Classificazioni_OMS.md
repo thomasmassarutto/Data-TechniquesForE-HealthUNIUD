@@ -1,6 +1,6 @@
 # Classificazioni OMS
 
-L'OMS ha delle classificazioni ufficiali che vengono usate a fini statistici: ICD tiene traccia delle malattie, ICFDH le disabilità, ICHI gli interventi. Da queste spesso derivano specializzazioni come ICDO per l'uso clinico.
+L'OMS ha delle classificazioni ufficiali che vengono usate per fini statistici: ICD tiene traccia delle malattie, ICFDH le disabilità, ICHI gli interventi. Da queste spesso derivano specializzazioni come ICDO per l'uso clinico.
 
 ## ICD
 
@@ -18,13 +18,13 @@ La versione ICD9-CM è la variante statunitense che descrive i ricoveri ospedali
 
 Consta di 17 capitoli, che traducono in codici alfanumerici le diagnosi, i problemi di salute, le procedure mediche, ...
 
-Le diagnosi sono definite con 3/5 caratteri, hanno una gerarchia e usano il punto come delimitatore. Le procedure sono definite da 2/4 caratteri.
+Le diagnosi sono definite con 3/5 caratteri, hanno una gerarchia e usano il punto come delimitatore, mentre le procedure sono definite da 2/4 caratteri. Eventuali sotto categorie aggiungono alla voce 3/6 caratteri extra.
 
 La distribuzione avviene tramite manuali su carta compresi di indice alfabetico.
 
 #### Capitoli
 
-I capitoli organizzano le diagnosi in base alla sede (sistema respiratorio, endocrino, ...), ma non mancano eccezioni: i primi capitoli sono ordinati per causa dalla patologia e altri ancora trattano alcune patologie in base allo stato del paziente (gravidanza, ...).
+I capitoli organizzano le diagnosi in base alla sede (sistema respiratorio, endocrino, ...), ma non mancano eccezioni: i primi capitoli sono ordinati per causa della patologia e altri ancora trattano alcune patologie in base allo stato del paziente (gravidanza, ...).
 
 Sono presenti capitoli speciali per condizioni esterne, come le ferite o le ustioni, e anche capitoli per sintomi e segni.
 
@@ -52,9 +52,9 @@ Di questa versione esistono varianti nazionali, in Italia esiste un ICD10-IT, ma
 
 ### ICD11
 
-ICD11 è presente dal 2019, con adozione dal 2022, ma non viene ancora usato. Similmente a SNOMED cerca di ampliare l'uso delle classificazioni mediche per l'uso all'interno di sistemi informativi e viene mantenuto tramite crowdsourcing di esperti.
+ICD11 è presente dal 2019, con adozione dal 2022, ma non viene ancora usato. Il suo scopo è quello di cercare di ampliare l'uso delle classificazioni mediche per l'uso all'interno di sistemi informativi e il progetto viene mantenuto tramite crowdsourcing di esperti.
 
-La sua architettura è pensata per il digital first e prevede una struttura a due livelli: foundation e linearization. Si tratta anche di una ontologia che rappresenta formalmente il dominio della malattia. Ha una struttura ad albero che permette la genitorialità multipla. Quando non c'è bisogno di dettaglio viene creata una shoreline che divide la classificazione dai narrower terms.
+La sua architettura è pensata con un paradigma digital first e prevede una struttura a due livelli: foundation e linearization. Si tratta anche di una ontologia che rappresenta formalmente il dominio della malattia. Ha una struttura ad albero che permette la genitorialità multipla. Quando non c'è bisogno di dettaglio viene creata una shoreline che divide la classificazione dai narrower terms.
 
 Nella foundation non sono presenti categorie residuali, mentre nelle linearization queste vengono generate automaticamente così da garantire l’esaustività della classificazione.
 
@@ -62,7 +62,7 @@ Gli identificatori univoci delle foundation e delle linearization sono URI.
 
 #### Foundation vs linearization
 
-La foundation è la base concettuale di ICD11 che contiene tutti i concetti medici organizzati in maniera ontologica. I termini sono 80 mila e prevedono la genitorialità multipla, non è quindi una classificazione. Non è ancora completa.
+La foundation è la base concettuale di ICD11 che contiene tutti i concetti medici organizzati in maniera ontologica. I termini sono univoci e prevedono la genitorialità multipla, non è quindi una classificazione, inoltre, pur contenendo più di 80 mila termini, non è ancora completa. Si tratta di una base di conoscenza semantica, cioè capace di rappresentare il significato e le relazioni cliniche dei concetti, non solo di catalogarli.
 
 La linearization è una vista sulla foundation che genera una classificazione monogenitoriale, con mutua esclusione con copertura esaustiva grazie anche ai residuali.
 
@@ -72,7 +72,7 @@ Sono presenti varie linearization, ma tutte devono essere interoperabili.
 
 #### Codici di estensione
 
-I codici di estensione usati per aggiungere dettaglio a un codice principale. Possono essere di pre-coordinazione di post-coordinazione. I codici pre-coordinati sono singoli e vengono usati peri casi più comuni, mentre quelli post-coordinati possono venire concatenati tramite i caratteri '/' per la clusterizzazione e '&' per l'estensione.
+I codici di estensione vengono usati per aggiungere dettaglio a un codice principale. Possono essere di pre-coordinazione di post-coordinazione. I codici pre-coordinati sono singoli e vengono usati peri casi più comuni, mentre quelli post-coordinati possono venire concatenati tramite i caratteri '/' per la clusterizzazione e '&' per l'estensione.
 
 #### Piattaforma
 

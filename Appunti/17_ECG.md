@@ -4,7 +4,7 @@ L'ECG (Elettrocardiogramma) è il biosegnale emesso dal cuore tramite la sua att
 
 Dal punto di vista funzionale, il cuore pompa il sangue per rifornire di ossigeno le cellule ed è formato principalmente da tessuti che si contraggono. L'attività cardiaca avviene tramite impulsi elettrici che vengono generati ritmicamente dalle cellule pacemaker.
 
-Un metodo invasivo e relativamente pericoloso per raccogliere informazioni sullo stato di salute del cuore è quello di eseguire una biopsia per prelevare una piccola parte di tessuto. L'ECG permette di ottenere informazioni sul cuore senza la necessità di un intervento. Ciò avviene grazie alla conduttività dei tessuti corporei e misura l'impulso cardiaco posizionando elettrodi in posti noti. La procedura completa prevede 12 elettrodi posizionati sia nell zona toracica sia negli arti. Questi producono molti segnali, ma per misurare l'attività cardiaca ne bastano 2.
+Un metodo invasivo e relativamente pericoloso per raccogliere informazioni sullo stato di salute del cuore è quello di eseguire una biopsia per prelevare una piccola parte di tessuto. L'ECG permette di ottenere informazioni sul cuore senza la necessità di un intervento, ciò avviene grazie alla conduttività dei tessuti corporei e misura l'impulso cardiaco posizionando elettrodi in posti noti. La procedura completa prevede 12 elettrodi posizionati sia nell zona toracica sia negli arti. Questi producono molti segnali, ma per misurare l'attività cardiaca ne bastano 2.
 
 ## Il segnale 
 
@@ -18,7 +18,7 @@ L'ECG Holter permette di monitorare il battito cardiaco durante tutta la giornat
 
 ## Monitoraggio a distanza
 
-Il tele-elettro-cardiografo permette il monitoraggio a distanza di un paziente. In caso di anomalie spedisce l'ECG al cardiologo ed è in grado di fare da supporto alla decisione medica.
+Il tele-elettro-cardiografo permette il monitoraggio a distanza di un paziente: in caso di anomalie spedisce l'ECG al cardiologo ed il sistema è in grado di fare da supporto alla decisione medica.
 
 ## Altri segnali
 

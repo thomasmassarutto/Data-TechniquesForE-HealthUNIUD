@@ -24,7 +24,7 @@ Per confermare o confutare le ipotesi formulate nello step precedente, vengono e
 
 I test patognomonici sono particolari tipi di test diagnostici che determinano la presenza di una determinata malattia o condizione in base alla presenza di un singolo marker come una cellula tumorale.
 
-I test diagnostici non è esente da errori ed hanno una certa precisione: è probabile che il risultato ottenuto sia un falso positivo o un falso negativo, entrambi con una certa probabilità. La capacità di rilevare la corretta positività di pazienti malati è detta sensibilità di un test e viene espressa tramite la formula $\frac{TP}{TP+FN}$, mentre la capacità di rilevare la corretta negatività in pazienti sani è detta specificità e viene espressa tramite la formula $\frac{TN}{TN+FP}$.
+I test diagnostici non sono esenti da errori ed hanno una certa precisione: è probabile che il risultato ottenuto sia un falso positivo o un falso negativo, entrambi con una certa probabilità. La capacità di rilevare la corretta positività di pazienti malati è detta sensibilità di un test e viene espressa tramite la formula $\frac{TP}{TP+FN}$, mentre la capacità di rilevare la corretta negatività in pazienti sani è detta specificità e viene espressa tramite la formula $\frac{TN}{TN+FP}$.
 
 Oltre a questi indici è necessario conoscere la prevalenza della malattia all'interno di una popolazione per poter tarare meglio i risultati del test. L'indice di accuratezza è infatti espresso in relazione al totale dei casi tramite la formula: $\frac{TP+TN}{\text{TOT CASI}}$.
 

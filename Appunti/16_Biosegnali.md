@@ -2,7 +2,7 @@
 
 I biosegnali sono segnali che vengono emessi da un essere vivente e possono essere elettrici, meccanici o chimici. Spesso sono espressi in funzione del tempo.
 
-Una sottocategoria dei biosegnali sono le bioimmagini. In questo tipo di dato il segnale è organizzato in più dimensioni (2,3,4, ...) ed è ottenuto modulando raggi oppure onde che entrano in contatto con il corpo umano.
+Una sottocategoria dei biosegnali sono le bioimmagini. In questo tipo di dato il segnale è organizzato in più dimensioni (2, 3, 4, ...) ed è ottenuto modulando raggi oppure onde che entrano in contatto con il corpo umano.
 
 Biosegnali e bioimmagini possono esaminare aspetti difficilmente misurabili in altri modi, come organi interni o aspetti microscopici o cellulari.
 
@@ -24,7 +24,7 @@ Prima di poter essere utilizzato, un biosegnale passa attraverso varie fasi.
 
 Durante l'acquisizione il biosegnale viene misurato attraverso dei sensori e poi viene digitalizzato. Questo processo è però soggetto a rumore che diventa parte integrante della misurazione.
 
-La digitalizzazione prevede che un segnale analogico venga trasformato in un segnale digitale rappresentato da valori discreti. Prima di questa fase bisogna decidere quanto spesso campionare il dato e con che quantizzazione in base all'accuratezza necessaria. Queste due metriche devono essere scelte accuratamente in quanto influenzano le capacità di discriminare i segnali: troppo dettaglio rileva troppo rumore, o rallenta il sistema nelle applicazioni real time, troppo poco dettaglio implica perdita di informazioni. Bisogna quindi capire qual'è il livello di precisione adeguato per discriminare il livello giusto di dettaglio. 
+La digitalizzazione prevede che un segnale analogico venga trasformato in un segnale digitale rappresentato da valori discreti. Prima di questa fase bisogna decidere quanto spesso campionare il dato e con che quantizzazione utilizzare in base all'accuratezza necessaria. Queste due metriche devono essere scelte accuratamente in quanto influenzano le capacità di discriminare i segnali: troppo dettaglio rileva troppo rumore e rallenta il sistema nelle applicazioni real time, mentre troppo poco dettaglio implica perdita di informazioni. Bisogna quindi capire qual'è il livello di precisione adeguato per discriminare il livello giusto di dettaglio. 
 
 Il biosegnale digitalizzato diventa un array lungo tanto quanti sono i campionamenti eseguiti: $\text{frequenza campionamento} \times \text{durata segnale}$.
 
@@ -36,7 +36,7 @@ Bisogna tenere conto che ogni operazione di elaborazione fa perdere informazioni
 
 ### Riduzione
 
-La riduzione permette di mantenere solo le parti che interessano del biosegnale.
+Durante la fase di riduzione vengono mantenute solo le parti del biosegnale che interessano.
 
 ### Interpretazione
 
@@ -61,13 +61,13 @@ I biosegnali possono essere usati per eseguire diverse analisi. L'analisi funzio
 Vi sono varie tipologie di biosegnali:
 
 - puro output: il segnale viene registrato, ma non si ha conoscenza del processo che lo genera.
-- evocati: si usano degli input noti che danno inizio al processo su cui si vuole registrare un biosegnale. Un esempio è quello del martelletto per testare i riflessi.
-- provocativi: il processo che determina un biosegnale è conosciuto e ci si aspetta un dato output come ad esempio nei test sotto sforzo.
+- evocati: si usano degli input noti che danno inizio al processo su cui si vuole registrare un biosegnale,come ad esempio il martelletto per testare i riflessi.
+- provocativi: il processo che determina un biosegnale è conosciuto e ci si aspetta un dato output, come ad esempio nei test sotto sforzo.
 - modello: un processo conosciuto e stabile può essere simulato dando gli stessi input al paziente e alla simulazione per valutarne poi le differenze.
 
 ## Tecniche di elaborazione e analisi
 
-Un istogramma è in grado di rappresentare l'immagine sotto forma di una distribuzione di densità, utile per capire la distribuzione dei valori.
+Un istogramma è in grado di rappresentare l'immagine sotto forma di una distribuzione di densità utile per capire la distribuzione dei valori.
 
 Due biosegnali possono essere comparati per valutare le differenze.
 

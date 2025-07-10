@@ -108,7 +108,7 @@ Questo servizio ha degli standard di servizio che impongono la presentazione del
 
 ### Limiti di applicazione
 
-Per alcuni aspetti non c'è ancora evidenza sufficiente all'utilizzo della telemedicina. Alcuni casi specifici sono i pazienti con patologie acute o che è meglio lasciare a casa.
+Per alcuni aspetti non c'è ancora evidenza sufficiente all'utilizzo della telemedicina. Alcuni casi specifici sono i pazienti con patologie acute.
 
 ## Requisiti funzionali di servizio
 

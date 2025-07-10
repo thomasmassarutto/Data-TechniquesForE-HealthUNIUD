@@ -69,7 +69,8 @@
 ## M
 
 - MDC: Major Diagnostic Categories
-- MeSH: Medical Subject Headings
+- MeSH: Medical Subject Heading
+- MLMs: Medical Logic Modules
 - MMG: Medico Medicina generale
 
 ## N
@@ -119,6 +120,7 @@
 ## V
 
 ## W
+- WSI: Whole Slide Imaging
 
 ## X
 

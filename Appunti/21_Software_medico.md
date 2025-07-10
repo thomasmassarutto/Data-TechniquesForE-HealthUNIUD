@@ -12,9 +12,9 @@ Per mobile health si intende l'utilizzo di dispositivi medici mobili o wearable 
 
 I dispositivi medici possono essere divisi in quattro classi a seconda dell'impatto, inteso come invasività, che hanno sul paziente e ogni classe ha regole di certificazione diverse.
 
-Prima del 2007 il software era visto come parte integrante di un dispositivi fisico, mentre oggi il software standalone è considerato come non invasivo, in quanto non ha contatto con il corpo. 
+Prima del 2007 il software era visto come parte integrante di un dispositivi fisico, mentre oggi il software standalone è considerato come non invasivo in quanto non ha contatto con il corpo. 
 
-Si definisce "software medico standalone" un programma in esecuzione su di un PC che non è parte di un dispositivo e che agisce direttamente sui dati. Da questa definizione sono quindi esclusi: i documenti, i database e tutti i programmi che si occupano di presentazione e compressione. Software di questo genere deve influenzare le cure di un paziente fornendo specifiche funzioni mediche: sono quindi esclusi i programmi a scopo statistico o epidemiologico.
+Si definisce "software medico standalone" un programma in esecuzione su di un PC che non è parte di un dispositivo e che agisce direttamente sui dati. Da questa definizione sono quindi esclusi: i documenti, i database e tutti i programmi che si occupano di presentazione e compressione. Il software medico standalone deve influenzare le cure di un paziente fornendo specifiche funzioni mediche: sono quindi esclusi i programmi a scopo statistico o epidemiologico.
 
 Le classi sono:
 

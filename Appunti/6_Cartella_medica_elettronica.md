@@ -9,12 +9,12 @@ Le funzioni di una cartella clinica sono molteplici:
 - metodo di comunicazione fra il personale medico 
 - modalità di accesso ai dati
 - spazio di lavoro condiviso per la comunicazione, anche informale, per il team medico che ha in cura il paziente
-- crea una visione globale del paziente tramite note e narrative raccolti da più punti di vista
+- crea una visione globale del paziente tramite note e narrative raccolte da più punti di vista
 - archivio permanente che contiene tutti i dati riguardanti la storia clinica di una persona che può anche essere usata a fini di ricerca
 
 ## Registro cartaceo
 
-Il registro cartaceo spesso è organizzato in maniera time-oriented, ma alcuni dipartimenti hanno la loro sotto sezione. Permette un accesso alla volta, è ingombrante, la ricerca risulta difficile e il supporto cartaceo risulta fragile.
+Il registro cartaceo spesso è organizzato in maniera time-oriented, anche se alcuni dipartimenti hanno la loro sotto sezione. Permette un accesso alla volta, è ingombrante, la ricerca risulta difficile e il supporto cartaceo risulta fragile.
 
 ## Registro elettronico
 
@@ -24,21 +24,21 @@ Non può essere una repository di PDF in quanto i dati devono poter essere anali
 
 ## Cartella passiva vs attiva
 
-Una cartella medica tradizionale è passiva e funge da semplice record per gli eventi clinici di un paziente, mentre una cartella medica elettronica può essere attiva, ovvero, se sono disponibili abbastanza dati, può essere usata come strumento in grado di integrare le decisioni mediche tramite suggerimenti.
+Una cartella medica tradizionale è detta passiva e funge da semplice record per gli eventi clinici di un paziente, mentre una cartella medica elettronica può essere attiva, ovvero, se sono disponibili abbastanza dati, può essere usata come strumento in grado di integrare le decisioni mediche tramite suggerimenti.
 
 ## Componenti funzionali
 
 Una cartella clinica elettronica può inglobare diversi componenti funzionali non presenti nella sua controparte cartacea.
 
-- fornire una visuale integrale di tutti i dati del paziente aggregando varie fonti di provenienza dei dati in modo da presentarle in modo corretto e informativo.
+- Fornire una visuale integrale di tutti i dati del paziente aggregando varie fonti di provenienza dei dati in modo da presentarle in modo corretto e informativo.
 
-- fornire supporto alla decisione clinica mostrando dati rilevanti ad un certo caso come protocolli da seguire, test, trattamenti, statistiche, ... Il suo scopo deve comunque limitarsi al supporto e non alla sostituzione del medico.
+- Fornire supporto alla decisione clinica mostrando dati rilevanti ad un certo caso come protocolli da seguire, test, trattamenti, statistiche, ... Il suo scopo deve comunque limitarsi al supporto e non alla sostituzione del medico.
 
-- gestire in automatico le prescrizioni di esami, medicinali o visite specialistiche comunicando automaticamente fra vari istituti. Un meccanismo del genere permette di cambiare dinamicamente le regole in base al caso specifico e alle nuove scoperte mediche.
+- Gestire in automatico le prescrizioni di esami, medicinali o visite specialistiche comunicando automaticamente fra vari istituti. Un meccanismo del genere permette di cambiare dinamicamente le regole in base al caso specifico e alle nuove scoperte mediche.
 
-- accesso a fonti di conoscenza come la bibliografia necessaria riguardo ad un caso medico.
+- Accesso a fonti di conoscenza come la bibliografia necessaria riguardo ad un caso medico.
 
-- metodo di comunicazione per facilitare lo scambio di informazioni fra istituti medici e paziente.
+- Metodo di comunicazione per facilitare lo scambio di informazioni fra istituti medici e paziente.
 
 ## Features e problemi
 
@@ -50,9 +50,9 @@ Per quanto riguarda l'acquisizione dei dati, la criticità principale risiede ne
 
 ### Input dati
 
-L'input dei dati all'interno di un sistema informativo è prono agli errori. Bisogna quindi attuare delle politiche di error detection che però possono non essere sicure al 100%. Tra i controlli più comuni ci sono quelli di range, che verificano se i valori rientrano in un intervallo predefinito; i controlli di pattern, che assicurano che i dati seguano un formato specifico; i controlli grammaticali, che esaminano la correttezza linguistica; i controlli di coerenza, che confrontano i valori calcolati con i dati di base; i controlli di consistenza, che verificano la congruenza tra diversi set di dati; e i controlli per variazioni improvvise, che identificano cambiamenti anomali nei dati.
+L'input dei dati all'interno di un sistema informativo è prono agli errori, bisogna quindi attuare delle politiche di error detection nonostante possano non essere sicure al 100%. Tra i controlli più comuni ci sono quelli di range, che verificano se i valori rientrano in un intervallo predefinito, i controlli di pattern, che assicurano che i dati seguano un formato specifico, i controlli grammaticali, che esaminano la correttezza linguistica, i controlli di coerenza, che confrontano i valori calcolati con i dati di base, i controlli di consistenza, che verificano la congruenza tra diversi set di dati, e i controlli per variazioni improvvise, che identificano cambiamenti anomali nei dati.
 
-Inoltre, l'inserimento dei dati, porta via un sacco di tempo. Quando l'input è effettuato da un medico, risulterà affidabile, ma costoso. Nel caso venga eseguito da parte di segretari l'operazione di inserimento è meno costosa, ma i dati corrono il rischio di essere meno affidabili: la catena di comunicazione si allunga e diventa più prona agli errori.
+L'inserimento dei dati richiede un notevole investimento di tempo. Quando questo è effettuato da un medico, risulterà affidabile, ma costoso. Nel caso venga eseguita da parte di segretari, l'operazione è meno costosa, ma i dati corrono il rischio di essere meno affidabili in quanto la catena di comunicazione si allunga e diventa più prona agli errori.
 
 ### Data visualization
 

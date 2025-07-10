@@ -4,7 +4,7 @@ Il sistema sanitario italiano (SSN) è ispirato a quello inglese: è finanziato 
 
 ## I livelli e i loro compiti 
 
-Il livello centrale si occupa di emanare leggi di carattere generale, di supervisionare e di controllare i rami inferiori. Fra i suoi compiti vi è quello di definire i LEA (Livelli Essenziali di Assistenza), ovvero prestazioni, servizi, attività che i cittadini hanno diritto ad ottenere come ad esempio procedure ospedaliere, servizi specialistici, programmi di prevenzione, ... Questo livello si occupa di predisporre il piano sanitario nazionale e si occupa dei report sulla salute dei cittadini.
+Il livello centrale si occupa di emanare leggi di carattere generale, di supervisionare e di controllare i rami inferiori. Fra i suoi compiti vi è quello di definire i LEA (Livelli Essenziali di Assistenza), ovvero prestazioni, servizi, attività che i cittadini hanno diritto ad ottenere come ad esempio procedure ospedaliere, servizi specialistici, programmi di prevenzione, ... Questo livello si occupa di predisporre il piano sanitario nazionale e compila i report sulla salute dei cittadini.
 
 Il livello regionale si occupa di pianificare e gestire il territorio regionale tramite il  piano sanitario regionale.
 
@@ -22,11 +22,11 @@ Le ASL controllano direttamente o indirettamente varie strutture nel territorio 
 
 ## Il medico di base
 
-Il medico di base lavora in convenzione con il SSR e offre i suoi servizi a circa 1500 persone, ma sono presenti casi in cui gli assistiti sono molti di più.
+Il medico di base lavora in convenzione con il SSR (Sistema Sanitario Regionale) e offre i suoi servizi a circa 1500 persone, ma sono presenti casi in cui gli assistiti sono molti di più.
 
 ## Gli utenti del SSN
 
-Gli utenti del SSN sono i cittadini, questi hanno molte libertà di scelta riguardo a chi li può curare, dove venire curati e devono dare il consenso a tutti i trattamenti.
+Gli utenti del SSN sono i cittadini, questi hanno molte libertà di scelta riguardo a chi li può curare, dove venire curati e, inoltre, devono dare il consenso a tutti i trattamenti a cui vengono sottoposti.
 
 Ogni cittadino dispone di un fascicolo sanitario elettronico.
 

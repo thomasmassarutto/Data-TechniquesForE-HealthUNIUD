@@ -4,15 +4,17 @@ I protocolli e le linee guida danno indicazioni comportamentali su cosa fare in 
 
 In particolare i protocolli sono un insieme di istruzioni che descrivono la maniera ideale di svolgere un compito. Nella pratica il modo migliore non esiste e queste istruzioni sono utilizzate per diagnosticare e curare una certa categoria di malattie in modo standard. Aiutano ad operare in maniera uniforme e tendenzialmente corretta.
 
-Le linee guida sono meno formali rispetto ai protocolli. Questi ultimi necessitano di criteri di ingresso per determinare se è possibile applicarli. Di un protocollo possono nascere diverse varianti che hanno lo scopo di adattarsi a casi particolari come: altre malattie, condizioni particolari, indisponibilità di procedure mediche o fattori esterni in generale.
+Di un protocollo possono nascere diverse varianti che hanno lo scopo di adattarsi a casi particolari come: altre malattie, condizioni particolari, indisponibilità di procedure mediche o fattori esterni in generale.
 
-Un protocollo deve quindi avere dei criteri di ingresso in grado di descrivere il contesto in cui può essere utilizzato e delle azioni da intraprendere che possono essere espresse tramite flowchart o regole logiche. Quando un protocollo è particolarmente complesso può essere spezzato in sotto-protocolli.
+Un protocollo deve avere dei criteri di ingresso in grado di descrivere il contesto in cui può essere utilizzato e delle azioni da intraprendere che possono essere espresse tramite flowchart o regole logiche. Quando un protocollo è particolarmente complesso può essere spezzato in sotto-protocolli.
 
 Infine è necessario che un protocollo sia:
 
 - utile: va meglio di uno standard
 - progettabile: gli eventi non devono essere troppo variabili
 - usabile: usarlo deve essere conveniente
+
+Le linee guida sono meno formali rispetto ai protocolli e la loro struttura focalizza tutto ad una serie di raccomandazioni sul cosa fare e cosa evitare di fare.
 
 ## Percorsi di cura
 
@@ -40,7 +42,7 @@ Ogni protocollo deve essere decritto in maniera formale tramite strutture di con
 
 ### Metodologie
 
-Per esprimere le linee guida e i protocolli sono disponibili vari modelli. Ognuna di queste metodologie fornisce le primitive di rappresentazione di ciò che compare in un protocollo, i meccanismi di aggregazione e il modello dei dati dei pazienti.
+Per esprimere le linee guida e i protocolli sono disponibili vari modelli metodologici. Ognuno di questi fornisce le primitive di rappresentazione di ciò che compare in un protocollo, per i meccanismi di aggregazione e per il modello dei dati dei pazienti.
 
 Un protocollo generale ha bisogno di modellare quali siano i suoi input.
 
@@ -48,19 +50,19 @@ Un protocollo generale ha bisogno di modellare quali siano i suoi input.
 
 Le primitive di rappresentazione sono unità fondamentali che descrivono i concetti clinici all’interno di protocolli e linee guida. Permettendo la modellazione formale, e quindi computabile, dei processi decisionali previsti.
 
-- Azioni: azioni cliniche, amministrative, collezione dati o attesa.
-- Decisioni: decisioni automatiche o che necessitano l'intervento umano
-- Stati: 
+- azioni: azioni cliniche, amministrative, collezione dati o attesa.
+- decisioni: decisioni automatiche o che necessitano l'intervento umano
+- stati: 
   - del paziente: un paziente virtuale è rappresentato con uno stato all'interno di diversi scenari all'interno del protocollo.
   - dell'esecuzione: un protocollo può essere visto come una macchina a stati finiti.
 
 ### Dati dei pazienti
 
-La menzione dei dati del paziente deve essere indipendente dal singolo caso. Per fare questo bisogna adottare standard di codifica e modelli per rappresentare un paziente standard.
+La menzione dei dati del paziente deve essere indipendente dal singolo caso. Per fare questo bisogna adottare standard di codifica e modelli che rappresentano un paziente standard.
 
 ### Sintassi Arden
 
-Arden è un linguaggio per protocolli eseguibili dal calcolatore. La conoscenza medica è organizzata in moduli logici che servono per prendere una decisione clinica. 
+Arden è un linguaggio per protocolli eseguibili dal calcolatore. La conoscenza medica è organizzata in moduli logici detti MLMs (medical logic modules) che servono per prendere una decisione clinica. 
 
 Ogni modulo logico è composto da:
 
@@ -69,11 +71,13 @@ Ogni modulo logico è composto da:
 - azione: in base al risultato del modulo logico, eseguono un azione
 - data slot: fornisce integrazione fra il sistema di gestione protocolli e la cartella clinica
 
+Un MLM può generare messaggi, emettere allarmi, fornire interpretazioni, selezionare pazienti, attivare altri MLM e comunicare con parti del sistema informativo host. 
+
 Questa sintassi è limitata dal fatto che descrive solo le azioni e i passi logici senza fornire né un modello dati del paziente, né una terminologia standard.
 
 ### GEM
 
-GEM (Guideline Elements Model) è un modello XML sviluppato per rappresentare linee guida cliniche in modo strutturato e interoperabile. Lo schema che permette di rappresentare le informazioni è molto ampio, prevede nesting e il modello permette la parallelizzazione.
+GEM (Guideline Elements Model) è un modello XML sviluppato per rappresentare linee guida cliniche in modo strutturato e interoperabile. Lo schema che permette di rappresentare le informazioni è molto ampio, prevede nesting e il modello permette la parallelizzazione. Dispone di due moduli particolari: il Knowledge Component, che consente di integrare conoscenze cliniche e scientifiche all'interno delle linee guida, e l'Imperative Recommendation, che fornisce raccomandazioni chiare e dirette per le azioni cliniche da intraprendere. Questi moduli lavorano insieme per garantire che le linee guida siano non solo informative, ma anche pratiche e applicabili nella pratica clinica quotidiana, migliorando così la qualità delle decisioni mediche e l'interoperabilità tra diversi sistemi informatici.
 
 ## Process modelling
 

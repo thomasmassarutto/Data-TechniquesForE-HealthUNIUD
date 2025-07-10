@@ -10,7 +10,7 @@ Questi trial sono fortemente legati al metodo scientifico: necessitano di test s
 
 ### Randomized control trials
 
-I randomized control trials (RCT) sono dei test utilizzati spesso per comparare un nuovo trattamento con uno standard o un placebo. I partecipanti sono distribuiti randomicamente nei vari gruppi e vengono monitorati allo stesso modo, con un protocollo standard da seguire. Spesso i medici non sanno a che gruppo appartiene un paziente, questo vien fatto per non introdurre bias nelle valutazioni.
+I randomized control trials (RCT) sono dei test utilizzati spesso per comparare un nuovo trattamento con uno standard o un placebo. I partecipanti sono distribuiti randomicamente nei vari gruppi e vengono monitorati allo stesso modo, con un protocollo standard da seguire. Spesso i medici non sanno a che gruppo appartiene un paziente, questo viene fatto per non introdurre bias nelle valutazioni.
 
 Alla fine del processo i risultati ottenuti da tutti i gruppi vengono analizzati e comparati.
 
