@@ -77,32 +77,31 @@ Il terzo livello prevede la semantica completa del documento, questo permette l'
 
 FHIR (Fast Healthcare Interoperability Resources) è uno standard sviluppato da HL7, introdotto nel 2012, che mira a migliorare l'interoperabilità nel settore sanitario combinando i principi della messaggistica HL7 con approcci moderni basati sul web.
 
-Utilizza un'architettura basata su REST (Representational State Transfer), che consente l'interazione tra sistemi attraverso web services e supporta formati di dati come JSON e XML. Utilizza HTTPS Per la trasmissione sicura usa dei dati HTTPS e per l'autenticazione e l'autorizzazione degli accessi OAuth. 
+Utilizza un'architettura basata su REST (Representational State Transfer), che consente l'interazione tra sistemi attraverso web services e supporta formati di dati come JSON e XML. Per la trasmissione sicura usa HTTPS e per l'autenticazione e l'autorizzazione degli accessi OAuth. 
 
 ### Risorse
 
-FHIR definisce un insieme di risorse, che rappresentano categorie di dati comunemente utilizzati negli scambi di informazioni tra sistemi. Queste risorse possono essere utilizzate singolarmente o in combinazione e sono formate da elementi, vincoli e relazioni ch ele legano le une alle altre. Ognuna di queste è identificata da un URI univoco nel sistema FHIR. 
+FHIR definisce un insieme di risorse, che rappresentano categorie di dati comunemente utilizzati negli scambi di informazioni tra sistemi. Queste risorse possono essere utilizzate singolarmente o in combinazione e sono formate da elementi, vincoli e relazioni che le legano le une alle altre. Ognuna di queste è identificata da un URI univoco. 
 
 Un esempio di risorsa è il paziente.
 
-Nascono per essere più generali possibile e possono essere combinate, estese e modificate in base alle necessità.
+Le risorse nascono per essere più generali possibile e possono essere combinate, estese e modificate in base alle necessità.
 
 ### API FHIR
 
 FHIR utilizza API REST come base per lo scambio di dati. Questo approccio consente una comunicazione semplice e intuitiva tra i sistemi informatici nel settore sanitario. I dati sanitari, come farmaci, osservazioni e informazioni sui pazienti, sono rappresentati da risorse specifiche. Ogni tipo di dato ha la propria risorsa che definisce la struttura e il contenuto delle informazioni. 
 
-Le risorse possono essere richieste tramite comandi HTTP RESTful: gli sviluppatori possono utilizzare metodi HTTP standard (come GET, POST, PUT, DELETE) per interagire con le risorse FHIR. Una richiesta FHIR può restituire una singola risorsa, come le informazioni di un singolo paziente, oppure può restituiscono un bundle di informazioni, come tutti i dati relativi a tutti i pazienti in un sistema di cartelle cliniche elettroniche. Questo metodo consente di ottenere informazioni aggregate in un'unica risposta.
+Le risorse possono essere richieste tramite comandi HTTP RESTful: gli sviluppatori possono utilizzare metodi HTTP standard (come GET, POST, PUT, DELETE) per interagire con le risorse FHIR. Una richiesta FHIR può restituire una singola risorsa, come le informazioni di un singolo paziente, oppure può restituire un bundle di informazioni, come tutti i dati relativi a tutti i pazienti in un sistema di cartelle cliniche elettroniche. Questo metodo consente di ottenere informazioni aggregate in un'unica risposta.
 
 ### FHIR e il Fascicolo Sanitario Elettronico 2.0
 
-Il FSE 2.0 dovrebbe adottare FHIRE, ma attualmente risulta un progetto fallito a causa di vari fattori:
+Il FSE 2.0 dovrebbe adottare FHIR, ma attualmente risulta un progetto con poca adozione a causa di vari fattori:
 
-- Livello di maturità inadeguato dei Sistemi Informativi Ospedalieri: la produzione di dati risulta solo parziale e non sempre conforme agli standard.
-- Architettura di riferimento non omogenea a Livello Regionale: sono presenti disomogeneità nei sistemi e nei processi a livelle e questo rende difficile l'integrazione e la condivisione dei dati tra le varie strutture sanitarie.
-- Servizi inefficienti: sia i servizi orientati ai cittadini che quelli orientati al supporto della Ricerca e delle attività di governance limitano la crescita e l'adesione alla nuova versione del FSE.
+- Livello di maturità inadeguato dei sistemi informativi ospedalieri: la produzione di dati risulta solo parziale e non sempre conforme agli standard.
+- Architettura di riferimento non omogenea a livello regionale: sono presenti disomogeneità nei sistemi e nei processi e questo rende difficile l'integrazione e la condivisione dei dati tra le varie strutture sanitarie.
+- Servizi inefficienti: sia i servizi orientati ai cittadini che quelli orientati al supporto della ricerca e delle attività di governance limitano la crescita e l'adesione alla nuova versione del FSE.
 
-Il ruolo di FHIR nel FSE 2.0 è quello da ponte a livello regionale fra il sistema nazionale e la struttura ospedaliera. Un gateway per l'acquisizione e la validazione dei dati che si occupa di garantire che i dati siano conformi a vari criteri tecnici (dati siano correttamente formattati e compatibili), sintattici, semantici e di privacy.
-
+Il ruolo di FHIR nel FSE 2.0 è quello di fungere da ponte a livello regionale fra il sistema nazionale e la struttura ospedaliera. Un gateway per l'acquisizione e la validazione dei dati che si occupa di garantire che i dati siano conformi a vari criteri tecnici (dati siano correttamente formattati e compatibili), sintattici, semantici e di privacy.
 
 ## DICOM
 
