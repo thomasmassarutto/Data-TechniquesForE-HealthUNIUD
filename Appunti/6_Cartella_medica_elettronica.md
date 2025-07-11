@@ -60,7 +60,7 @@ Una cartella clinica elettronica implementa la visualizzazione di dati in manier
 
 ### Ricerca e prevenzione
 
-Una cartella clinica elettronica permette un migliore monitoraggio del paziente
+Una cartella clinica elettronica permette un migliore monitoraggio del paziente.
 
 ### Problemi per gli sviluppatori
 

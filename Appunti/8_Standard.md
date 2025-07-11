@@ -1,16 +1,16 @@
 # Standard
 
-I due principali standard in ambito clinico sono CDA (Clinical Document Architecture) e HL7 (Health Level 7). Quest'ultimo è diviso in DICOM (Digital Imaging and COmmunications in Medicine) e CDA (Clinical Document Architecture/Clinical Data Architecture)
+In ambito clinico esistono vari standard che permettono la comunicazione fra sistemi sanitari. I più importanti sono  HL7 (Health Level 7), CDA (Clinical Document Architecture), FHIR (Fast Healthcare Interoperability Resources) e DICOM (Digital Imaging and COmmunications in Medicine).
 
 ## HL7
 
-HL7 (Health Level Seven) è uno standard di interoperabilità che si concentra sulla standardizzazione dello scambio di informazioni cliniche e amministrative tra sistemi informatici in ambito sanitario. Esso definisce formati e protocolli per la trasmissione di messaggi, piuttosto che per la standardizzazione di interi documenti.
+HL7 (Health Level Seven) è un organizzazione che sviluppa standard di interoperabilità improntati alla standardizzazione dello scambio di informazioni cliniche e amministrative tra sistemi informatici in ambito sanitario. Definisce formati e protocolli per la trasmissione di messaggi, piuttosto che per la standardizzazione di interi documenti.
 
 La situazione tradizionale prevede che due reparti si passino i dati a mano, HL7 si pone da intermediario facendo le veci del passaggio manuale. Funge da interfaccia per sistemi informativi che così possono scambiarsi messaggi dopo eventi predefiniti anche in maniera automatica.
 
 Ogni messaggio ha un tipo definito da un codice a tre lettere ed è diviso in segmenti che, a loro volta, possono essere divisi in parti. Ogni messaggio è inviato dopo un trigger che puo essere anche automatico.
 
-Al giorno d'oggi vi sono due versioni di HL7: V2 e V3, non sono però compatibili
+Al giorno d'oggi convivono due versioni di protocolli HL7: V2 e V3, non sono però compatibili
 
 ### HL7 V2
 
@@ -59,7 +59,7 @@ Una volta generati dei modelli abbastanza specifici, si passa all'implementazion
 
 ## CDA
 
-CDA (Clinical Data Architecture) è uno standard che si basa su HL7 che si occupa della rappresentazione e dello scambio di documenti clinici completi e quindi con valore legale. Rappresenta i documenti sanitari in modo preciso, autentico, leggibile e completo.
+CDA (Clinical Document Architecture) è uno standard basato su HL7 che definisce la struttura e il contenuto dei documenti clinici elettronici. Si occupa della rappresentazione e dello scambio di documenti clinici completi e quindi con valore legale: questi devono essere autentici leggibili e completi.
 
 ### Struttura CDA
 
@@ -72,6 +72,37 @@ Il primo livello rappresenta l'informazione in modo generico senza semantica nei
 Il secondo livello risulta più strutturato e per alcuni domini specifici vengono definite le forme che il documento deve avere, l'ordine e la gerarchia delle varie sezioni.
 
 Il terzo livello prevede la semantica completa del documento, questo permette l'etichettatura per i sistemi informatici grazie al fatto che ogni sezione esprime il suo contenuto in modo formale.
+
+## FHIR
+
+FHIR (Fast Healthcare Interoperability Resources) è uno standard sviluppato da HL7, introdotto nel 2012, che mira a migliorare l'interoperabilità nel settore sanitario combinando i principi della messaggistica HL7 con approcci moderni basati sul web.
+
+Utilizza un'architettura basata su REST (Representational State Transfer), che consente l'interazione tra sistemi attraverso web services e supporta formati di dati come JSON e XML. Utilizza HTTPS Per la trasmissione sicura usa dei dati HTTPS e per l'autenticazione e l'autorizzazione degli accessi OAuth. 
+
+### Risorse
+
+FHIR definisce un insieme di risorse, che rappresentano categorie di dati comunemente utilizzati negli scambi di informazioni tra sistemi. Queste risorse possono essere utilizzate singolarmente o in combinazione e sono formate da elementi, vincoli e relazioni ch ele legano le une alle altre. Ognuna di queste è identificata da un URI univoco nel sistema FHIR. 
+
+Un esempio di risorsa è il paziente.
+
+Nascono per essere più generali possibile e possono essere combinate, estese e modificate in base alle necessità.
+
+### API FHIR
+
+FHIR utilizza API REST come base per lo scambio di dati. Questo approccio consente una comunicazione semplice e intuitiva tra i sistemi informatici nel settore sanitario. I dati sanitari, come farmaci, osservazioni e informazioni sui pazienti, sono rappresentati da risorse specifiche. Ogni tipo di dato ha la propria risorsa che definisce la struttura e il contenuto delle informazioni. 
+
+Le risorse possono essere richieste tramite comandi HTTP RESTful: gli sviluppatori possono utilizzare metodi HTTP standard (come GET, POST, PUT, DELETE) per interagire con le risorse FHIR. Una richiesta FHIR può restituire una singola risorsa, come le informazioni di un singolo paziente, oppure può restituiscono un bundle di informazioni, come tutti i dati relativi a tutti i pazienti in un sistema di cartelle cliniche elettroniche. Questo metodo consente di ottenere informazioni aggregate in un'unica risposta.
+
+### FHIR e il Fascicolo Sanitario Elettronico 2.0
+
+Il FSE 2.0 dovrebbe adottare FHIRE, ma attualmente risulta un progetto fallito a causa di vari fattori:
+
+- Livello di maturità inadeguato dei Sistemi Informativi Ospedalieri: la produzione di dati risulta solo parziale e non sempre conforme agli standard.
+- Architettura di riferimento non omogenea a Livello Regionale: sono presenti disomogeneità nei sistemi e nei processi a livelle e questo rende difficile l'integrazione e la condivisione dei dati tra le varie strutture sanitarie.
+- Servizi inefficienti: sia i servizi orientati ai cittadini che quelli orientati al supporto della Ricerca e delle attività di governance limitano la crescita e l'adesione alla nuova versione del FSE.
+
+Il ruolo di FHIR nel FSE 2.0 è quello da ponte a livello regionale fra il sistema nazionale e la struttura ospedaliera. Un gateway per l'acquisizione e la validazione dei dati che si occupa di garantire che i dati siano conformi a vari criteri tecnici (dati siano correttamente formattati e compatibili), sintattici, semantici e di privacy.
+
 
 ## DICOM
 

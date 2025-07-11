@@ -34,6 +34,7 @@
 
 ## F
 
+- FHIR: Fast Healthcare Interoperability Resources
 - FMA: Foundational Model of Anatomy
 - FSE: Fascicolo Sanitario Elettronico
 

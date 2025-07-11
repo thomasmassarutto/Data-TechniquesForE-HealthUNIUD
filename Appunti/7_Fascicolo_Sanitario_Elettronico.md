@@ -4,7 +4,7 @@ In Italia esiste il Sistema Informativo Socio Sanitario Regionale che mette a di
 
 ## Fascicolo Sanitario Elettronico
 
-In Italia esiste il FSE (Fascicolo Sanitario Elettronico) ed è implementato un sistema integrato che consente la condivisione delle informazioni sanitarie tra diverse strutture sanitarie, garantendo che i dati siano accessibili in modo sicuro e protetto. Risulta essere molto ingombrante e necessita di tecniche di compressione lossy. La ricerca delle informazioni al suo interno è difficile.
+In Italia esiste il FSE (Fascicolo Sanitario Elettronico) ed è implementato da un sistema integrato che consente la condivisione delle informazioni sanitarie tra diverse strutture sanitarie, garantendo che i dati siano accessibili in modo sicuro e protetto. Risulta essere molto ingombrante e necessita di tecniche di compressione lossy. La ricerca delle informazioni al suo interno è difficile.
 
 Contiene referti, lettere di dimissione, vaccinazioni, ricoveri, esami specialistici, farmaci prescritti ed eventuali esenzioni. Viene gestito dalle regioni sotto l’infrastruttura del Ministero della Salute e i medici lo possono consultare sotto il permesso dell’interessato. Ogni cittadino vi può accedere via SPID/CIE.
 
@@ -57,7 +57,7 @@ Il FSE deve sottostare ad una serie di requisiti che ne garantiscono l'efficacia
 
 - Disponibilità delle informazioni: il sistema deve recuperare i dati da tutte le regioni, ospedali, ASL, anche se non sono nello stesso posto e deve funzionare come una rete federata, non come un unico database centrale.
 - Supporto ai processi di cura: deve collegare tra loro le informazioni relative a singoli episodi clinici (es ricovero, visita, intervento) in modo da aiutare a ricostruire il percorso di cura di un paziente nel tempo.
-- Aderenza al modello sanitario attuale deve rispecchiare la struttura reale del SSN italiano, inclusi i ruoli dei medici di base, specialisti, ospedali, ... allineandosi ai processi clinici ed amministrativi già in uso
+- Aderenza al modello sanitario attuale: deve rispecchiare la struttura reale del SSN italiano, inclusi i ruoli dei medici di base, specialisti, ospedali, ... allineandosi ai processi clinici ed amministrativi già in uso
 - Facilità di integrazione con le soluzioni esistenti: deve potersi collegare ai software già in uso nelle regioni, ASL e ospedali con l’obiettivo è evitare duplicazioni, migrazioni complesse o sistemi incompatibili.
 - Uso del Sistema Pubblico di Connettività: deve sfruttare le infrastrutture pubbliche esistenti per collegare tra loro le istituzioni in modo sicuro.
 - Basato su standard aperti: deve utilizzare standard internazionali, documentati e interoperabili (es. HL7, CDA, FHIR, ICD-10, SNOMED) con lo scopo di garantisce la portabilità e l'interscambio tra sistemi diversi.

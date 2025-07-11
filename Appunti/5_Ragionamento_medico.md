@@ -10,7 +10,7 @@ Un osservazione fatta sui dati genera un ipotesi. Un set di ipotesi è detta dia
 
 Questo processo è knowledge-based in quanto necessita delle conoscenze riguardanti fatti o informazioni sul paziente, modelli diagnostici/terapeutici ed euristiche generate in base all'esperienza del medico. Si divide in 3 fasi: valutazione iniziale, test diagnostici e osservazioni approfondite.
 
-Tutti i dati clinici hanno un certo livello di incertezza che deve essere espresso in termini di probabilità
+Tutti i dati clinici hanno un certo livello di incertezza che deve essere espresso in termini di probabilità.
 
 ### Valutazione iniziale
 
@@ -52,4 +52,4 @@ Le informazioni devono essere comunicate in maniera efficiente sia al medico che
 
 La ricerca medica produce nuovi metodi per diagnosi, terapie e metodi per la valutazione delle prognosi. Il processo è comunque lungo e perché uno studio provochi cambiamenti a livello pratico possono volerci anni durante i quali lo studio viene letto, compreso e accettato dai medici.
 
-Il paradigma utilizzato nella ricerca è quello della Evidence Based Medicine che colleziona e formalizza i risultati delle ricerche mediche secondo il ciclo ipotetico deduttivo.
+Il paradigma utilizzato nella ricerca è quello della evidence based medicine che colleziona e formalizza i risultati delle ricerche mediche secondo il ciclo ipotetico deduttivo.
