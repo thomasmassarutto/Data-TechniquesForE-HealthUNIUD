@@ -31,11 +31,11 @@ Lo standard ISO1087 è una terminologia delle terminologie che definisce vari vo
 
 ## Terminologia vs classificazione
 
-Una terminologia è una lista di espressioni definite, possibilmente accompagnate da codici. Ogni concetto è unico e il vocabolario utilizzato è limitato. Le terminologie sono dette enumerative quando sono un elenco esaustivo di tutti i termini utilizzabili o combinatorie nel caso vengano usate combinazioni di termini per definire un concetto complesso.
+Una terminologia è una lista di espressioni definite possibilmente accompagnate da codici. Ogni concetto è unico e il vocabolario utilizzato è limitato. Le terminologie sono dette enumerative quando sono un elenco esaustivo di tutti i termini utilizzabili o combinatorie nel caso vengano usate combinazioni di termini per definire un concetto complesso.
 
 Le classificazioni sono gerarchie che partono da un concetto astratto e giungono ad un concetto specifico tramite la specializzazione dei concetti. Le classi sono mutualmente esclusive e coprono tutto l'insieme delle possibilità, eventualmente con residuali.
 
-Per riassumere: una terminologia medica è un vocabolario medico, mentre una classificazione medica associa ad una classe il contenuto di una cartella clinica. Copre in modo completo il dominio di interesse, eventualmente con classi residuali, è mutualmente esclusiva, dispone di criteri per discriminare situazioni di confine e deve avere il giusto livello di dettaglio. Utilizzando una classificazione è possibile specificare un concetto solo con le foglie dell'albero delle gerarchie.
+Per riassumere: una terminologia medica è un vocabolario medico, mentre una classificazione medica associa ad una classe il contenuto di una cartella clinica, copre in modo completo il dominio di interesse, eventualmente con classi residuali, è mutualmente esclusiva, dispone di criteri per discriminare situazioni di confine e deve avere il giusto livello di dettaglio. Utilizzando una classificazione è possibile specificare un concetto solo con le foglie dell'albero delle gerarchie.
 
 Vi può comunque essere una interazione fra classificazioni e terminologie e l'introduzione di nuove terminologie può avvenire da zero o con riferimenti a alla letteratura.
 

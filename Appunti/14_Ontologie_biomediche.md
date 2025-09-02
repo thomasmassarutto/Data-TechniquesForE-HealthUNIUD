@@ -33,7 +33,7 @@ Un'espressione, il più delle volte, è scomponibile in triple composte da sogge
 
 ## Logica descrittiva
 
-La logica descrittiva è un linguaggio formale che permette di descrive logicamente le asserzioni riguardo alla conoscenza in modo che poi queste possano essere utilizzate da motori di inferenza logica. Questo strumento è utilizzato per descrivere classi (es. tipi di malattie o parassiti) e non è altrettanto efficace nel descrivere istanze singole.
+La logica descrittiva è un linguaggio formale che permette di descrivere logicamente le asserzioni riguardo alla conoscenza, in modo che poi queste possano essere utilizzate da motori di inferenza logica. Questo strumento è utilizzato per descrivere classi (es. tipi di malattie o parassiti) e non è altrettanto efficace nel descrivere istanze singole.
 
 In ambito medico alcune asserzioni sono complesse da tradurre (rischi, piani, disposizioni, ...) e possono risultare ostiche da rendere dal punto di vista logico. Ad esempio un espressione disgiunta non implica esclusività fra le classi:
 
@@ -41,7 +41,7 @@ $$
 A: x \lor r \lor z
 $$ 
 
-esprime mutua esclusività solo se specificato per tutte le permutazioni possibili, ovvero 
+$A$ esprime mutua esclusività solo se specificato per tutte le permutazioni possibili, ovvero 
 
 $$
 A: x \land \neg(y \lor z) , \dots
@@ -83,6 +83,4 @@ FMA (Foundational Model of Anatomy) modella simbolicamente il corpo umano grazie
 
 La tassonomia anatomica (AT) è la classificazione delle entità anatomiche in base alle caratteristiche condivise.
 (Es.: organi raggruppati secondo la forma, funzione, tessuto, ecc.)
-L'astrazione strutturale anatomica (ASA) rappresenta le relazioni di tipo parte-tutto e le relazioni spaziali tra le entità presenti nella tassonomia anatomica (AT). (Es.: “il cuore fa parte del torace”, “il rene è laterale rispetto alla colonna vertebrale”)
-L'astrazione delle trasformazioni anatomiche (ATA) descrive le trasformazioni morfologiche (cioè i cambiamenti di forma/struttura) delle entità anatomiche tra lo sviluppo prenatale e la vita postnatale. (Es.: come si sviluppa il cervello dal feto all’età adulta)
-La meta conoscenza (MK) include i principi, le regole e le definizioni con cui vengono rappresentate le classi e le relazioni nelle componenti sopra elencate. (Serve per dare coerenza e formalismo all’intera ontologia anatomica.)
+L'astrazione strutturale anatomica (ASA) rappresenta le relazioni di tipo parte-tutto e le relazioni spaziali tra le entità presenti nella tassonomia anatomica (AT). (Es.: “il cuore fa parte del torace”, “il rene è laterale rispetto alla colonna vertebrale”). L'astrazione delle trasformazioni anatomiche (ATA) descrive le trasformazioni morfologiche (cioè i cambiamenti di forma/struttura) delle entità anatomiche tra lo sviluppo prenatale e la vita postnatale. (Es.: come si sviluppa il cervello dal feto all’età adulta), la meta conoscenza (MK) include i principi, le regole e le definizioni con cui vengono rappresentate le classi e le relazioni nelle componenti sopra elencate. (Serve per dare coerenza e formalismo all’intera ontologia anatomica.)

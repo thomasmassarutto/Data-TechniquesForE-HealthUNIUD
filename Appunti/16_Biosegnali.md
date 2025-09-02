@@ -6,13 +6,13 @@ Una sottocategoria dei biosegnali sono le bioimmagini. In questo tipo di dato il
 
 Biosegnali e bioimmagini possono esaminare aspetti difficilmente misurabili in altri modi, come organi interni o aspetti microscopici o cellulari.
 
-Vengono normalmente prodotti molti biosegnali che se non filtrati correttamente possono risultare come rumore al segnale di interesse. Solitamente vengono presi in considerazione pochi segnali alla volta per determinare un caso clinico.
+Normalmente vengono prodotti molti biosegnali che, se non filtrati correttamente, possono risultare come rumore al segnale di interesse. Solitamente vengono presi in considerazione pochi segnali alla volta per determinare un caso clinico.
 
 Lo scopo è monitorare oggettivamente il funzionamento del corpo umano.
 
 ## Terminologia 
 
-- Elaborazione: un biosegnale viene elaborato quando su di esso vengono eseguite delle trasformazioni che lo modificano aggiungendo con miglioramenti ed evidenziature. Il biosegnale rimane dello stesso tipo di quello originale.
+- Elaborazione: un biosegnale viene elaborato quando su di esso vengono eseguite delle trasformazioni che lo modificano aggiungendo informazioni con miglioramenti ed evidenziature. Il biosegnale rimane dello stesso tipo di quello originale.
 - Analisi: le operazioni eseguite su di un biosegnale ritornano qualcosa di più semplice dal punto di vista dei dati.
 - Interpretazione: le operazioni eseguite su di un biosegnale estraggono informazioni di tipo qualitativo.
 
@@ -48,7 +48,7 @@ I biosegnali sono principalmente espressi in funzione del tempo e nei casi più 
 
 ### Il rumore
 
-Il rumore dipende da varie fasi e quelli principali sono: rumore termico, elettronico e ambientale. Quando si tratta di rumore additivo è possibile toglierlo, ma questo genere di rumori non è ciò che generalmente causa problemi. 
+Il rumore dipende da varie fasi e quelli principali sono: rumore termico, elettronico e ambientale. Quando si tratta di rumore additivo è possibile sottrarlo semplicemente, ma questo genere di rumori non generalmente causa di problemi. 
 
 Una tecnica per ridurre il rumore, che però non sempre è possibile, consiste nell'eseguire più misurazioni e utilizzare poi la media come dato ufficiale.
 

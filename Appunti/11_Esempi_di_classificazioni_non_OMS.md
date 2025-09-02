@@ -4,7 +4,7 @@
 
 DRG (Diagnostic Related group) o ROD (Raggruppamenti Omogenei di Diagnosi) in italiano è una classificazione che permette di calcolare il rimborso forfettario per un ricovero fornendo una stima del costo.
 
-Parte dalle diagnosi e dalle procedure presenti nella scheda di dimissione ed è diviso in 25 categorie che sono a loro volta divise in 500 classi. Le categorie dette MCD (Major Diagnostic Categories) sono simili a quelle di ICD, quindi organizzato in base agli organi. Le classi servono per il rimborso alle aziende ospedaliere e ognuna ha un costo medio aggiornato periodicamente.
+Si basa sulle diagnosi e sulle procedure presenti nella scheda di dimissione ed è diviso in 25 categorie che sono a loro volta divise in 500 classi. Le categorie dette MCD (Major Diagnostic Categories) sono simili a quelle di ICD, quindi organizzato in base agli organi. Le classi servono per il rimborso alle aziende ospedaliere e ognuna ha un costo medio aggiornato periodicamente.
 
 In Italia, prima del 1993, i rimborsi alle aziende ospedaliere venivano calcolati in base allo storico, ai giorni passati in ospedale o con vari altri metodi, solo poi si è passati ad un calcolo automatico in base alla scheda di dimissione basato sui DRG.
 
@@ -12,9 +12,9 @@ In Italia, prima del 1993, i rimborsi alle aziende ospedaliere venivano calcolat
 
 SNOMED (Systematized NOMenclature of MEDicine) è una nomenclatura nata negli anni 80 per annotare i referti di anatomia patologica che si è poi evoluta per rappresentare tutti gli eventi in cartella clinica. 
 
-La versione SNOMED3 è composta da 11 moduli con migliaia di codici alfanumerici da 5/6 caratteri. L'organizzazione dei moduli è gerarchica e si basa su vari aspetti clinici, compresa la posizione del corpo di riferimento. Si tratta di una nomenclatura, non di una classificazione, in quanto è possibile specificare un concetto con il livello di dettaglio specificato. La liberà alle volte è eccessiva e si rischia di ricadere nei pregi e difetti del linguaggio naturale.
+La versione SNOMED3 è composta da 11 moduli con migliaia di codici alfanumerici da 5/6 caratteri. L'organizzazione dei moduli è gerarchica e si basa su vari aspetti clinici, compresa la posizione del corpo di riferimento. Si tratta di una nomenclatura, non di una classificazione, in quanto è possibile specificare un concetto con il livello di dettaglio necessario. La liberà alle volte è eccessiva e si rischia di ricadere nei pregi e difetti del linguaggio naturale.
 
-L'ultima versione è SNOMED CT (Systematized NOMenclature of MEDicine Clinical Terms). Si tratta di un ontologia formale con un contenuto logico che permette relazioni fra i vari concetti con cui è organizzato. Oltre alla terminologia medica generica tratta la terminologia clinica dettagliata ed è la prima versione completamente standardizzata di SNOMED.
+L'ultima versione è SNOMED CT (Systematized NOMenclature of MEDicine Clinical Terms). Si tratta di un ontologia formale con un contenuto logico che permette relazioni fra i vari concetti con cui è organizzato. Oltre alla terminologia medica generica, tratta la terminologia clinica dettagliata ed è la prima versione completamente standardizzata di SNOMED.
 
 Ogni voce della nomenclatura SNOMED è caratterizzata dal suo fully specified name.
 

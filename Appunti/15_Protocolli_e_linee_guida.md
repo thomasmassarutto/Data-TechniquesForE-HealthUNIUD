@@ -2,39 +2,39 @@
 
 I protocolli e le linee guida danno indicazioni comportamentali su cosa fare in determinate situazioni.
 
-In particolare i protocolli sono un insieme di istruzioni che descrivono la maniera ideale di svolgere un compito. Nella pratica il modo migliore non esiste e queste istruzioni sono utilizzate per diagnosticare e curare una certa categoria di malattie in modo standard. Aiutano ad operare in maniera uniforme e tendenzialmente corretta.
+## Protocolli
 
-Di un protocollo possono nascere diverse varianti che hanno lo scopo di adattarsi a casi particolari come: altre malattie, condizioni particolari, indisponibilità di procedure mediche o fattori esterni in generale.
+In particolare i protocolli sono un insieme di istruzioni che servono a descrivere la maniera ideale di svolgere un compito. Nella pratica il modo migliore non esiste e queste istruzioni sono utilizzate per diagnosticare e curare una certa categoria di malattie in modo standard. Aiutano ad operare in maniera uniforme e tendenzialmente corretta.
+
+Di un protocollo possono nascere diverse varianti che hanno lo scopo di adattarsi a casi particolari come altre malattie, condizioni particolari, indisponibilità di procedure mediche o fattori esterni in generale.
 
 Un protocollo deve avere dei criteri di ingresso in grado di descrivere il contesto in cui può essere utilizzato e delle azioni da intraprendere che possono essere espresse tramite flowchart o regole logiche. Quando un protocollo è particolarmente complesso può essere spezzato in sotto-protocolli.
 
-Infine è necessario che un protocollo sia:
+Infine, è necessario che un protocollo sia:
 
-- utile: va meglio di uno standard
+- utile: utilizzato per risolvere problemi concreti
 - progettabile: gli eventi non devono essere troppo variabili
 - usabile: usarlo deve essere conveniente
 
-Le linee guida sono meno formali rispetto ai protocolli e la loro struttura focalizza tutto ad una serie di raccomandazioni sul cosa fare e cosa evitare di fare.
-
 ## Percorsi di cura
 
-I percorsi di cura prevedono ch ela cura del paziente venga divisa in giorni teorici in base allo stato del paziente. Si crea così una macchina a stati in cui ogni giorno ha un diagramma di flusso che rende la transazione di un paziente da uno stato all'altro più facile.
+I percorsi di cura prevedono che la cura del paziente venga divisa in giorni teorici in base allo stato del paziente. Si crea così una macchina a stati in cui ogni giorno ha un diagramma di flusso che rende la transazione di un paziente da uno stato all'altro più facile.
 
 ## Protocolli computerizzati
 
-I protocolli computerizzati possono essere attivi o passivi. Quelli passivi possono essere computer based, ma non interagiscono con i dati contenuti nei sistemi informativi. I protocolli attivi sono sistemi più complessi che prevedono un supporto attivo alle decisioni del personale clinico anche in base a interazioni con le cartelle cliniche dei pazienti. Questi protocolli permettono anche la comunicazione fra la cartella clinica e i macchinari.
+I protocolli computerizzati possono essere attivi o passivi. Quelli passivi possono essere computer based, ma non interagiscono con i dati contenuti nei sistemi informativi. I protocolli attivi sono sistemi più complessi che prevedono un supporto attivo alle decisioni del personale clinico, anche in base a interazioni con le cartelle cliniche dei pazienti. Questi protocolli permettono la comunicazione fra la cartella clinica e i macchinari.
 
 ## Linee guida
 
-Le linee guida sono delle raccomandazioni a fare o non fare qualcosa. Vengono create in base alla forza dell'evidenza quando una buona quantità di studi supportano una raccomandazione.
+Le linee guida sono meno formali rispetto ai protocolli e la loro struttura si focalizza tutto su una serie di raccomandazioni riguardo al cosa fare e cosa evitare di fare. Vengono create in base alla forza dell'evidenza quando una buona quantità di studi supportano una raccomandazione.
 
 ## Costruzione e manutenzione di un protocollo
 
-I protocolli sono basati sulla evidence based medicine e sull'analisi scientifica. Sono scritti per essere interpretati da umani, ma, con l'avvento della medicina informatica, devono essere riportati in forma informatica.
+I protocolli sono basati sulla evidence based medicine e sull'analisi scientifica. Sono scritti per essere interpretati da umani, ma, con l'avvento della medicina informatica, devono essere riportati anche in forma informatica.
 
 L'integrazione con la cartella clinica è fondamentale e permette ad un monitor di eventi di osservare le operazioni eseguite sulle workstation cliniche. In questo modo, quando i dati vengono inseriti in qualche repository, è possibile controllare se questi rappresentano un punto di ingresso di un protocollo. Quando questo accade, il dato viene passato ad un motore di interpretazione di protocolli che fa partire un trigger per il fetch dei dati utili.
 
-Questo iter viene notificato alla workstation, tramite una notifica che fa da supporto alla decisione, e a chiunque sia interessato. Questo accade solo se il protocollo è attivo.
+Il risultato di questo iter viene notificato alla workstation e a chiunque sia interessato tramite una notifica che di supporto alla decisione. Tutto ciò accade solo se il protocollo è attivo.
 
 La principale differenza fra un protocollo passivo e uno attivo sta nel fatto che il primo è leggibile, mentre il secondo è anche computabile e necessita quindi di terminazioni, classificazioni e ontologie per essere implementato.
 
@@ -48,13 +48,12 @@ Un protocollo generale ha bisogno di modellare quali siano i suoi input.
 
 ### Primitive di rappresentazione
 
-Le primitive di rappresentazione sono unità fondamentali che descrivono i concetti clinici all’interno di protocolli e linee guida. Permettendo la modellazione formale, e quindi computabile, dei processi decisionali previsti.
+Le primitive di rappresentazione sono unità fondamentali che descrivono i concetti clinici all’interno di protocolli e linee guida. Permettendo la modellazione formale, e quindi la computabilità, dei processi decisionali previsti. Le principali primitive sono:
 
 - azioni: azioni cliniche, amministrative, collezione dati o attesa.
 - decisioni: decisioni automatiche o che necessitano l'intervento umano
-- stati: 
-  - del paziente: un paziente virtuale è rappresentato con uno stato all'interno di diversi scenari all'interno del protocollo.
-  - dell'esecuzione: un protocollo può essere visto come una macchina a stati finiti.
+- stati del paziente: un paziente virtuale è rappresentato con uno stato all'interno di diversi scenari all'interno del protocollo.
+- stati dell'esecuzione: un protocollo può essere visto come una macchina a stati finiti.
 
 ### Dati dei pazienti
 

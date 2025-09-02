@@ -43,7 +43,7 @@ HL7 V3 è stato creato prendendo spunto da casi d'uso da cui viene generato un m
 
 Per astrarre ciò che ha a che fare con la comunicazione, i casi d'uso vengono modellati tramite UML così da capire le figure chiave che compaiono più spesso. Da queste vengono creati gli oggetti usati per definire i messaggi.
 
-Un modello di messaggio astratto è il risultato dell'unione fra il modello di referenza, le specifiche comuni e le specifiche di domino. Una volta chiariti questi nodi sarà possibile passare all'implementazione fisica tramite XML o altri linguaggi di markup.
+Un modello di messaggio astratto è il risultato dell'unione fra il modello di referenza, le specifiche comuni e le specifiche di domino. Una volta chiariti questi nodi, sarà possibile passare all'implementazione fisica tramite XML o altri linguaggi di markup.
 
 #### Scambio di messaggi
 
@@ -81,11 +81,9 @@ Utilizza un'architettura basata su REST (Representational State Transfer), che c
 
 ### Risorse
 
-FHIR definisce un insieme di risorse, che rappresentano categorie di dati comunemente utilizzati negli scambi di informazioni tra sistemi. Queste risorse possono essere utilizzate singolarmente o in combinazione e sono formate da elementi, vincoli e relazioni che le legano le une alle altre. Ognuna di queste è identificata da un URI univoco. 
+FHIR definisce un insieme di risorse, che rappresentano categorie di dati comunemente utilizzate negli scambi di informazioni tra sistemi. Queste risorse possono essere utilizzate singolarmente o in combinazione e sono formate da elementi, vincoli e relazioni che le legano le une alle altre. Ognuna di queste è identificata da un URI univoco e nascono per essere più generali possibile. In base alla necessità possono essere combinate, estese e modificate.
 
 Un esempio di risorsa è il paziente.
-
-Le risorse nascono per essere più generali possibile e possono essere combinate, estese e modificate in base alle necessità.
 
 ### API FHIR
 
@@ -101,15 +99,15 @@ Il FSE 2.0 dovrebbe adottare FHIR, ma attualmente risulta un progetto con poca a
 - Architettura di riferimento non omogenea a livello regionale: sono presenti disomogeneità nei sistemi e nei processi e questo rende difficile l'integrazione e la condivisione dei dati tra le varie strutture sanitarie.
 - Servizi inefficienti: sia i servizi orientati ai cittadini che quelli orientati al supporto della ricerca e delle attività di governance limitano la crescita e l'adesione alla nuova versione del FSE.
 
-Il ruolo di FHIR nel FSE 2.0 è quello di fungere da ponte a livello regionale fra il sistema nazionale e la struttura ospedaliera. Un gateway per l'acquisizione e la validazione dei dati che si occupa di garantire che i dati siano conformi a vari criteri tecnici (dati siano correttamente formattati e compatibili), sintattici, semantici e di privacy.
+Il ruolo di FHIR nel FSE 2.0 è quello di fungere da ponte, a livello regionale, fra il sistema nazionale e la struttura ospedaliera. Un gateway per l'acquisizione e la validazione dei dati che si occupa di garantire che i dati siano conformi a vari criteri tecnici (dati siano correttamente formattati e compatibili), sintattici, semantici e di privacy.
 
 ## DICOM
 
-DICOM (Digital Imaging and COmmunications in Medicine) è uno standard per la trasmissione, lo storage e la visualizzazione di immagini nato per la radiografia che poi si è espanso ad altri ambiti medici. Standardizza sulla base di HL7 anche gli schermi ed è stato sviluppato da radiologi e da aziende tecniche del settore.
+DICOM (Digital Imaging and COmmunications in Medicine) è uno standard per la trasmissione, lo storage e la visualizzazione di immagini nato per la radiografia che poi si è espanso ad altri ambiti medici. Standardizza sulla base di HL7 anche gli schermi ed è stato sviluppato sia da radiologi che e da aziende tecniche del settore.
 
 Lo standard è definito in 15 parti/documenti interconnessi fra loro ed è aggiornato periodicamente da esperti suddivisi in working group che propongono correzioni o supplementi. Il processo di approvazione prevede 4 fasi che una modifica deve passare: work, draft, commenti e votazione.
 
-I documenti principali che un'implementazione deve avere sono l'introduzione, la conformance per dimostrare l'interoperabilità, la definizione degli oggetti, i metodi degli oggetti e le strutture dati con i supplementi di cui si i working group si occupano dei dettagli specifici.
+I documenti principali che un'implementazione deve avere sono l'introduzione, la conformance per dimostrare l'interoperabilità, la definizione degli oggetti, i metodi degli oggetti e le strutture dati con i supplementi di cui i working group si occupano dei dettagli specifici.
 
 ### Comunicazione e modelli 
 
@@ -121,9 +119,9 @@ I file DICOM sono costituiti da un header con i metadati e da delle immagini. Le
 
 ## IHE
 
-L'IHE (Integrating the Healthcare Enterprise) è un associazione che cerca di tradurre in regole pratiche i vari standard disponibili. Per fare ciò cerca di promuovere e verificare l'interoperabilità fra sistemi tramite l'utilizzo di profili di integrazione che definiscono gli standard da utilizzare in un caso d'uso fra sistemi informativi. Vengono coperti sia i casi d'uso intra-struttura che inter-struttura.
+L'IHE (Integrating the Healthcare Enterprise) è un associazione che cerca di tradurre in regole pratiche i vari standard disponibili. Per fare ciò cerca di promuovere e verificare l'interoperabilità fra sistemi tramite l'utilizzo di profili di integrazione che definiscono gli standard da utilizzare, in base al caso d'uso specifico, fra sistemi informativi. Vengono coperti sia i casi d'uso intra-struttura che inter-struttura.
 
 Il sui compito è quindi quello di descrivere i casi d'uso e mappare su di essi gli standard.
 
-Un sistema viene progettato secondo i profili di integrazione e poi viene testato con i sistemi preesistenti in eventi quali connectathlon per testare la sua interoperabilità.
+Un sistema viene progettato secondo i profili di integrazione e poi viene testato con i sistemi preesistenti, in eventi quali  i connectathlon, per testare la sua interoperabilità.
 
