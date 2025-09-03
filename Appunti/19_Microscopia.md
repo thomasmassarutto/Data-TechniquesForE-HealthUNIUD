@@ -34,7 +34,7 @@ La fluorescenza permette di evidenziare alcuni cromosomi specifici dentro i nucl
 
 Il microscopio confocale a fluorescenza è in grado di illuminare un punto alla volta. La luce che questo riflette viene poi raccolta da uno scintillatore. Questo tipo di microscopio consente di focalizzare anche sull'asse z le immagini e permette di ricostruire immagini tridimensionali estremamente dettagliate. 
 
-I fluorocromi usati nella colorazione per questo metodo decadono e i campioni devono essere esaminati velocemente oppure ricolorati.
+I fluorocromi usati nella colorazione con questo metodo decadono e i campioni devono essere esaminati velocemente oppure ricolorati.
 
 ## Acquisizione 
 

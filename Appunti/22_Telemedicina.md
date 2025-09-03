@@ -73,7 +73,7 @@ In cui:
 
 Il servizio viene monitorato grazie a metodi di statistica descrittiva usati per monitorare le performance sotto l'aspetto dell'efficienza e dell'efficacia per capire se sono necessarie modifiche.
 
-Per quanto riguarda l'aspetto etico viene monitorato: il rapporto paziente-operatore, il trattamento di dati sensibili e i metodi con cui viene applicata la medicina transfrontaliera.
+Per quanto riguarda l'aspetto etico vengono monitorati: il rapporto paziente-operatore, il trattamento di dati sensibili e i metodi con cui viene applicata la medicina transfrontaliera.
 
 ## Indicazioni nazionali 2020
 
