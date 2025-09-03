@@ -14,7 +14,7 @@ La qualità della codificazione dipende da molti fattori come la bravura del cod
 
 ## Origine delle classificazioni
 
-Le classificazioni in ambito medico sono nate circa nel 1700 come metodo per avere dati statistici sulle malattie. Le classificazioni attuali (ICD, DRG, SNOMED(? non è classificazione)) sono utilizzate per la raccolta sistematica e l’analisi statistica dei dati sanitari.
+Le classificazioni in ambito medico sono nate circa nel 1700 come metodo per avere dati statistici sulle malattie. Le classificazioni attuali (ICD, DRG, SNOMED(? non è classificazione)) sono utilizzate per la raccolta sistematica e l'analisi statistica dei dati sanitari.
 
 ## Terminologia delle terminologie
 

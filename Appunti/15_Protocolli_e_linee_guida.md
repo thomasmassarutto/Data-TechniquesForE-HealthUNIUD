@@ -48,7 +48,7 @@ Un protocollo generale ha bisogno di modellare quali siano i suoi input.
 
 ### Primitive di rappresentazione
 
-Le primitive di rappresentazione sono unità fondamentali che descrivono i concetti clinici all’interno di protocolli e linee guida. Permettendo la modellazione formale, e quindi la computabilità, dei processi decisionali previsti. Le principali primitive sono:
+Le primitive di rappresentazione sono unità fondamentali che descrivono i concetti clinici all'interno di protocolli e linee guida. Permettendo la modellazione formale, e quindi la computabilità, dei processi decisionali previsti. Le principali primitive sono:
 
 - azioni: azioni cliniche, amministrative, collezione dati o attesa.
 - decisioni: decisioni automatiche o che necessitano l'intervento umano

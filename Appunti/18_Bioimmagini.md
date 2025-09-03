@@ -6,9 +6,9 @@ Le bioimmagini forniscono informazioni che non possono essere ottenute dai soli 
 
 Ogni immagine digitale può essere vista come una funzione in cui il valore del pixel ($a(x,y)$) è una proiezione di uno spazio tridimensionale sulla matrice che compone l'immagine.
 
-Data un immagine l'elaborazione permette di modificarne l'aspetto per migliorarla, l'analisi di estrapolare dell'informazione quantitativa e l'interpretazione fornisce dell'informazione qualitativa.
+Data un immagine: l'elaborazione permette di modificarne l'aspetto per migliorarla, l'analisi di estrapolare dell'informazione quantitativa e l'interpretazione fornisce dell'informazione qualitativa.
 
-Le immagini sono ottenute grazie all'interazione di onde elettromagnetiche con un corpo: tipicamente vengono attenuate, assorbite o deviate dai tessuti di esso. Le onde utilizzate in medicina sono varie e cambiano in base al tipo di esame: per le ecografie si usano gli ultrasuoni, ma per altri casi d'uso ne vengono usate di differenti come lo spettro elettromagnetico, un fascio elettronico o del potenziale elettrico. La scelta viene presa in base alla precisione necessaria, al costo e ad eventuali controindicazioni.
+Le immagini sono ottenute grazie all'interazione di onde elettromagnetiche con un corpo: tipicamente vengono attenuate, assorbite o deviate dai tessuti di esso. In ambito medico vengono utilizzati diversi tipi di onde, a seconda dell'esame da effettuare. Ad esempio, per le ecografie si impiegano gli ultrasuoni, mentre in altri casi si ricorre a onde dello spettro elettromagnetico, a fasci di elettroni o a potenziali elettrici. La scelta viene presa in base alla precisione necessaria, al costo e ad eventuali controindicazioni.
 
 A volte i fenomeni di interesse non sono direttamente visibili e bisogna trasformare il campione tramite colorazione di cellule o con mezzi di contrasto per renderne visibili le caratteristiche.
 
@@ -18,11 +18,11 @@ Un'immagine può essere acquisita tramite luce riflessa o luce trasmessa.
 
 Con il metodo della luce riflessa gli oggetti di interesse vengono colpiti da una fonte di luce di cui ne assorbono una quota e ne riflettono un altra. Questo è il tipico modo di lavorare delle fotocamere. 
 
-Per quanto riguarda la luce trasmessa, la fonte luminosa attraversa l'oggetto che si vuole riprendere trovandosi dietro di esso. Il sensore riceve i segnali della fonte luminosa che sono stati alterati dal passaggio attraverso l'oggetto, questo è il metodo più utilizzato in medicina: viene utilizzato nelle radiografie.
+Per quanto riguarda la luce trasmessa, la fonte luminosa attraversa l'oggetto che si vuole riprendere trovandosi dietro di esso. Il sensore riceve i segnali della fonte luminosa che sono stati alterati dal passaggio attraverso l'oggetto, questo è il metodo più comune in medicina: viene utilizzato nelle radiografie.
 
 ### Campionamento
 
-Le immagini acquisite sono un campionamento di punti: l'immagine è divisa in una griglia di elementi atomici, ovvero i pixel, che rappresentano il valore medio del colore nell'area scannerizzata. Il colore viene poi quantizzato per passare da una scala analogica a infiniti valori ad una scala digitale con valori discreti e limitati in grado di essere rappresentata in un calcolatore. Vi è quindi una doppia approssimazione: valore medio di colore in un pixel e quantizzazione di esso.
+Le immagini acquisite sono un campionamento di punti: l'immagine è divisa in una griglia di elementi atomici, ovvero i pixel, che rappresentano il valore medio del colore nell'area scannerizzata. Il colore viene poi quantizzato per passare da una scala analogica a infiniti valori ad una scala digitale con valori discreti e limitati in grado di essere rappresentati in un calcolatore. Vi è quindi una doppia approssimazione: valore medio di colore in un pixel e quantizzazione di esso.
 
 ### Approssimazione
 
@@ -38,8 +38,7 @@ Le immagini binarie sono dette maschere e dispongono di 2 livelli per rappresent
 
 ### Modelli del colore
 
-
-L'occhio umano è formato con una struttura a coni e bastoncelli. I coni sono sensibili al colore, specialmente al verde.
+L'occhio umano è formato da una struttura a coni e bastoncelli. I coni sono sensibili al colore, specialmente al verde.
 
 Ogni immagine a colori usa un modello specifico per rappresentare il colore, ci sono 2 principali modelli, ma non sono gli unici. Quello additivo (RGB) rappresenta i colori primari aggiungendoli ad un ipotetico sfondo nero, mentre quello sottrattivo (CMGK) sottrae i colori da uno sfondo bianco. Questi modelli sono facilmente intercambiabili e permettono di cogliere dettagli diversi.
 
@@ -53,15 +52,15 @@ I sensori permettono di trasformare il segnale continuo naturale in una bitmap d
 
 CCD e CMOS sono tipi di sensore costituiti da una griglia di elementi sensibili alla quantità di luce, questa viene vista come un insieme di particelle, fotoni, che vengono contate dal sensore per capire l'intensità del segnale. Dal punto di vista commerciale le dimensioni della griglia sono espresse in pollici e il numero dei sensori è il megapixel.
 
-Ogni elemento della griglia è sensibile alla luce, non al colore, che viene selezionato tramite micro lenti e filtri cromatici. Questi servono sia ad ottenere immagini a colori, sia a filtrare le frequenze indesiderate, come infrarossi o ultravioletti.
+Ogni elemento della griglia è sensibile alla luce, non al colore che viene selezionato tramite micro lenti e filtri cromatici. Questi servono sia ad ottenere immagini a colori, sia a filtrare le frequenze indesiderate come infrarossi o ultravioletti.
 
-La differenza tra CCD e CMOS risiede nel modo in cui i dati vengono trasferiti dalla griglia dei sensori al processore. Le fotocamere CCD utilizzano una metodologia di trasferimento seriale, in cui le informazioni di ciascun sensore vengono inviate una dopo l'altra al processore. Al contrario, le fotocamere CMOS sono dotate di elementi sensibili con digitalizzatori integrati che permettono una lettura simultanea dei dati. Questo approccio consente di trattare l'immagine come una sorta di memoria RAM, con la possibilità di leggere solo una parte dell'immagine, tuttavia, può verificarsi una leggera variabilità nei colori tra i diversi sensori a causa delle differenze nelle loro caratteristiche di risposta.
+La differenza tra CCD e CMOS risiede nel modo in cui i dati vengono trasferiti dalla griglia dei sensori al processore. Le fotocamere CCD utilizzano una metodologia di trasferimento seriale in cui le informazioni di ciascun sensore vengono inviate una dopo l'altra al processore. Al contrario, le fotocamere CMOS sono dotate di elementi sensibili con digitalizzatori integrati che permettono una lettura simultanea dei dati. Questo approccio consente di trattare l'immagine come una sorta di memoria RAM con la possibilità di leggere solo una parte dell'immagine, tuttavia, può verificarsi una leggera variabilità nei colori tra i diversi sensori a causa delle differenze nelle loro caratteristiche di risposta.
 
 ### CCD e rumore
 
-Vi sono vari tipi di rumore presenti. Il rumore termico è generato dall'agitazione termica delle particelle, il rumore fotonico dipende dal numero dei fotoni che arrivano al sensore, il readout noise è il rumore introdotto durante il processo di lettura dei segnali da parte di un sensore e dipende dalla variabilità nella conversione dei dati, infine il rumore di quantizzazione viene generato digitalizzando un segnale analogico.
+Vi sono vari tipi di rumore presenti. Il rumore termico è generato dall'agitazione termica delle particelle, il rumore fotonico dipende dal numero dei fotoni che arrivano al sensore, il readout noise è il rumore introdotto durante il processo di lettura dei segnali da parte di un sensore e dipende dalla variabilità nella conversione dei dati, infine il rumore di quantizzazione è quello generato digitalizzando un segnale analogico.
 
-Più grande è l'elemento sensibile, più basso è il rumore in quanto il sensore è in grado di catturare più fotoni e di discriminare più livelli di luce, tuttavia permette una risoluzione inferiore rispetto a elementi più piccoli.
+Più grande è l'elemento sensibile, più basso è il rumore in quanto il sensore è in grado di catturare più fotoni e di discriminare più livelli di luce. Tuttavia le dimensioni maggiori garantiscono una risoluzione inferiore rispetto a elementi più piccoli.
 
 ### CCD e acquisizione del colore
 
@@ -69,14 +68,13 @@ Idealmente il segnale di output del sensore dovrebbe essere linearmente proporzi
 
 I due principali metodi per acquisire colore con le fotocamere CCD sono 3CCD e MONOCCD. 
 
-La tecnica 3CCD prevede la presenza di 3 sensori indipendenti che ricevono la stessa luce filtrata da un prisma e ogni sensore dispone di un filtro per un dato colore. Le immagini prodotte sono di buona qualità, ma la tecnica è poco sensibile alle basse luminosità poiché la luce viene divisa dal prisma. 
+La tecnica 3CCD prevede la presenza di 3 sensori indipendenti che ricevono la stessa luce filtrata da un prisma. Ogni sensore dispone di un filtro per un dato colore e le immagini così prodotte sono di buona qualità, tuttavia la tecnica è poco sensibile alle basse luminosità poiché la luce viene divisa dal prisma. 
 
-La tecnica MONOCCD si basa sul mosaico di Bayer: davanti ad ogni sensore vi è un filtro colorato rosso, verde e blu. In un quadrato 4x4 vi sono due sensori per il verde, uno per il rosso e uno per il blu. Ogni pixel ha un filtro per un colore apposito e viene colorato tramite interpolazione con i colori dei pixel vicini, la resa dei colori è inferiore rispetto a 3CCD, ma le fotocamere sono più economiche da produrre.
+La tecnica MONOCCD si basa sul mosaico di Bayer: davanti ad ogni sensore vi è un filtro colorato rosso, verde e blu. In un quadrato 4x4 vi sono due sensori per il verde, uno per il rosso e uno per il blu. Ogni pixel ha un filtro per un colore apposito e usa l'interpolazione con i valori pixel vicini per sopperire alla mancanza di informazione riguardante i colori mancanti. La resa dei colori è inferiore rispetto a 3CCD, ma le fotocamere sono più economiche da produrre.
 
 ## Sensori ad uso scientifico
 
-Per garantire risultati attendibili, un sensore utilizzato in ambito scientifico deve avere tutte le specifiche tecniche ben definite. Inoltre, è fondamentale che il sensore sia tarato per determinare la sua risoluzione reale.
-e, per fare ciò, vengono ripresi oggetti di caratteristiche note con il fine di controllare nell'immagine digitale il dettaglio.
+Per garantire risultati attendibili, un sensore utilizzato in ambito scientifico deve avere tutte le specifiche tecniche ben definite. Inoltre, è fondamentale che il sensore sia tarato per determinare la sua risoluzione reale. Per fare ciò, vengono ripresi oggetti di caratteristiche note con il fine di controllare nell'immagine digitale il dettaglio.
 
 In ambito scientifico vengono spesso usati sensori CCD, ma ultimamente anche i sensori CMOS hanno trovato spazio. 
 
@@ -86,11 +84,11 @@ Per quanto riguarda i video, deve essere nota anche la velocità di trasferiment
 
 ### Efficienza quantica
 
-Non sempre tutti i fotoni vengono tradotti in segnale: l'efficienza quantica misura la percentuale di fotoni tradotti in segnale. Questa misura dipende dalla lunghezza d'onda: non ci sono sensori che rispondono linearmente a tutte le frequenze sensibili e  questa misura varia dal 20% al 80%. Quando è alta è possibile percepire segnali molto deboli.
+Non sempre tutti i fotoni vengono tradotti in segnale: l'efficienza quantica misura la percentuale di fotoni tradotti in segnale. Questa misura dipende dalla lunghezza d'onda: non ci sono sensori che rispondono linearmente a tutte le frequenze sensibili e questa misura varia dal 20% al 80%. Quando è alta è possibile percepire segnali molto deboli.
 
 ### Full well capacity
 
-Ogni elemento ha una capacità massima di fotoni che è in grado di acquisire. La full well capacity serve a capire quanti livelli il sensore riesce a discriminare a livello teorico, in quanto i livelli reali sono di meno a causa del rumore.
+Ogni elemento ha una capacità massima di fotoni che è in grado di acquisire. La full well capacity serve a capire quanti livelli il sensore riesce a discriminare a livello teorico, tuttavia i livelli reali sono di meno a causa del rumore.
 
 Il dynamic range è la relazione fra full well capacity e readout noise. Descrive i livelli effettivi ed è indipendente dalla rappresentazione in pixel: $\text{dynamic range} = \frac{\text{FWC}}{\text{readout noise}}$.
 
@@ -118,7 +116,7 @@ Altri artefatti possono essere generati dalla luce che colpisce il centro del ca
 
 ### Ultrasuoni
 
-Gli ultrasuoni sono uno dei sistemi più utilizzati per acquisire bioimmagini. Il principio è simile a quello del radar e del sonar: viene generato un segnale e si registra il suo eco. Differenti tipologie di lunghezze d’onda vengono riflesse in modi diversi dai vari organi, questo permette di misurare la distanza tra la sonda e l'organo, la densità dei tessuti attraversati, ecc.
+Gli ultrasuoni sono uno dei sistemi più utilizzati per acquisire bioimmagini. Il principio è simile a quello del radar e del sonar: viene generato un segnale e si registra il suo eco. Differenti tipologie di lunghezze d'onda vengono riflesse in modi diversi dai vari organi, questo permette di misurare la distanza tra la sonda e l'organo, la densità dei tessuti attraversati, ecc.
 
 Vengono usate onde tra i 2 e i 10 MHz ed è considerato un metodo sicuro e portatile.
 
@@ -135,19 +133,19 @@ La tomografia computerizzata (TC) è una tecnica che utilizza una serie di raggi
 
 Questi raggi attraversano i tessuti e vengono attenuati in base alla densità del materiale che attraversano (ossa, muscoli, organi, ecc.).
 
-I dati raccolti da un rilevatore vengono poi elaborati da un computer, che ricostruisce immagini tridimensionali (o sezioni bidimensionali) dell’interno del corpo. Ogni piccolo volume (detto voxel) viene analizzato per determinare quanto ha attenuato i raggi, permettendo di mappare con precisione la struttura interna degli organi.
+I dati raccolti da un rilevatore vengono poi elaborati da un computer, che ricostruisce immagini tridimensionali (o sezioni bidimensionali) dell'interno del corpo. Ogni piccolo volume (detto voxel) viene analizzato per determinare quanto ha attenuato i raggi, permettendo di mappare con precisione la struttura interna degli organi.
 
 Come risultato, otteniamo immagini delle diverse sezioni del corpo acquisite a breve distanza lungo l'asse z, il che permette una ricostruzione tridimensionale dettagliata del corpo.
 
 ## Elaborazione delle bioimmagini
 
-Le operazioni di elaborazione delle immagini sono solitamente definite per immagini a livelli di grigio. Le immagini a colori vengono trattate come tre immagini a livelli di grigio separate, se il modello è a colori saranno presenti tanti canali quante sono le colorazioni.
+Le operazioni di elaborazione delle immagini sono solitamente definite per immagini a toni di grigio. Le immagini a colori vengono trattate come tre immagini a toni di grigio separate, se il modello è a colori saranno presenti tanti canali quante sono le colorazioni.
 
-Un buon modo per sintetizzare il contenuto di un immagine a toni di grigio è l’istogramma.
+Un buon modo per sintetizzare il contenuto di un immagine a toni di grigio è l'istogramma.
 
 ## Regioni di interesse
 
-Un’immagine può contenere delle sotto-immagini che rappresentano degli oggetti (possono essere d’interesse o meno).Solitamente per rappresentare questo tipo di informazione vengono utilizzate le immagini binarie (0,1) e il dato importante non è rappresentato dal valore del pixel ma dalla sua presenza.
+Un'immagine può contenere delle sotto-immagini che rappresentano degli oggetti (possono essere d'interesse o meno).Solitamente per rappresentare questo tipo di informazione vengono utilizzate le immagini binarie (0,1) e il dato importante non è rappresentato dal valore del pixel ma dalla sua presenza.
 
 ## Operazioni sulle immagini
 
@@ -155,7 +153,7 @@ Le operazioni sulle immagini possono essere caratterizzate da operazioni tra mat
 
 - Point operations: la funzione viene applicata a tutti i punti della matrice di input. L'output dipende solo dal pixel di input e dalla funzione su diu lui applicata, riguardano quindi il singolo pixel.
 - Local operations: coinvolgono un intorno del pixel di input e i valori dell'output dipendono dai punti ad esso vicini.
-- Global operations: l’output dipende dall'intera immagine.
+- Global operations: l'output dipende dall'intera immagine.
 
 ### Operazioni locali
 
@@ -169,19 +167,19 @@ Per aumentare la luminosità, ad ogni pixel viene sommata una costante, mentre p
 
 Migliorare contrasto o luminosità delle immagini può portare in perdita di luminosità e dettagli più scuri.
 
-Il contrasto dipende dall'uniformità dei toni di grigio presenti nell’immagine.
+Il contrasto dipende dall'uniformità dei toni di grigio presenti nell'immagine.
 
 ### Componenti connesse
 
-Data un'immagine binaria b(m,n), due pixel sono 4-vicini se esiste un 4-path, ovvero un percorso continuo fatto solo di pixel adiacenti in orizzontale o verticale (non diagonale), tutti con valore 1 che collega i due pixel. L’insieme dei pixel connessi viene definito come componente connessa.
+Data un'immagine binaria b(m,n), due pixel sono 4-vicini se esiste un 4-path, ovvero un percorso continuo fatto solo di pixel adiacenti in orizzontale o verticale (non diagonale), tutti con valore 1 che collega i due pixel. L'insieme dei pixel connessi viene definito come componente connessa.
 
-In un’immagine binaria che rappresenta delle regioni d’interesse ci saranno delle componenti connesse.
+In un'immagine binaria che rappresenta delle regioni d'interesse ci saranno delle componenti connesse.
 
-Per determinare le componenti connesse si scansiona l'immagine da sinistra a destra, dall'alto verso il basso, etichettando ogni pixel pari a 1 se ha un valore numerico uguale a un vicino, se esiste, altrimenti è un nuovo valore.
+Per determinare le componenti connesse, si scansiona l'immagine da sinistra a destra e dall'alto verso il basso, etichettando ogni pixel con valore 1 con l'etichetta del vicino già etichettato, se presente. Altrimenti, gli si assegna una nuova etichetta.
 
 ### Convoluzione
 
-La convoluzione è un’operazione matematica in cui una piccola matrice (detta kernel o filtro) viene fatta scorrere su tutta l'immagine e a ogni passo calcola un nuovo valore del pixel centrale combinando i valori dei pixel vicini. Il suo obiettivo è trasformare un'immagine in un’altra evidenziando o modificando certe caratteristiche locali (come bordi, texture, rumore, ecc.) grazie alla matrice di kernel. Svolgere quindi azioni di filtering.
+La convoluzione è un'operazione matematica in cui una piccola matrice (detta kernel o filtro) viene fatta scorrere su tutta l'immagine e a ogni passo calcola un nuovo valore del pixel centrale combinando i valori dei pixel vicini. Il suo obiettivo è trasformare un'immagine in un'altra evidenziando o modificando certe caratteristiche locali (come bordi, texture, rumore, ecc.) grazie alla matrice di kernel. Svolgere quindi azioni di filtering.
 
 Matematicamente: 
 
@@ -198,9 +196,9 @@ in cui:
 
 ### Operazioni globali
 
-Le operazioni globali traduco l’intera rappresentazione di un’immagine in un altro dominio. L’operazione più importante è la trasformata di Fourier che, invece di considerare l'immagine come una griglia di pixel (spazio), la rappresenta come somma di onde di diverse frequenze. Le frequenze basse corrispondono alle forme generali e alle aree uniformi dell'immagine, mentre le frequenze alte rappresentano i dettagli fini, i bordi e i cambiamenti repentini di colore.
+Le operazioni globali traduco l'intera rappresentazione di un'immagine in un altro dominio. L'operazione più importante è la trasformata di Fourier che, invece di considerare l'immagine come una griglia di pixel (spazio), la rappresenta come somma di onde di diverse frequenze. Le frequenze basse corrispondono alle forme generali e alle aree uniformi dell'immagine, mentre le frequenze alte rappresentano i dettagli fini, i bordi e i cambiamenti repentini di colore.
 
-Una volta ottenuta l’immagine sotto forma di frequenze è possibile rimuovere il rumore (frequenze alte non desiderate), evidenziare i bordi e comprimere l’immagine.
+Una volta ottenuta l'immagine sotto forma di frequenze è possibile rimuovere il rumore (frequenze alte non desiderate), evidenziare i bordi e comprimere l'immagine.
 
 Dopo aver effettuato le modifiche nel dominio delle frequenze, si può utilizzare la trasformata inversa di Fourier per ricostruire l'immagine modificata nello spazio originale, restituendola come una normale immagine composta da pixel.
 
@@ -210,7 +208,7 @@ La segmentazione è un'operazione che consiste nel suddividere un'immagine in ar
 
 Questa operazione risulta complessa e può essere eseguita in modi diversi:
 
-- Histogram thresholding: la segmentazione avviene in base a soglie di intensità nel diagramma dell’istogramma. L’immagine
+- Histogram thresholding: la segmentazione avviene in base a soglie di intensità nel diagramma dell'istogramma. L'immagine
 è divisa in base a gruppi di pixel che si trovano al di sopra o al di sotto a certe soglie nell'istogramma.
 - Region growing: ad un punto punto vengono aggiungi pixel simili fino a che la regione è omogenea.
 - Region splitting: divide l'immagine in parti sempre più piccole fino a trovare discontinuità ovvero i bordi tra oggetti o regioni diverse.
@@ -220,7 +218,7 @@ Il risultato potrebbe non essere un'immagine, ma un elenco di regioni descritte 
 
 ### Sogliatura
 
-Con la sogliatura viene prodotta una nuova immagine binaria basandosi su un’immagine a toni di grigio presa in input.
+Con la sogliatura viene prodotta una nuova immagine binaria basandosi su un'immagine a toni di grigio presa in input.
 
 $$
 b(m, n) =
@@ -253,15 +251,15 @@ Alcune feature si calcolano applicando filtri matematici direttamente sull'immag
 
 ## Bidimensionalità e tridimensionalità
 
-Molte tecniche di analisi sono pensate per immagini bidimensionali, ma in medicina le immagini sono spesso tridimensionali. Il passaggio da 2D a 3D complica i calcoli e l’interpretazione delle feature, ma è necessario per analisi più realistiche.
+Molte tecniche di analisi sono pensate per immagini bidimensionali, ma in medicina le immagini sono spesso tridimensionali. Il passaggio da 2D a 3D complica i calcoli e l'interpretazione delle feature, ma è necessario per analisi più realistiche.
 
 ## Misure quantitative
 
-Quando si lavora con immagini digitali a volte è fondamentale misurare con precisione. Per ottenere misure quantitative affidabili, bisogna assicurarsi che ciò che appare nell’immagine corrisponda alla realtà fisica, questo equivale a domandarsi quanto valga un pixel nelle direzioni X e Y. Questa misura è relativamente semplice da calcolare se si conosce la risoluzione del sensore o del sistema di acquisizione. Conoscere questo dato serve per misurare distanze, superfici e volumi.
+Quando si lavora con immagini digitali a volte è fondamentale misurare con precisione. Per ottenere misure quantitative affidabili, bisogna assicurarsi che ciò che appare nell'immagine corrisponda alla realtà fisica, questo equivale a domandarsi quanto valga un pixel nelle direzioni X e Y. Questa misura è relativamente semplice da calcolare se si conosce la risoluzione del sensore o del sistema di acquisizione. Conoscere questo dato serve per misurare distanze, superfici e volumi.
 
 In alcune situazioni risulta importante conoscere a quale intensità luminosa reale corrisponde il valore di un pixel. Il valore di luminosità del pixel dipende da molti fattori quali illuminazione, sensibilità del sensore o tipo di oggetto.
 
-Conoscere questa metrica ha senso solo se l’intensità del colore ha un significato fisico reale (es. concentrazione di una sostanza, intensità di fluorescenza…).
+Conoscere questa metrica ha senso solo se l'intensità del colore ha un significato fisico reale (es. concentrazione di una sostanza, intensità di fluorescenza…).
 
-Può essere necessario eseguire la calibrazione per mettere in relazione l’immagine digitale con valori reali e misurabili. Ciò è possibile farlo mettendo un oggetto di dimensioni note nell’immagine o utilizzare cartoncini di grigio calibrati per collegare il valore dei pixel all’intensità
+Può essere necessario eseguire la calibrazione per mettere in relazione l'immagine digitale con valori reali e misurabili. Ciò è possibile farlo mettendo un oggetto di dimensioni note nell'immagine o utilizzare cartoncini di grigio calibrati per collegare il valore dei pixel all'intensità
 luminosa reale.

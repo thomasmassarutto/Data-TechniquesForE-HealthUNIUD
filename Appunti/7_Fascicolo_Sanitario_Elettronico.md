@@ -6,14 +6,14 @@ In Italia esiste il Sistema Informativo Socio Sanitario Regionale che mette a di
 
 In Italia esiste il FSE (Fascicolo Sanitario Elettronico) ed è implementato da un sistema integrato che consente la condivisione delle informazioni sanitarie tra diverse strutture, garantendo che i dati siano accessibili in modo sicuro e protetto. Risulta essere molto ingombrante e necessita di tecniche di compressione lossy. La ricerca delle informazioni al suo interno è difficile.
 
-Contiene referti, lettere di dimissione, vaccinazioni, ricoveri, esami specialistici, farmaci prescritti ed eventuali esenzioni. Viene gestito dalle regioni sotto l’infrastruttura del Ministero della Salute e i medici lo possono consultare sotto il permesso dell’interessato. Ogni cittadino vi può accedere via SPID/CIE.
+Contiene referti, lettere di dimissione, vaccinazioni, ricoveri, esami specialistici, farmaci prescritti ed eventuali esenzioni. Viene gestito dalle regioni sotto l'infrastruttura del Ministero della Salute e i medici lo possono consultare sotto il permesso dell'interessato. Ogni cittadino vi può accedere via SPID/CIE.
 
 Il DDL sulla sperimentazione clinica del 2012 prevede che il FSE non gravi sulla spesa pubblica.
 
 ## Dossier
 
 Il dossier sanitario è un insieme di dati sanitari raccolti a livello locale da una singola struttura sanitaria o gruppo di
-strutture (es. un ospedale, una ASL, un’azienda ospedaliera-universitaria).
+strutture (es. un ospedale, una ASL, un'azienda ospedaliera-universitaria).
 Contiene le informazioni cliniche prodotte dalla struttura stessa insieme a dati e documenti interni (anche appunti clinici, esami non refertati, ecc.). Viene gestito dal singolo ente sanitario (ospedale, ASL...) ed è generalmente accessibile solo al personale sanitario della struttura. Le informazioni al suo interno possono essere più dettagliate e ha una forma più operativa rispetto al FSE.
 
 ### Privacy
@@ -57,10 +57,10 @@ Questo modello prevede che il FSE debba sottostare ad una serie di requisiti che
 - Disponibilità delle informazioni: il sistema deve recuperare i dati da tutte le regioni, ospedali, ASL, anche se non sono nello stesso posto e deve funzionare come una rete federata, non come un unico database centrale.
 - Supporto ai processi di cura: deve collegare tra loro le informazioni relative a singoli episodi clinici (es ricovero, visita, intervento) in modo da aiutare a ricostruire il percorso di cura di un paziente nel tempo.
 - Aderenza al modello sanitario attuale: deve rispecchiare la struttura reale del SSN italiano, inclusi i ruoli dei medici di base, specialisti, ospedali, ... allineandosi ai processi clinici ed amministrativi già in uso.
-- Facilità di integrazione con le soluzioni esistenti: deve potersi collegare ai software già in uso nelle regioni, ASL e ospedali con l’obiettivo è evitare duplicazioni, migrazioni complesse o sistemi incompatibili.
+- Facilità di integrazione con le soluzioni esistenti: deve potersi collegare ai software già in uso nelle regioni, ASL e ospedali con l'obiettivo è evitare duplicazioni, migrazioni complesse o sistemi incompatibili.
 - Uso del Sistema Pubblico di Connettività: deve sfruttare le infrastrutture pubbliche esistenti per collegare tra loro le istituzioni in modo sicuro.
 - Basato su standard aperti: deve utilizzare standard internazionali, documentati e interoperabili (es. HL7, CDA, FHIR, ICD-10, SNOMED) con lo scopo di garantisce la portabilità e l'interscambio tra sistemi diversi.
-- Scalabilità e modularità: il sistema deve essere in grado di crescere con l’espansione del numero di utenti e dati, inoltre deve essere possibile aggiungere funzionalità senza rifare tutto da zero.
+- Scalabilità e modularità: il sistema deve essere in grado di crescere con l'espansione del numero di utenti e dati, inoltre deve essere possibile aggiungere funzionalità senza rifare tutto da zero.
 - Affidabilità: deve essere disponibile 24/7, con bassa probabilità di errore o blocco. I dati devono essere coerenti, accessibili e sicuri anche in caso di guasti
 - Prestazioni: il sistema deve essere veloce, reattivo e in grado di rispondere rapidamente anche con grandi
 volumi di dati.

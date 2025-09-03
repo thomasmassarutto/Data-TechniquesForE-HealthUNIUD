@@ -50,7 +50,7 @@ Il campo visivo è un area circolare che al centro risulta più definita. I vetr
 
 ### Il vetrino digitale
 
-Il vetrino digitale è una copia digitale della tradizionale preparazione istologica o patologica (cioè il vetrino con il campione colorato). Viene ottenuta acquisendo ad altissima risoluzione tutta la superficie del vetrino, oppure porzioni di area molto più grande rispetto a quanto si osserva normalmente al microscopio e l’obiettivo è catturare tutte le informazioni ottiche diagnostiche in formato digitale.
+Il vetrino digitale è una copia digitale della tradizionale preparazione istologica o patologica (cioè il vetrino con il campione colorato). Viene ottenuta acquisendo ad altissima risoluzione tutta la superficie del vetrino, oppure porzioni di area molto più grande rispetto a quanto si osserva normalmente al microscopio e l'obiettivo è catturare tutte le informazioni ottiche diagnostiche in formato digitale.
 
 Questa tecnica prende il nome di WSI: Whole Slide Imaging. 
 

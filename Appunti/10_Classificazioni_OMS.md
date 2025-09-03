@@ -56,7 +56,7 @@ ICD11 è presente dal 2019, con adozione dal 2022, ma non viene ancora usato. Il
 
 La sua architettura è pensata con un paradigma digital first e prevede una struttura a due livelli: foundation e linearization. Si tratta anche di una ontologia che rappresenta formalmente il dominio della malattia. Ha una struttura ad albero, ma permette la genitorialità multipla. Quando non c'è bisogno di dettaglio viene creata una shoreline che divide la classificazione dai narrower terms.
 
-Nella foundation non sono presenti categorie residuali, mentre nelle linearization queste vengono generate automaticamente così da garantire l’esaustività della classificazione.
+Nella foundation non sono presenti categorie residuali, mentre nelle linearization queste vengono generate automaticamente così da garantire l'esaustività della classificazione.
 
 Gli identificatori univoci delle foundation e delle linearization sono URI.
 

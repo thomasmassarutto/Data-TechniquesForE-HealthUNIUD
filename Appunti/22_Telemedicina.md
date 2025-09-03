@@ -18,9 +18,9 @@ Le immagini possono essere visionate da un radiologo differente solo occasionalm
 
 Le linee di indirizzo nazionali per la telemedicina sono state emanate congiuntamente dal ministero della salute, dall'ISS, e dalla conferenza stato regione. 
 
-L’ambito di riferimento include diverse iniziative nazionali, con l’obiettivo di promuovere:
+L'ambito di riferimento include diverse iniziative nazionali, con l'obiettivo di promuovere:
 
-- equità nell’accesso all’assistenza sanitaria
+- equità nell'accesso all'assistenza sanitaria
 - maggiore qualità delle cure
 - efficacia, efficienza e appropriatezza dei servizi
 - contenimento della spesa pubblica
@@ -46,7 +46,7 @@ Deve essere nota l'organizzazione del servizio, inclusi gli attori coinvolti, co
 
 ### Integrazione e utilizzo con il SSN
 
-Devono essere garantite l’informazione e la formazione del personale, definite le modalità di integrazione attraverso accordi con il SSN e l’accreditamento dei centri. Anche gli aspetti etici hanno peso sull'utilizzo della telemedicina.
+Devono essere garantite l'informazione e la formazione del personale, definite le modalità di integrazione attraverso accordi con il SSN e l'accreditamento dei centri. Anche gli aspetti etici hanno peso sull'utilizzo della telemedicina.
 
 ### Costi
 
@@ -120,7 +120,7 @@ Nel servizio di televisita sia il software che l'hardware integrati nella piatta
 
 ### Competenze
 
-Gli operatori sanitari devono possedere competenze tecniche e capacità decisionali per valutare l’eleggibilità del paziente rispetto allo specifico servizio di telemedicina. L’eleggibilità è un giudizio medico che determina l’idoneità all’uso della telemedicina in base alla storia clinica, alla tecnologia disponibile, al livello culturale e di autonomia del paziente, o alla presenza di un assistente.
+Gli operatori sanitari devono possedere competenze tecniche e capacità decisionali per valutare l'eleggibilità del paziente rispetto allo specifico servizio di telemedicina. L'eleggibilità è un giudizio medico che determina l'idoneità all'uso della telemedicina in base alla storia clinica, alla tecnologia disponibile, al livello culturale e di autonomia del paziente, o alla presenza di un assistente.
 
 ## Piattaforma nazionale di medicina
 
