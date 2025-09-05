@@ -1,6 +1,6 @@
 # Cartella medica elettronica
 
-La cartella medica di un paziente contiene tutti gli episodi medici relativi ad esso nel sistema sanitario. Si sta cercando di renderla elettronica per migliorarne l'uso. Può essere organizzata in base al tempo (time-oriented) o in base al problema (problem-oriented), ma possono esistere anche casi ibridi.
+La cartella medica di un paziente contiene tutti gli episodi medici relativi ad esso nel sistema sanitario. Si sta cercando di renderla elettronica per migliorarne l'uso. Può essere organizzata in base al tempo (time-oriented) o in base al problema (problem-oriented), ma sono presenti anche casi ibridi.
 
 ## Funzioni
 
@@ -12,17 +12,11 @@ Le funzioni di una cartella clinica sono molteplici:
 - crea una visione globale del paziente tramite note e narrative raccolte da più punti di vista
 - archivio permanente che contiene tutti i dati riguardanti la storia clinica di una persona che può anche essere usata a fini di ricerca
 
-## Registro cartaceo
+## Registro cartaceo vs registro elettronico
 
 Il registro cartaceo spesso è organizzato in maniera time-oriented, anche se alcuni dipartimenti hanno la loro sotto sezione. Permette un accesso alla volta, è ingombrante, la ricerca risulta difficile e il supporto cartaceo risulta fragile.
 
-## Registro elettronico
-
-Il registro elettronico sostituisce quello cartaceo migliorandone, o in alcuni casi ampliandone, le funzioni. Necessita di un alto grado di formalizzazione e di meccanismi avanzati per garantire la sicurezza dei dati.
-
-Non può essere una repository di PDF in quanto i dati devono poter essere analizzati e processati. Per fare ciò sono codificati in base ad uno standard.
-
-## Cartella passiva vs attiva
+Il registro elettronico sostituisce quello cartaceo migliorandone, o in alcuni casi ampliandone, le funzioni. Necessita di un alto grado di formalizzazione e di meccanismi avanzati per garantire la sicurezza dei dati. Non può essere una repository di PDF in quanto i dati devono poter essere analizzati e processati. Per fare ciò sono codificati in base ad uno standard.
 
 Una cartella medica tradizionale è detta passiva e funge da semplice record per gli eventi clinici di un paziente, mentre una cartella medica elettronica può essere attiva, ovvero, se sono disponibili abbastanza dati, può essere usata come strumento in grado di integrare le decisioni mediche tramite suggerimenti.
 

@@ -4,11 +4,11 @@ Il sistema sanitario italiano (SSN) è ispirato a quello inglese: è finanziato 
 
 ## I livelli e i loro compiti 
 
-Il livello centrale si occupa di emanare leggi di carattere generale, di supervisionare e di controllare i rami inferiori. Fra i suoi compiti vi è quello di definire i LEA (Livelli Essenziali di Assistenza), ovvero prestazioni, servizi, attività che i cittadini hanno diritto ad ottenere come ad esempio procedure ospedaliere, servizi specialistici, programmi di prevenzione, ... Questo livello si occupa di predisporre il piano sanitario nazionale e compila i report sulla salute dei cittadini.
+Il livello centrale si occupa di emanare leggi di carattere generale, di supervisionare e di controllare i rami inferiori. Fra i suoi compiti vi è quello di definire i LEA (Livelli Essenziali di Assistenza), ovvero prestazioni, servizi, attività che i cittadini hanno diritto ad ottenere, ad esempio procedure ospedaliere, servizi specialistici, programmi di prevenzione, ... Questo livello si occupa di predisporre il piano sanitario nazionale e compila i report sulla salute dei cittadini.
 
 Il livello regionale si occupa di pianificare e gestire il territorio regionale tramite il  piano sanitario regionale.
 
-Il livello locale è composto da ASL, AO, MMG ed è finanziato in base alle performance calcolate in base a degli indici appositi.
+Il livello locale è composto da ASL (Azienda Sanitaria Locale), AO (Azienda Ospedaliera), MMG (Medico Medicina Generale) ed è finanziato in base alle performance calcolate in base a degli indici appositi.
 
 ## Aziende ospedaliere
 

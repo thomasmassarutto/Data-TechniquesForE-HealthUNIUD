@@ -4,7 +4,7 @@
 
 Il ciclo diagnostico-terapeutico prevede che un medico, come prima cosa, faccia delle osservazioni sullo stato di salute di un paziente. Da queste il medico deve essere in grado di ricavare informazioni per prendere una decisione riguardo alla diagnosi. Una volta che questa è sufficientemente certa può procedere a fare un piano per la terapia da somministrare al paziente.
 
-Le osservazioni derivano direttamente dai dati raccolti e che sono quindi fondamentali per diagnosi, terapie e prevenzioni.
+Le osservazioni derivano direttamente dai dati raccolti, questi sono quindi fondamentali per diagnosi, terapie e prevenzioni.
 
 ## Il dato
 
@@ -16,7 +16,7 @@ Per aumentare l'affidabilità del dato è importante conoscere il contesto della
 
 ### Dati numerici
 
-I dati numerici spesso sono output di strumenti di cui è necessario conoscere l'accuratezza, anche per capire se questa è sufficiente, scarsa o eccessiva in base al caso d'uso.
+I dati numerici spesso sono output di strumenti di cui è necessario conoscere l'accuratezza, anche per capire se questa sia sufficiente, scarsa o eccessiva in base al caso d'uso.
 
 ### Biosegnali e bioimmagini
 
@@ -37,7 +37,7 @@ La cartella viene strutturata in base a campi che guidano l'inserimento e il rec
 
 ### Usabilità
 
-La cartella clinica deve essere usabile: bisogna sia essere in grado di accedere e interpretare facilmente e correttamente i dati in essa contenuti, sia poterla aggiornare facilmente.
+La cartella clinica deve essere usabile da una parte bisogna essere in grado di accedere e interpretare facilmente e correttamente i dati in essa contenuti, dall'altra bisogna poterla aggiornare facilmente.
 
 Le cartelle cliniche cartacee hanno grosse limitazioni riguardo la ridondanza e l'inefficienza, rendono difficoltose operazioni come la ricerca fra le cartelle e l'analisi retrospettiva dei dati. Spesso sono quindi utilizzate nella loro forma passiva, ovvero come repository di dati.
 

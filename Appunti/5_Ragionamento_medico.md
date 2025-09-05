@@ -6,7 +6,7 @@ Il selezionamento dei dati è quindi una fase critica che deve essere ottimizzat
 
 ## Ragionamento ipotetico-deduttivo
 
-Un osservazione fatta sui dati genera un ipotesi. Un set di ipotesi è detta diagnosi differenziale ed è dettata sia dall'esperienza del medico, sia da un set minimo di informazioni. Queste informazioni vengono rinforzate o scartate in base alla selezione di altre osservazioni finché un'ipotesi raggiunge un adeguato livello di certezza.
+Un osservazione fatta sui dati genera un'ipotesi. Un set di ipotesi è detta diagnosi differenziale ed è dettata sia dall'esperienza del medico, sia da un set minimo di informazioni. Queste informazioni vengono rinforzate o scartate in base alla selezione di altre osservazioni finché un'ipotesi raggiunge un adeguato livello di certezza.
 
 Questo processo è knowledge-based in quanto necessita delle conoscenze riguardanti fatti o informazioni sul paziente, modelli diagnostici/terapeutici ed euristiche generate in base all'esperienza del medico. Si divide in 3 fasi: valutazione iniziale, test diagnostici e osservazioni approfondite.
 
@@ -34,7 +34,7 @@ Dopo una prima scrematura delle ipotesi si procede con test più approfonditi. Q
 
 ## Qualità di un test
 
-Per valutare la qualità di un test in fase di ricerca, questo viene confrontato con una procedura esistente che fa da ground truth. Quest'ultima viene considerata come il gold standard per il trattamento, ma che non è sempre possibile applicabile a causa di varie limitazioni come costi, complessità, mancanza di personale ...
+Per valutare la qualità di un test in fase di ricerca, questo viene confrontato con una procedura esistente che fa da ground truth. Quest'ultima viene considerata come il gold standard per il trattamento, ma che non è sempre applicabile a causa di varie limitazioni come costi, complessità, mancanza di personale ...
 
 Vari studi possono valutare un test e quando ne sono presenti abbastanza è possibile eseguire una meta analisi riguardante tutti gli studi condotti.
 
@@ -42,7 +42,7 @@ Vari studi possono valutare un test e quando ne sono presenti abbastanza è poss
 
 Per una malattia sono presenti diversi trattamenti, ma il risultato non è mai certo e dipende da molti fattori quali l'incertezza intrinseca dei test, la probabilità di sopravvivenza e le preferenze del paziente.
 
-La sopravvivenza è usata come metrica per misurare la bontà di una terapia come tempo di vita del paziente dopo la terapia. Spesso si cerca di massimizzare questo indice, ma sono presenti altre variabili che possono influenzare la decisione come le scelte del paziente o i costi. Un indice più rappresentativo della bontà di una terapia potrebbe essere QUALY che rappresenta la qualità degli anni di vita del paziente dopo il ricovero.
+Una metrica per misurare la bontà di una terapia è la sopravvivenza intesa come il tempo di vita del paziente dopo la terapia. Spesso si cerca di massimizzare questo indice, ma sono presenti altre variabili che possono influenzare la decisione come le scelte del paziente o i costi. Un indice più rappresentativo potrebbe essere QUALY che rappresenta la qualità degli anni di vita del paziente dopo il ricovero.
 
 ## Comunicazione
 
@@ -50,6 +50,6 @@ Le informazioni devono essere comunicate in maniera efficiente sia al medico che
 
 ## Ricerca clinica
 
-La ricerca medica produce nuovi metodi per diagnosi, terapie e metodi per la valutazione delle prognosi. Il processo è comunque lungo e perché uno studio provochi cambiamenti a livello pratico possono volerci anni durante i quali lo studio viene letto, compreso e accettato dai medici.
+La ricerca medica produce nuovi metodi per diagnosi, terapie e per la valutazione delle prognosi. Il processo è lungo e perché uno studio provochi cambiamenti a livello pratico possono volerci anni durante i quali lo studio viene letto, compreso e accettato dai medici.
 
 Il paradigma utilizzato nella ricerca è quello della evidence based medicine che colleziona e formalizza i risultati delle ricerche mediche secondo il ciclo ipotetico deduttivo.
