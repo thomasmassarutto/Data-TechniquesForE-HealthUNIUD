@@ -3,7 +3,7 @@ title: "Data & Techniques for E-Health"
 author: "Thomas"
 toc: true
 numbersections: true
-geometry: a4paper,top=2cm,bottom=2cm,left=3.5cm,right=3cm,heightrounded,twoside
+geometry: a4paper,top=2cm,bottom=2cm,left=2.3cm,right=3.5cm,heightrounded,twoside
 version: "PrintVersion"
 documentclass: extreport
 before-toc:
@@ -11,5 +11,5 @@ before-toc:
 header-includes:
   - \usepackage{charter}
   - \usepackage{titlesec}
-  - \titleformat{\chapter}[hang]{\normalfont\huge\bfseries}{}{0pt}{}
+  - \titleformat{\chapter}[hang]{\normalfont\huge\bfseries}{\thechapter}{1em}{}
 ---

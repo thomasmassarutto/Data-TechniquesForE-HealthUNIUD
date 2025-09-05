@@ -12,5 +12,5 @@ before-toc: |
 header-includes:
   - \usepackage{charter}
   - \usepackage{titlesec}
-  - \titleformat{\chapter}[hang]{\normalfont\huge\bfseries}{}{0pt}{}
+  - \titleformat{\chapter}[hang]{\normalfont\huge\bfseries}{\thechapter}{1em}{}
 ---
