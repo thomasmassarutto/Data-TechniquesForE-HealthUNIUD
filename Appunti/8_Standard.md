@@ -4,7 +4,7 @@ In ambito clinico esistono vari standard che permettono la comunicazione fra sis
 
 ## HL7
 
-HL7 (Health Level Seven) è un organizzazione che sviluppa standard di interoperabilità improntati alla standardizzazione dello scambio di informazioni cliniche e amministrative tra sistemi informatici in ambito sanitario. Definisce formati e protocolli per la trasmissione di messaggi, piuttosto che per la standardizzazione di interi documenti.
+HL7 (Health Level Seven) è un organizzazione che sviluppa standard di interoperabilità improntati allo scambio di informazioni cliniche e amministrative tra sistemi informatici in ambito sanitario. Definisce formati e protocolli per la trasmissione di messaggi, non di interi documenti.
 
 La situazione tradizionale prevede che due reparti si passino i dati a mano, HL7 si pone da intermediario facendo le veci del passaggio manuale. Funge da interfaccia per sistemi informativi che così possono scambiarsi messaggi dopo eventi predefiniti anche in maniera automatica.
 
@@ -24,7 +24,7 @@ Ogni messaggio ha un codice che può essere standardizzato o libero, questo risu
 
 Ogni segmento è composto da campi separati dal carattere '|', ogni campo può essere ulteriormente suddiviso in maniera gerarchica tramite '^' o '&'.
 
-Lo scambio di messaggi avviene tramite un architettura modellata in modo non stringente che prevede principalmente quattro fasi principali:
+Lo scambio di messaggi avviene tramite un architettura modellata in modo non stringente che prevede principalmente quattro ruoli principali:
 
 - order: vengono effettuate le richieste di materiali o servizi
 - observation: il risultato di un order
@@ -77,7 +77,7 @@ Il terzo livello prevede la semantica completa del documento, questo permette l'
 
 FHIR (Fast Healthcare Interoperability Resources) è uno standard sviluppato da HL7, introdotto nel 2012, che mira a migliorare l'interoperabilità nel settore sanitario combinando i principi della messaggistica HL7 con approcci moderni basati sul web.
 
-Utilizza un'architettura basata su REST (Representational State Transfer), che consente l'interazione tra sistemi attraverso web services e supporta formati di dati come JSON e XML. Per la trasmissione sicura usa HTTPS e per l'autenticazione e l'autorizzazione degli accessi OAuth. 
+Utilizza un'architettura basata su REST (REpresentational State Transfer), che consente l'interazione tra sistemi attraverso web services e supporta formati di dati come JSON e XML. Per la trasmissione sicura usa HTTPS e per l'autenticazione e l'autorizzazione degli accessi OAuth. 
 
 ### Risorse
 

@@ -14,7 +14,7 @@ SNOMED (Systematized NOMenclature of MEDicine) è una nomenclatura nata negli an
 
 La versione SNOMED3 è composta da 11 moduli con migliaia di codici alfanumerici da 5/6 caratteri. L'organizzazione dei moduli è gerarchica e si basa su vari aspetti clinici, compresa la posizione del corpo di riferimento. Si tratta di una nomenclatura, non di una classificazione, in quanto è possibile specificare un concetto con il livello di dettaglio necessario. La liberà alle volte è eccessiva e si rischia di ricadere nei pregi e difetti del linguaggio naturale.
 
-L'ultima versione è SNOMED CT (Systematized NOMenclature of MEDicine Clinical Terms). Si tratta di un ontologia formale con un contenuto logico che permette relazioni fra i vari concetti con cui è organizzato. Oltre alla terminologia medica generica, tratta la terminologia clinica dettagliata ed è la prima versione completamente standardizzata di SNOMED.
+L'ultima versione è SNOMED CT (Systematized NOMenclature of MEDicine Clinical Terms). Si tratta di un'ontologia formale con un contenuto logico che permette relazioni fra i vari concetti con cui è organizzato. Oltre alla terminologia medica generica, tratta la terminologia clinica dettagliata ed è la prima versione completamente standardizzata di SNOMED.
 
 Ogni voce della nomenclatura SNOMED è caratterizzata dal suo fully specified name.
 

@@ -24,7 +24,7 @@ Prima di poter essere utilizzato, un biosegnale passa attraverso varie fasi.
 
 Durante l'acquisizione il biosegnale viene misurato attraverso dei sensori e poi viene digitalizzato. Questo processo è però soggetto a rumore che diventa parte integrante della misurazione.
 
-La digitalizzazione prevede che un segnale analogico venga trasformato in un segnale digitale rappresentato da valori discreti. Prima di questa fase bisogna decidere quanto spesso campionare il dato e con che quantizzazione utilizzare in base all'accuratezza necessaria. Queste due metriche devono essere scelte accuratamente in quanto influenzano le capacità di discriminare i segnali: troppo dettaglio rileva troppo rumore e rallenta il sistema nelle applicazioni real time, mentre troppo poco dettaglio implica perdita di informazioni. Bisogna quindi capire qual'è il livello di precisione adeguato per discriminare il livello giusto di dettaglio. 
+La digitalizzazione prevede che un segnale analogico venga trasformato in un segnale digitale rappresentato da valori discreti. Prima di questa fase bisogna decidere quanto spesso campionare il dato e che livello di quantizzazione utilizzare in base all'accuratezza necessaria. Queste due metriche devono essere scelte accuratamente in quanto influenzano le capacità di discriminare i segnali: troppo dettaglio rileva troppo rumore e rallenta il sistema nelle applicazioni real time, mentre troppo poco dettaglio implica perdita di informazioni. Bisogna quindi capire qual'è il livello di precisione adeguato per discriminare il livello giusto di dettaglio. 
 
 Il biosegnale digitalizzato diventa un array lungo tanto quanti sono i campionamenti eseguiti: $\text{frequenza campionamento} \times \text{durata segnale}$.
 
@@ -48,7 +48,7 @@ I biosegnali sono principalmente espressi in funzione del tempo e nei casi più 
 
 ### Il rumore
 
-Il rumore dipende da varie fasi e quelli principali sono: rumore termico, elettronico e ambientale. Quando si tratta di rumore additivo è possibile sottrarlo semplicemente, ma questo genere di rumori non generalmente causa di problemi. 
+Diverse fonti generano vari tipi di rumore, quelli principali sono: rumore termico, elettronico e ambientale. Quando si tratta di rumore additivo è possibile sottrarlo semplicemente, ma questo genere di rumori non generalmente causa di problemi. 
 
 Una tecnica per ridurre il rumore, che però non sempre è possibile, consiste nell'eseguire più misurazioni e utilizzare poi la media come dato ufficiale.
 

@@ -8,7 +8,7 @@ OWL (Ontology Web Language) è lo standard per rappresentare le ontologie.
 
 ## Ontologie e semantica
 
-Una semantica è implicita in quanto si basa sul consenso generale e informale ed è una descrizione testuale. Bisogna tener conto che la formalità intesa per gli umani è diversa rispetto a quella intesa per le macchine: per queste ultime c'è bisogno che sia eseguibile. Per usare una semantica c'è bisogno di un ontologia di base.
+Una semantica è implicita in quanto si basa sul consenso generale e informale ed è una descrizione testuale. Bisogna tener conto che la formalità intesa per gli umani è diversa rispetto a quella intesa per le macchine: per queste ultime c'è bisogno che sia eseguibile. Per usare una semantica è necessario disporre di una ontologia di base.
 
 Le ontologie sono una rappresentazione esplicita di una concettualizzazione. Le basi di conoscenza sono le regole non incluse nelle ontologie e gli agenti sono il software in grado di usare ontologie e basi di conoscenza.
 
@@ -18,7 +18,7 @@ Il web semantico è un tipo di web in cui l'informazione ha un significato ben p
 
 Nei documenti clinici è presente molto testo scritto che rende complesso lo sviluppo di vocabolari controllati. Risulta necessario introdurre classificazioni e terminologie per stabilire un linguaggio comune. Queste ultime sono numerose anche nello stesso dominio e non completamente sovrapponibili, per questo l'integrazione di dati fra fonti diverse risulta difficile. L'introduzione di questi nuovi meccanismi comporta una maggiore difficoltà nell'integrare i dati rispetto al testo libero.
 
-Per chiarire termini altrimenti ambigui vengono introdotte le ontologie formali che hanno il compito di specificare il significato dei termini e di rendere chiaro di cosa si parlando. Gli usi di un ontologia formale sono multipli: può essere usata per rappresentare conoscenza, termini, concetti e/o entità. Le ontologie mediche sono tutte ontologie formali.
+Per chiarire termini altrimenti ambigui vengono introdotte le ontologie formali che hanno il compito di specificare il significato dei termini e di rendere chiaro di cosa si sta  parlando. Gli usi di un ontologia formale sono multipli: può essere usata per rappresentare conoscenza, termini, concetti e/o entità. Le ontologie mediche sono tutte ontologie formali.
 
 ## Ontologia vs rappresentazione conoscenza
 
@@ -49,9 +49,13 @@ $$
 
 ## Terminologie vs ontologia
 
-Le ontologie, rispetto alle terminologie, non possono essere ambigue: il nome delle classi deve essere chiaro e rappresentare entità in modo non ambiguo. Questo comporta che le etichette assegnate alle classi non sempre risultino particolarmente naturali, poiché si privilegia la precisione nella loro definizione per evitare interpretazioni errate.
+Le ontologie, rispetto alle terminologie, non possono essere ambigue: il nome delle classi deve essere chiaro e rappresentare entità in modo non ambiguo. Questo comporta che le etichette assegnate alle classi non sempre risultino particolarmente naturali, poiché si privilegia la precisione nella loro definizione per evitare interpretazioni errate. D'altro canto, le terminologie raccolgono i termini per finalità comunicative: sono meno formali e accettano un certo grado di ambiguità come compromesso per mantenere un'espressività naturale.
 
-Nel linguaggio naturale sono presenti sinonimi e preferred terms che possono complicare la creazione di ontologie. I sinonimi possono generare confusione, mentre i termini preferiti aiutano a stabilire una terminologia standardizzata.
+Nel linguaggio naturale sono presenti sinonimi e termini preferiti (preferred terms) che devono essere gestiti sia nelle ontologie che nelle terminologie.
+
+Nelle ontologie, i sinonimi non sono accettati come nomi di classi, ma possono essere aggiunti come metadati alla classe a cui fanno riferimento. I preferred terms vengono invece usati come etichette descrittive per l'uso umano.
+
+Nelle terminologie i sinonimi sinonimi sono accettati e spesso registrati esplicitamente per aiutare la comunicazione. I preferred terms vengono usati per stabilire standard di comunicazione fra professionisti con lo scopo di favorire l'uniformità terminologica.
 
 ## Descrizione delle istanze di una classe
 

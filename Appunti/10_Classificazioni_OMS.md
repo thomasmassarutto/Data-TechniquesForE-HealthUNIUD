@@ -42,7 +42,7 @@ Per codificare vengono usate solo le foglie, questo è possibile anche grazie al
 
 ### ICD10
 
-ICD10 conta circa 15 mila categorie e le malattie sono simili a quelle di ICD9. Anche questa classificazione è stata distribuita in maniera cartacea in tre volumi.
+ICD10 conta circa 15 mila items, simili a ICD9, divisi in 21 categorie. Anche questa classificazione è stata distribuita in maniera cartacea in tre volumi.
 
 Il primo volume è l'indice sistematico che contiene una gerarchia con le descrizioni della patologia. Comprende eventuali esclusioni.
 
