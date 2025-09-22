@@ -6,7 +6,7 @@ Le bioimmagini forniscono informazioni che non possono essere ottenute dai soli 
 
 Ogni immagine digitale può essere vista come una funzione in cui il valore del pixel ($a(x,y)$) è una proiezione di uno spazio tridimensionale sulla matrice che compone l'immagine.
 
-Data un immagine: l'elaborazione permette di modificarne l'aspetto per migliorarla, l'analisi di estrapolare dell'informazione quantitativa e l'interpretazione fornisce dell'informazione qualitativa.
+Data un'immagine: l'elaborazione permette di modificarne l'aspetto per migliorarla, l'analisi di estrapolare dell'informazione quantitativa e l'interpretazione fornisce dell'informazione qualitativa.
 
 Le immagini sono ottenute grazie all'interazione di onde elettromagnetiche con un corpo: tipicamente vengono attenuate, assorbite o deviate dai tessuti di esso. In ambito medico vengono utilizzati diversi tipi di onde, a seconda dell'esame da effettuare. Ad esempio, per le ecografie si impiegano gli ultrasuoni, mentre in altri casi si ricorre a onde dello spettro elettromagnetico, a fasci di elettroni o a potenziali elettrici. La scelta viene presa in base alla precisione necessaria, al costo e ad eventuali controindicazioni.
 
@@ -18,7 +18,7 @@ Un'immagine può essere acquisita tramite luce riflessa o luce trasmessa.
 
 Con il metodo della luce riflessa gli oggetti di interesse vengono colpiti da una fonte di luce di cui ne assorbono una quota e ne riflettono un altra. Questo è il tipico modo di lavorare delle fotocamere. 
 
-Per quanto riguarda la luce trasmessa, la fonte luminosa attraversa l'oggetto che si vuole riprendere trovandosi dietro di esso. Il sensore riceve i segnali della fonte luminosa che sono stati alterati dal passaggio attraverso l'oggetto, questo è il metodo più comune in medicina: viene utilizzato nelle radiografie.
+Per quanto riguarda la modalità a luce trasmessa, la fonte luminosa si trova dietro l'oggetto che si vuole riprendere e il sensore riceve i segnali della fonte alterati dal passaggio attraverso l'oggetto stesso. Questo è il metodo più comune in medicina: viene utilizzato nelle radiografie.
 
 ### Campionamento
 
@@ -28,7 +28,7 @@ Le immagini acquisite sono un campionamento di punti: l'immagine è divisa in un
 
 In base all'utilizzo dell'immagine bisogna scegliere un livello accettabile di approssimazione tenendo conto anche del rumore. Secondo il teorema di Shannon-Nyquist è necessario campionare al doppio del dettaglio minimo che si vuole vedere.
 
-Per migliorare la precisione è possibile acquisire lo stesso campo visivo con un sensore più prestante o produrre un immagine della stessa grandezza, ma con un campo visivo più piccolo avvicinandosi al soggetto con il sensore o con strumenti ottici.
+Per migliorare la precisione è possibile acquisire lo stesso campo visivo con un sensore più prestante o produrre un'immagine della stessa grandezza, ma con un campo visivo più piccolo avvicinandosi al soggetto con il sensore o con strumenti ottici.
 
 ### Quantizzazione
 
@@ -46,7 +46,7 @@ Ogni immagine a colori può essere scomposta in varie immagini a toni di grigio 
 
 ## Sensori
 
-I sensori permettono di trasformare il segnale continuo naturale in una bitmap digitale. Possono misurare l'ampiezza d'onda e il tempo di ritorno del segnale. Le tecnologie principali per sono CCD/CMOS e fotomoltiplicatori.
+I sensori permettono di trasformare il segnale continuo naturale in una bitmap digitale. Possono misurare l'ampiezza d'onda e il tempo di ritorno del segnale. Le tecnologie principali per l'acquisizione delle immagini sono CCD/CMOS e fotomoltiplicatori.
 
 ### CCD e CMOS 
 
@@ -74,7 +74,7 @@ La tecnica MONOCCD si basa sul mosaico di Bayer: davanti ad ogni sensore vi è u
 
 ## Sensori ad uso scientifico
 
-Per garantire risultati attendibili, un sensore utilizzato in ambito scientifico deve avere tutte le specifiche tecniche ben definite. Inoltre, è fondamentale che il sensore sia tarato per determinare la sua risoluzione reale. Per fare ciò, vengono ripresi oggetti di caratteristiche note con il fine di controllare nell'immagine digitale il dettaglio.
+Per garantire risultati attendibili, un sensore utilizzato in ambito scientifico deve avere tutte le specifiche tecniche ben definite. Inoltre, è fondamentale che il sensore sia tarato per determinare la sua risoluzione reale. Per fare ciò, vengono ripresi oggetti di caratteristiche note con il fine di controllare nell'immagine digitale il dettaglio acquisito.
 
 In ambito scientifico vengono spesso usati sensori CCD, ma ultimamente anche i sensori CMOS hanno trovato spazio. 
 
@@ -104,13 +104,13 @@ I scintillatori sono dispositivi che emettono luce quando colpiti da particelle.
 
 ## Qualità dell'immagine
 
-La qualità complessiva di un immagine dipende sia dal sensore che da fonti di errori come i vari tipi di rumore, difetti ottici o di illuminazione che si combinano assieme. 
+La qualità complessiva di un'immagine dipende sia dal sensore che da fonti di errori come i vari tipi di rumore, difetti ottici o di illuminazione che si combinano assieme. 
 
 Bisogna essere in grado di distinguere variabilità biologica da errore di misurazione. Una tecnica per ridurre la possibilità di errore prevede la ripetizione delle misurazioni, ma non sempre è possibile.
 
 Nelle immagini il rumore si vede sotto forma di puntini e sono state sviluppate delle tecniche di noise reduction che modificano l'immagine per eliminarlo.
 
-Altri artefatti possono essere generati dalla luce che colpisce il centro del campione in maniera più forte rispetto ai bordi, o dall'ottica che è più precisa al centro. Una tecnica per ridurre questi artefatti prevedere di acquisire una foto del solo sfondo, così poi da poter sottrarre eventuali artefatti dalle immagini con i campioni.
+Nei microscopi altri artefatti possono essere generati dalla luce che colpisce il centro del campione in maniera più forte rispetto ai bordi, o dall'ottica che è più precisa al centro. Una tecnica per ridurre questi artefatti prevedere di acquisire una foto del solo sfondo, così poi da poter sottrarre eventuali artefatti dalle immagini con i campioni.
 
 ## Fonti di bioimmagini
 
@@ -124,7 +124,7 @@ Vengono usate onde tra i 2 e i 10 MHz ed è considerato un metodo sicuro e porta
 
 La radiografia sfrutta le proprietà di attenuazione dei raggi X attraverso vari materiali. Viene emesso un raggio con una frequenza tra il $10^{15}$ e $10^{20}$ Hz che passa attraverso il paziente per raggiungere un sensore posto dietro di esso. Questo è solitamente uno schermo fluoroscopico che espone una pellicola o consente l'acquisizione digitale.
 
-La mammografia è una tipologia di raggi x applicati alla mammella che viene tenuta ferma da una pinza. Lo scopo è quello di rilevare tumori e micro-calcificazioni. La risoluzione delle immagini è molto alta e sull'ordine dei 160MB.
+La mammografia è una tipologia di raggi x applicati alla mammella che viene tenuta ferma da una pinza. Lo scopo è quello di rilevare tumori e micro-calcificazioni. La risoluzione delle immagini è molto alta e la grandezza dei file prodotti è sull'ordine dei 160MB.
 
 
 ### Tomografia computerizzata
@@ -141,7 +141,7 @@ Come risultato, otteniamo immagini delle diverse sezioni del corpo acquisite a b
 
 Le operazioni di elaborazione delle immagini sono solitamente definite per immagini a toni di grigio. Le immagini a colori vengono trattate come tre immagini a toni di grigio separate, se il modello è a colori saranno presenti tanti canali quante sono le colorazioni.
 
-Un buon modo per sintetizzare il contenuto di un immagine a toni di grigio è l'istogramma.
+Un buon modo per sintetizzare il contenuto di un'immagine a toni di grigio è l'istogramma.
 
 ## Regioni di interesse
 
@@ -149,9 +149,9 @@ Un'immagine può contenere delle sotto-immagini che rappresentano degli oggetti 
 
 ## Operazioni sulle immagini
 
-Le operazioni sulle immagini possono essere caratterizzate da operazioni tra matrici e funzioni matematiche che possono dare in output altre immagini o trasformarle direttamente. Queste operazioni possono essere categorizzate in:
+Le operazioni sulle immagini vengono eseguite come operazioni tra matrici e funzioni matematiche che possono dare in output altre immagini o trasformarle direttamente. Queste operazioni possono essere categorizzate in:
 
-- Point operations: la funzione viene applicata a tutti i punti della matrice di input. L'output dipende solo dal pixel di input e dalla funzione su diu lui applicata, riguardano quindi il singolo pixel.
+- Point operations: la funzione viene applicata a tutti i punti della matrice di input. L'output dipende solo dal pixel di input e dalla funzione su di lui applicata, riguardano quindi il singolo pixel.
 - Local operations: coinvolgono un intorno del pixel di input e i valori dell'output dipendono dai punti ad esso vicini.
 - Global operations: l'output dipende dall'intera immagine.
 
@@ -165,7 +165,7 @@ Per incrementare o decrementare luminosità e contrasto delle immagini è necess
 
 Per aumentare la luminosità, ad ogni pixel viene sommata una costante, mentre per aumentare il contrasto si moltiplica il valore dei pixel per una costante.
 
-Migliorare contrasto o luminosità delle immagini può portare in perdita di luminosità e dettagli più scuri.
+Modificare il contrasto o la luminosità delle immagini può portare ad una perdita di dettaglio nelle zone più scure o più chiare.
 
 Il contrasto dipende dall'uniformità dei toni di grigio presenti nell'immagine.
 
@@ -196,7 +196,7 @@ in cui:
 
 ### Operazioni globali
 
-Le operazioni globali traduco l'intera rappresentazione di un'immagine in un altro dominio. L'operazione più importante è la trasformata di Fourier che, invece di considerare l'immagine come una griglia di pixel (spazio), la rappresenta come somma di onde di diverse frequenze. Le frequenze basse corrispondono alle forme generali e alle aree uniformi dell'immagine, mentre le frequenze alte rappresentano i dettagli fini, i bordi e i cambiamenti repentini di colore.
+Le operazioni globali traducono l'intera rappresentazione di un'immagine in un altro dominio. L'operazione più importante è la trasformata di Fourier che, invece di considerare l'immagine come una griglia di pixel (spazio), la rappresenta come somma di onde di diverse frequenze. Le frequenze basse corrispondono alle forme generali e alle aree uniformi dell'immagine, mentre le frequenze alte rappresentano i dettagli fini, i bordi e i cambiamenti repentini di colore.
 
 Una volta ottenuta l'immagine sotto forma di frequenze è possibile rimuovere il rumore (frequenze alte non desiderate), evidenziare i bordi e comprimere l'immagine.
 

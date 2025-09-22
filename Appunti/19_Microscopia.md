@@ -38,21 +38,19 @@ I fluorocromi usati nella colorazione con questo metodo decadono e i campioni de
 
 ## Acquisizione 
 
-I problemi dell'acquisizione di un immagine sono la vignettatura, il centraggio della luce, come acquisire immagini tridimensionali e il fatto di acquisire solo porzioni di un immagine completa.
+I problemi dell'acquisizione di un'immagine sono la vignettatura, il centraggio della luce, come acquisire immagini tridimensionali e il fatto di acquisire solo porzioni di un'immagine completa.
 
-L'acquisizione può avvenire tramite microscopio meccanico tradizionale o tramite microscopio con scanner. Nel primo caso lo strumento si sposta sul campione acquisendo immagini a tiles, mentre nel secondo, lo scanner effettua una scansione lineare del campione.
+L'acquisizione può avvenire tramite microscopio meccanico tradizionale o tramite microscopio con scanner. Nel primo caso lo strumento si sposta sul campione acquisendo immagini a tiles, mentre nel secondo, lo scanner effettua una scansione lineare del campione. Bisogna tenere conto che negli strumenti ottici il campo visivo è un area circolare che al centro risulta più definita.
 
 Fochettare, ovvero mettere a fuoco attraverso piccoli movimenti, può essere utile per acquisire immagini con messe a fuoco differenti per rendere meglio la tridimensionalità, tuttavia questa tecnica è dispendiosa in termini di tempo.
 
 Una volta acquisita l'immagine, questa può essere usata per studi morfologici, ovvero sulla forma delle cellule, per fare valutazioni istochimiche o per altro.
 
-Il campo visivo è un area circolare che al centro risulta più definita. I vetrini digitali sono in grado di acquisire quasi tutto il vetrino e generano immagini molto grandi, di solito si usa un obiettivo 40x e queste immagini possono essere salvate a risoluzioni differenti per facilitare la visualizzazione.
-
 ### Il vetrino digitale
 
-Il vetrino digitale è una copia digitale della tradizionale preparazione istologica o patologica (cioè il vetrino con il campione colorato). Viene ottenuta acquisendo ad altissima risoluzione tutta la superficie del vetrino, oppure porzioni di area molto più grande rispetto a quanto si osserva normalmente al microscopio e l'obiettivo è catturare tutte le informazioni ottiche diagnostiche in formato digitale.
+Il vetrino digitale è una copia digitale della tradizionale preparazione istologica o patologica (cioè il vetrino con il campione colorato). Viene ottenuta acquisendo ad altissima risoluzione tutta la superficie del vetrino con obiettivi che di solito raggiungono i 40x di ingrandimento, oppure acquisendo porzioni di aree molto più grandi rispetto a quanto si osserva normalmente al microscopio. Le immagini prodotte sono ad altissima risoluzione e per facilitarne la fruizione vengono salvate con risoluzioni diverse. 
 
-Questa tecnica prende il nome di WSI: Whole Slide Imaging. 
+L'obiettivo è catturare tutte le informazioni ottiche diagnostiche per creare una copia digitale del vetrino, questa tecnica prende il nome di WSI: Whole Slide Imaging. 
 
 ## Messa a fuoco
 
@@ -69,4 +67,4 @@ Le immagini vengono memorizzate in vari formati:
 - jpeg: è possibile usarlo, ma con molti compromessi in quanto è lossy
 - tiff: si tratta di un formato multi immagine
 - jpeg2000: è lo standard per grandi immagini e permette il caricamento e la lettura di solo parti dell'immagine
-- DICOM e supplementi: non viene ancora adottato, ma dispone di identificatori che permettono di identificare in modo univoco il percorso che porta ad un immagine ed è possibile utilizzarli per identificare il campione. Questo formato supporta risoluzioni diverse
+- DICOM e supplementi: non viene ancora adottato, ma dispone di identificatori che permettono di identificare in modo univoco il percorso che porta ad un'immagine ed è possibile utilizzarli per identificare il campione. Questo formato supporta risoluzioni diverse
