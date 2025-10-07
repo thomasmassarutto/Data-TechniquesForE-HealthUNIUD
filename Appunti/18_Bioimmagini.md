@@ -188,6 +188,7 @@ $$
 $$
 
 in cui:
+
 - $a$: immagine originale
 - $a'$: immagine filtrata
 - $f$: matrice di convoluzione o filtro o maschera o kernel, fatto da pesi
@@ -229,6 +230,7 @@ b(m, n) =
 $$
 
 In cui: 
+
 - $a(m,n)$: immagine a toni di grigio.
 - $b(m,n)$: immagine binaria in output.
 - $tmin$ e $tmax$: soglie.
